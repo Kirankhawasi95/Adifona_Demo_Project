@@ -1,0 +1,1982 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addNewHearingInstrument_Btn_Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="add_hearing_aid_title" xml:space="preserve">
+    <value>Add KIND hearing system</value>
+  </data>
+  <data name="AndroidServiceDescriptionBothConnected" xml:space="preserve">
+    <value>Both KIND hearing systems are now connected.</value>
+  </data>
+  <data name="AndroidServiceDescriptionLeftConnected" xml:space="preserve">
+    <value>The left KIND hearing system is now connected.</value>
+  </data>
+  <data name="AndroidServiceDescriptionNoneConnected" xml:space="preserve">
+    <value>A KIND hearing system has not yet been connected.</value>
+  </data>
+  <data name="AndroidServiceDescriptionRightConnected" xml:space="preserve">
+    <value>The right KIND hearing system is now connected.</value>
+  </data>
+  <data name="audio_streaming_start" xml:space="preserve">
+    <value>Start audio streaming</value>
+  </data>
+  <data name="audio_streaming_stop" xml:space="preserve">
+    <value>Stop audio streaming</value>
+  </data>
+  <data name="automationHelpPageDescription" xml:space="preserve">
+    <value>The Autostart feature allows you to automatically start your hearing program with one of the following two options:</value>
+  </data>
+  <data name="automationHelpPageGeoDescription" xml:space="preserve">
+    <value>You can start your hearing program near a certain place such as a restaurant.</value>
+  </data>
+  <data name="automationHelpPageGeoHeader" xml:space="preserve">
+    <value>Connect to a location</value>
+  </data>
+  <data name="automationHelpPageTitle" xml:space="preserve">
+    <value>Auto start</value>
+  </data>
+  <data name="automationHelpPageWifiDescription" xml:space="preserve">
+    <value>Your hearing program starts automatically as soon as your cell phone is connected to a Wi-Fi network.</value>
+  </data>
+  <data name="automationHelpPageWifiHeader" xml:space="preserve">
+    <value>Connect to Wi-Fi</value>
+  </data>
+  <data name="bluetoothAcivatePageTitle" xml:space="preserve">
+    <value>Activate Bluetooth</value>
+  </data>
+  <data name="bluetoothChoosePageTitle" xml:space="preserve">
+    <value>Select KIND hearing system</value>
+  </data>
+  <data name="bluetoothStartPageInfoText" xml:space="preserve">
+    <value>Please turn on your KIND hearing system. Make sure it is close to your smartphone.</value>
+  </data>
+  <data name="bluetoothStartPageTitle" xml:space="preserve">
+    <value>Activate Bluetooth</value>
+  </data>
+  <data name="bt_accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="bt_ActivateBluetooth" xml:space="preserve">
+    <value>Activate Bluetooth</value>
+  </data>
+  <data name="bt_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="bt_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="bt_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="bt_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="bt_send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="bt_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="bt_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="changeHearingInstrument_Btn_Text" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="change_hearing_aid_Desc" xml:space="preserve">
+    <value>Replace a KIND hearing system that is currently connected.</value>
+  </data>
+  <data name="change_hearing_aid_Title" xml:space="preserve">
+    <value>Replace KIND hearing systems</value>
+  </data>
+  <data name="change_left_hearing_aid" xml:space="preserve">
+    <value>Replace left KIND hearing system</value>
+  </data>
+  <data name="change_right_hearing_aid" xml:space="preserve">
+    <value>Replace right KIND hearing system</value>
+  </data>
+  <data name="def_HA_LewiR_Modelname" xml:space="preserve">
+    <value>KINDwings 2400</value>
+  </data>
+  <data name="def_HA_LewiS_Modelname" xml:space="preserve">
+    <value>KINDwings 2200</value>
+  </data>
+  <data name="def_HA_RisaR_Modelname" xml:space="preserve">
+    <value>KINDwings 1400</value>
+  </data>
+  <data name="def_HA_RisaS_Modelname" xml:space="preserve">
+    <value>KINDwings 1200</value>
+  </data>
+  <data name="def_Sit_AudioStreaming_Icon" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="def_Sit_AudioStreaming_Name" xml:space="preserve">
+    <value>Audio streaming</value>
+  </data>
+  <data name="def_Sit_Automatic_Icon" xml:space="preserve">
+    <value>¿</value>
+  </data>
+  <data name="def_Sit_Automatic_Name" xml:space="preserve">
+    <value>Automatic</value>
+  </data>
+  <data name="def_Sit_Basic_Icon" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="def_Sit_Basic_Name" xml:space="preserve">
+    <value>Basic Program</value>
+  </data>
+  <data name="def_Sit_Comfort_Icon" xml:space="preserve">
+    <value>r</value>
+  </data>
+  <data name="def_Sit_Comfort_Name" xml:space="preserve">
+    <value>Comfort</value>
+  </data>
+  <data name="def_Sit_Music_Icon" xml:space="preserve">
+    <value>¢</value>
+  </data>
+  <data name="def_Sit_Music_Name" xml:space="preserve">
+    <value>Music</value>
+  </data>
+  <data name="def_Sit_Noise_Icon" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="def_Sit_Noise_Name" xml:space="preserve">
+    <value>Noise </value>
+  </data>
+  <data name="def_Sit_Phone_Icon" xml:space="preserve">
+    <value>q</value>
+  </data>
+  <data name="def_Sit_Phone_Name" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="def_Sit_TinnitusOnly_Icon" xml:space="preserve">
+    <value>¶</value>
+  </data>
+  <data name="def_Sit_TinnitusOnly_Name" xml:space="preserve">
+    <value>Tinnitus</value>
+  </data>
+  <data name="def_Sit_Wind_Icon" xml:space="preserve">
+    <value>g</value>
+  </data>
+  <data name="def_Sit_Wind_Name" xml:space="preserve">
+    <value>Wind</value>
+  </data>
+  <data name="demoModeStart" xml:space="preserve">
+    <value>Start demo mode</value>
+  </data>
+  <data name="demoPageTitle" xml:space="preserve">
+    <value>Demo mode</value>
+  </data>
+  <data name="describe_hearing_aid_problem_desc" xml:space="preserve">
+    <value>Briefly describe the hearing problem so we can help you better.</value>
+  </data>
+  <data name="device_BatteryLevelValue" xml:space="preserve">
+    <value>Loading Level</value>
+  </data>
+  <data name="device_NameTitle" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="device_SerialNumberTitle" xml:space="preserve">
+    <value>Serial number</value>
+  </data>
+  <data name="device_TypeTitle" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="device_UdiTitle" xml:space="preserve">
+    <value>Universal Device Identifier (UDI)</value>
+  </data>
+  <data name="dialog_ActivateDemo_Desc" xml:space="preserve">
+    <value>Would you like to activate demo mode?</value>
+  </data>
+  <data name="dialog_ActivateDemo_Title" xml:space="preserve">
+    <value>Activate demo mode</value>
+  </data>
+  <data name="dialog_Btn_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="dialog_Cancel_Connection_Desc" xml:space="preserve">
+    <value>Cancel connection</value>
+  </data>
+  <data name="dialog_Cancel_Connection_Title" xml:space="preserve">
+    <value>Cancel connection</value>
+  </data>
+  <data name="dialog_CloseDemo_Desc" xml:space="preserve">
+    <value>Do you want to close demo mode now?</value>
+  </data>
+  <data name="dialog_CloseDemo_Title" xml:space="preserve">
+    <value>Close demo mode</value>
+  </data>
+  <data name="dialog_disconnect_hearingaids_btn_disconnect" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="dialog_disconnect_hearingaids_desc" xml:space="preserve">
+    <value>Do you really want to disconnect these KIND hearing systems?</value>
+  </data>
+  <data name="dialog_disconnect_hearingaids_title" xml:space="preserve">
+    <value>Disconnect hearing systems</value>
+  </data>
+  <data name="dialog_GeoLoc_InUse_User_Denied_Desc" xml:space="preserve">
+    <value>You have denied the permission to use the location while using the app. If you want to use this feature, set the appropriate permission in the settings.</value>
+  </data>
+  <data name="dialog_GeoLoc_InUse_User_Denied_Find_Desc" xml:space="preserve">
+    <value>You have denied the permission to use the location while using the KINDwings app. This permission is needed for the 'Find KIND hearing systems' feature. If you want to use this feature, set the appropriate permission in the settings.</value>
+  </data>
+  <data name="dialog_GeoLoc_InUse_User_Denied_Start_Desc" xml:space="preserve">
+    <value>You have denied the permission to use the location while using the KINDwings app. This permission is needed for the 'automatic hearing program start' feature. If you want to use this feature, set the appropriate permission in the settings.</value>
+  </data>
+  <data name="dialog_GeoLoc_User_Denied_Desc" xml:space="preserve">
+    <value>You have denied the permission to use the location always. If you want to use this feature, set the appropriate permission in the settings.</value>
+  </data>
+  <data name="dialog_Info_Title" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="dialog_InternetConnectionRequired" xml:space="preserve">
+    <value>An active Internet connection is required to use this service.</value>
+  </data>
+  <data name="dialog_LoadUserProfileFailed" xml:space="preserve">
+    <value>Unable to load profile. Failed to connect to Internet.</value>
+  </data>
+  <data name="dialog_promoteUserToUseThisFunctionalityDescription" xml:space="preserve">
+    <value>Please connect the user to your account to use this function.</value>
+  </data>
+  <data name="dialog_promoteUserToUseThisFunctionalityTitle" xml:space="preserve">
+    <value>User not connected</value>
+  </data>
+  <data name="dialog_remove_hearingaid_btn_remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="dialog_remove_hearingaid_desc" xml:space="preserve">
+    <value>Do you really want to remove the KIND hearing system?</value>
+  </data>
+  <data name="dialog_remove_hearingaid_title" xml:space="preserve">
+    <value>Important!</value>
+  </data>
+  <data name="dialog_scanDevicesAgainDesc" xml:space="preserve">
+    <value>Do you want to scan for more available KIND hearing systems?</value>
+  </data>
+  <data name="dialog_scanDevicesAgainOkButton" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="dialog_scanDevicesAgainTitle" xml:space="preserve">
+    <value>KIND hearing system scan</value>
+  </data>
+  <data name="dialog_ServiceNotAvailable" xml:space="preserve">
+    <value>Service currently not available.</value>
+  </data>
+  <data name="dlg_autoProgramStart_backgroundLocation_hint" xml:space="preserve">
+    <value>To use the "automatic hearing program start” feature, the KINDwings app collects location data even when the app is running in the background.</value>
+  </data>
+  <data name="dlg_autoProgramStart_backgroundLocation_permissionDialog" xml:space="preserve">
+    <value>Open the location settings to allow the KINDwings app to use the location all the time. This is needed to use the "automatic hearing program start" feature.</value>
+  </data>
+  <data name="dlg_autoProgramStart_backgroundLocation_preCheck" xml:space="preserve">
+    <value>The KINDwings app collects location data to enable the automatic hearing program start even when the app is only running in the background. You have denied the ‘always allow' permission for the use of location services. If you want to use the automatic hearing program start, set the appropriate permission in the settings.</value>
+  </data>
+  <data name="dlg_autoProgramStart_fineBackgroundLocation_preCheck" xml:space="preserve">
+    <value>Open the location settings to allow the KINDwings app to use the precise location all the time. This is needed to use the "automatic hearing program start" feature.</value>
+  </data>
+  <data name="dlg_connect_bluetoothConnect_preCheck" xml:space="preserve">
+    <value>You have denied the permission to access 'Nearby devices'. The permission is needed by the KINDwings app to connect to your hearing systems. Please set the appropriate permission in the app settings menu.</value>
+  </data>
+  <data name="dlg_disabled_location_service_all_functions_description" xml:space="preserve">
+    <value>In order to use the functions find hearing aids or position based automatic hearing program start confirm the next dialog.</value>
+  </data>
+  <data name="dlg_disabled_location_service_auto_program_description" xml:space="preserve">
+    <value>In order to use the position based automatic hearing program start you must activate the location services. Please confirm the next dialog with OK.</value>
+  </data>
+  <data name="dlg_disabled_location_service_ble_scan_description" xml:space="preserve">
+    <value>In order to search for hearing aids you must activate the location services. Please confirm the next dialog with OK.</value>
+  </data>
+  <data name="dlg_disabled_location_service_title" xml:space="preserve">
+    <value>Location disabled</value>
+  </data>
+  <data name="dlg_discovery_bluetoothScanConnect_hint" xml:space="preserve">
+    <value>To search for hearing aids you must allow the permission to access 'Nearby devices' to the KINDwings app. Please do this in the next step.</value>
+  </data>
+  <data name="dlg_discovery_bluetoothScanConnect_preCheck" xml:space="preserve">
+    <value>You have denied the permission to access 'Nearby devices'. This permission is needed by the KINDwings app to search for your hearing systems and to connect to them later on. Please set the appropriate permission in the app settings menu.</value>
+  </data>
+  <data name="dlg_discovery_locationInUse_hint" xml:space="preserve">
+    <value>To search for hearing aids you must grant 'While using' location permissions. Please do this in the next step to find and connect your hearing systems.</value>
+  </data>
+  <data name="dlg_mapCurrentPosition_inUse_preCheck" xml:space="preserve">
+    <value>You have denied the permission to use the location while using the KINDwings app. This permission is needed for the 'Current position on map' feature. If you want to use this feature, set the appropriate permission in the settings.</value>
+  </data>
+  <data name="dlg_mapCurrentPosition_locationInUse_hint" xml:space="preserve">
+    <value>To use the function 'Current position on map' the KINDwings app requires authorization for location determination. In the next step please give the KINDwings app the permission 'While using'.</value>
+  </data>
+  <data name="dlg_no_internet_desc" xml:space="preserve">
+    <value>Please connect your smartphone to the Internet and try this action again.</value>
+  </data>
+  <data name="dlg_no_internet_title" xml:space="preserve">
+    <value>No Internet connection</value>
+  </data>
+  <data name="dlg_no_internet_warning_desc" xml:space="preserve">
+    <value>Some functionalities are not available when the device is offline.</value>
+  </data>
+  <data name="dlg_no_wifi_desc" xml:space="preserve">
+    <value>Please connect your smartphone to a Wi-Fi network and then try this action again.</value>
+  </data>
+  <data name="dlg_no_wifi_title" xml:space="preserve">
+    <value>No Wi-Fi connection</value>
+  </data>
+  <data name="dlg_permission_bluetooth_hint" xml:space="preserve">
+    <value>To search for or connect to your hearing aids you must allow the permission to access 'Nearby devices' to the KINDwings app. Please do this in the next step. </value>
+  </data>
+  <data name="dlg_permission_bluetooth_preCheck" xml:space="preserve">
+    <value>You have denied the permission to access 'Nearby devices'. This permission is needed by the KINDwings app to search for or connect to your hearing systems. Please set the appropriate permission in the app settings menu.</value>
+  </data>
+  <data name="dlg_permission_location_hint" xml:space="preserve">
+    <value>For some functions the app requires authorization for location determination. In the next step please give the app the permission 'Always allow'.</value>
+  </data>
+  <data name="dlg_permission_location_in_use_find_hint" xml:space="preserve">
+    <value>To use the function 'Find KIND hearing systems' the KINDwings app requires authorization for location determination. In the next step please give the KINDwings app the permission 'While using'.</value>
+  </data>
+  <data name="dlg_permission_location_in_use_hint" xml:space="preserve">
+    <value>For some functions the KINDwings app requires authorization for location determination. In the next step please give the KINDwings app the permission 'While using'.</value>
+  </data>
+  <data name="dlg_permission_title" xml:space="preserve">
+    <value>Permission</value>
+  </data>
+  <data name="dlg_StartTrackingFailed_Desc" xml:space="preserve">
+    <value>The hearing system position tracking could not be started. Please check the settings of the KINDwings app.</value>
+  </data>
+  <data name="dlg_StartTrackingFailed_Title" xml:space="preserve">
+    <value>Hearing System Tracking Start</value>
+  </data>
+  <data name="dlg_tracking_alwaysLocation_preCheck" xml:space="preserve">
+    <value>The KINDwings app collects location data to enable the 'Find hearing systems' feature even when the app is only running in the background. You have denied the ‘always allow' permission for the use of the location services. If you want to use the 'Find hearing systems' feature, set the appropriate permission in the settings.</value>
+  </data>
+  <data name="error_Connection_BothInstrumentErrorMessage" xml:space="preserve">
+    <value>A connection to your KIND hearing systems could not be established. Please check that your hearing systems are turned on and try again!</value>
+  </data>
+  <data name="error_Connection_BothInstrumentErrorTitle" xml:space="preserve">
+    <value>Neither KIND hearing system connected</value>
+  </data>
+  <data name="error_Connection_BothInstrumentUnsupportedErrorMessage" xml:space="preserve">
+    <value>A connection to your hearing systems could not be established because both of them are unsupported.</value>
+  </data>
+  <data name="error_Connection_BothInstrumentUnsupportedErrorTitle" xml:space="preserve">
+    <value>Both hearing systems are unsupported.</value>
+  </data>
+  <data name="error_Connection_GeneralErrorMessage" xml:space="preserve">
+    <value>A connection to your KIND hearing systems could not be established. Please check that your hearing systems are turned on and try again!</value>
+  </data>
+  <data name="error_Connection_GeneralErrorTitle" xml:space="preserve">
+    <value>Error in connecting your KIND hearing aids</value>
+  </data>
+  <data name="error_Connection_LeftInstrumentErrorMessage" xml:space="preserve">
+    <value>No connection could be established to your left KIND hearing system. Please check that the hearing system is on and try again! You can also use the app with just one hearing system.</value>
+  </data>
+  <data name="error_Connection_LeftInstrumentErrorTitle" xml:space="preserve">
+    <value>No connection to the left KIND hearing system</value>
+  </data>
+  <data name="error_Connection_LeftInstrumentOnlyErrorMessage" xml:space="preserve">
+    <value>No connection could be established to your left KIND hearing system. Please check that the hearing system is on and try again!</value>
+  </data>
+  <data name="error_Connection_LeftInstrumentUnsupportedErrorMessage" xml:space="preserve">
+    <value>No connection could be established to the left hearing system because it is unsupported. You can still use the app with just one hearing system.</value>
+  </data>
+  <data name="error_Connection_LeftInstrumentUnsupportedErrorTitle" xml:space="preserve">
+    <value>Left hearing system not supported.</value>
+  </data>
+  <data name="error_Connection_ResolutionBackToSelectionMessage" xml:space="preserve">
+    <value>Did you inadvertently select the wrong KIND hearing system?
+Go back and check the name of the KIND hearing systems you selected.</value>
+  </data>
+  <data name="error_Connection_ResolutionBackToSelectionTitle" xml:space="preserve">
+    <value>Back to the KIND hearing system selection</value>
+  </data>
+  <data name="error_Connection_ResolutionGotoFindHearingAidMessage" xml:space="preserve">
+    <value>If you have lost your KIND hearing systems, use the KINDwings app to help you find them again. Please tap here.</value>
+  </data>
+  <data name="error_Connection_ResolutionGotoFindHearingAidTitle" xml:space="preserve">
+    <value>Find my KIND hearing systems</value>
+  </data>
+  <data name="error_Connection_ResolutionPairMessage" xml:space="preserve">
+    <value>Use the bluetooth settings menu to pair or pair again your KIND hearing systems with the smartphone. Try connect again afterwards.</value>
+  </data>
+  <data name="error_Connection_ResolutionPairTitle" xml:space="preserve">
+    <value>Pair my KIND hearing systems</value>
+  </data>
+  <data name="error_Connection_ResolutionRetryMessage" xml:space="preserve">
+    <value>The KINDwings app tries to reconnect. Please restart your devices by turning them off and on again.</value>
+  </data>
+  <data name="error_Connection_ResolutionRetryTitle" xml:space="preserve">
+    <value>Try connecting again</value>
+  </data>
+  <data name="error_Connection_ResolutionUseOneInstrumentOnlyMessage" xml:space="preserve">
+    <value>The KINDwings app connects to just one KIND hearing system. If you want to connect to both hearing systems later on, go to 'My KIND hearing systems' in the app settings menu and disconnect the single hearing system.</value>
+  </data>
+  <data name="error_Connection_ResolutionUseOneInstrumentOnlyTitle" xml:space="preserve">
+    <value>Use only one hearing system</value>
+  </data>
+  <data name="error_Connection_RightInstrumentErrorMessage" xml:space="preserve">
+    <value>No connection could be established to the right KIND hearing system. Please check that the hearing system is on and try again. You can also use the KINDwings app with just one hearing system.</value>
+  </data>
+  <data name="error_Connection_RightInstrumentErrorTitle" xml:space="preserve">
+    <value>No connection to the right KIND hearing system</value>
+  </data>
+  <data name="error_Connection_RightInstrumentOnlyErrorMessage" xml:space="preserve">
+    <value>No connection could be established to the right KIND hearing system. Please check that the hearing system is on and try again.</value>
+  </data>
+  <data name="error_Connection_RightInstrumentUnsupportedErrorMessage" xml:space="preserve">
+    <value>No connection could be established to the right hearing system because it is unsupported. You can still use the app with just one hearing system.</value>
+  </data>
+  <data name="error_Connection_RightInstrumentUnsupportedErrorTitle" xml:space="preserve">
+    <value>Right hearing system not supported.</value>
+  </data>
+  <data name="error_Connection_UnsupportedHearingSystemErrorMessage" xml:space="preserve">
+    <value>You tried to connect to a KIND hearing system not supported by this app version.</value>
+  </data>
+  <data name="error_Connection_UnsupportedHearingSystemErrorTitle" xml:space="preserve">
+    <value>Unsupported devices</value>
+  </data>
+  <data name="error_Connection_UnsupportedKINDHearingSystemErrorMessage" xml:space="preserve">
+    <value>Please contact the KIND support.</value>
+  </data>
+  <data name="error_Connection_UnsupportedKINDHearingSystemErrorTitle" xml:space="preserve">
+    <value>Contact support</value>
+  </data>
+  <data name="error_Hardware_BluetoothMissingMessage" xml:space="preserve">
+    <value>Your smartphone does not have Bluetooth. The KINDwings app needs Bluetooth to communicate with your hearing systems. Unfortunately, your smartphone is not suitable for this.</value>
+  </data>
+  <data name="error_Hardware_BluetoothMissingTitle" xml:space="preserve">
+    <value>No Bluetooth available</value>
+  </data>
+  <data name="error_Hardware_BluetoothNotActivatedMessage" xml:space="preserve">
+    <value>Bluetooth is disabled on your smartphone. The KINDwings app needs Bluetooth to communicate with your hearing systems.</value>
+  </data>
+  <data name="error_Hardware_BluetoothNotActivatedTitle" xml:space="preserve">
+    <value>Bluetooth is disabled</value>
+  </data>
+  <data name="error_Hardware_LocationServiceDisabledMessage" xml:space="preserve">
+    <value>Location is disabled on your smartphone. The KINDwings app needs the location service to scan and find your hearing aids and for the automatic hearing program start.</value>
+  </data>
+  <data name="error_Hardware_LocationServiceDisabledTitle" xml:space="preserve">
+    <value>Location is disabled</value>
+  </data>
+  <data name="error_Hardware_NoHearingAidConnectPermissionMessage" xml:space="preserve">
+    <value>The KINDwings app does not have the permission to establish a connection to your hearing systems. Please go to your smartphone settings to give the app the permission to continue.</value>
+  </data>
+  <data name="error_Hardware_NoHearingAidConnectPermissionTitle" xml:space="preserve">
+    <value>No permission to connect devices</value>
+  </data>
+  <data name="error_Hardware_NoHearingAidDiscoveryPermissionMessage" xml:space="preserve">
+    <value>The KINDwings app does not have permission to search for your KIND hearing systems. Please go to your smartphone settings to give the app permission to continue.</value>
+  </data>
+  <data name="error_Hardware_NoHearingAidDiscoveryPermissionTitle" xml:space="preserve">
+    <value>No permission to scan for KIND hearing systems</value>
+  </data>
+  <data name="error_Hardware_NoTrackingLocationPermissionMessage" xml:space="preserve">
+    <value>The app does not have the permission to get the position of your KIND hearing systems. This is needed for "find KIND hearing systems" feature. Please go to the location settings of the app and provide the appropriate permission to continue.</value>
+  </data>
+  <data name="error_Hardware_NoTrackingLocationPermissionTitle" xml:space="preserve">
+    <value>No permission to find your KIND hearing systems</value>
+  </data>
+  <data name="error_Hardware_ResolutionAllowAccessNearbyDevicesMessage" xml:space="preserve">
+    <value>Go to System Settings and allow the access of 'Nearby Devices'. </value>
+  </data>
+  <data name="error_Hardware_ResolutionAllowAccessNearbyDevicesTitle" xml:space="preserve">
+    <value>Change permissions</value>
+  </data>
+  <data name="error_Hardware_ResolutionAllowLocationMessage" xml:space="preserve">
+    <value>Go to System Settings and allow the usage of location data for this app.</value>
+  </data>
+  <data name="error_Hardware_ResolutionAllowLocationTitle" xml:space="preserve">
+    <value>Change permissions</value>
+  </data>
+  <data name="error_Hardware_ResolutionGotoSettingsMessage" xml:space="preserve">
+    <value>Go to your smartphone settings and activate Bluetooth manually.</value>
+  </data>
+  <data name="error_Hardware_ResolutionGotoSettingsTitle" xml:space="preserve">
+    <value>Go to settings</value>
+  </data>
+  <data name="error_Hardware_ResolutionLocationServiceContinueMessage" xml:space="preserve">
+    <value>Continue without enabled location service.</value>
+  </data>
+  <data name="error_Hardware_ResolutionLocationServiceContinueTitle" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="error_Hardware_ResolutionLocationServiceEnableMessage" xml:space="preserve">
+    <value>Open the location (services) settings in order to activate the location service.</value>
+  </data>
+  <data name="error_Hardware_ResolutionLocationServiceEnableTitle" xml:space="preserve">
+    <value>Activate location</value>
+  </data>
+  <data name="error_Hardware_ResolutionRetryMessage" xml:space="preserve">
+    <value>The operation will be performed again.</value>
+  </data>
+  <data name="error_Hardware_ResolutionRetryTitle" xml:space="preserve">
+    <value>Repeat operation</value>
+  </data>
+  <data name="error_Hardware_ResolutionStartDemoMessage" xml:space="preserve">
+    <value>The KINDwings app launches in demo mode. This allows you to experience the features even without KIND hearing systems. You can stop demo mode at any time.</value>
+  </data>
+  <data name="error_Hardware_ResolutionStartDemoTitle" xml:space="preserve">
+    <value>Start demo mode</value>
+  </data>
+  <data name="error_Hardware_ResolutionTitle" xml:space="preserve">
+    <value>What do you want to do now?</value>
+  </data>
+  <data name="error_Hardware_ResolutionTrackingLocationPermissionContinueMessage" xml:space="preserve">
+    <value>Continue without granted location permission.</value>
+  </data>
+  <data name="error_Hardware_ResolutionTrackingLocationPermissionContinueTitle" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="error_Hardware_SDKErrorMessage" xml:space="preserve">
+    <value>There was an error in initializing the KINDwings app. Please try again or contact KIND Support.</value>
+  </data>
+  <data name="error_Hardware_SDKErrorTitle" xml:space="preserve">
+    <value>Initialization of the KINDwings app failed</value>
+  </data>
+  <data name="error_NoPhoneNumber" xml:space="preserve">
+    <value>No phone number</value>
+  </data>
+  <data name="fav_btCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="fav_btCreate" xml:space="preserve">
+    <value>Save hearing program</value>
+  </data>
+  <data name="fav_btOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="fav_EditIconDescription" xml:space="preserve">
+    <value>Please select a new icon:</value>
+  </data>
+  <data name="fav_EditIconSubTitle" xml:space="preserve">
+    <value>Select icon</value>
+  </data>
+  <data name="fav_EditIconTitle" xml:space="preserve">
+    <value>Customize the icon</value>
+  </data>
+  <data name="fav_EditNameDescription" xml:space="preserve">
+    <value>Please give your hearing program a new name:</value>
+  </data>
+  <data name="fav_EditNameSubTitleFav" xml:space="preserve">
+    <value>Name of the hearing program</value>
+  </data>
+  <data name="fav_EditNameSubTitleStd" xml:space="preserve">
+    <value>Name of the hearing program</value>
+  </data>
+  <data name="fav_EditNameTitle" xml:space="preserve">
+    <value>Customize name</value>
+  </data>
+  <data name="gblNotification_ActivateGeoTrackingCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="gblNotification_ActivateGeoTrackingMsg" xml:space="preserve">
+    <value>You have disabled device tracking for the app and therefore cannot use this feature. You can cancel the operation and activate the function later in the KINDwings app settings or activate it directly here.</value>
+  </data>
+  <data name="gblNotification_ActivateGeoTrackingOk" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="gblNotification_ActivateGeoTrackingTitle" xml:space="preserve">
+    <value>Tracking disabled</value>
+  </data>
+  <data name="gblNotification_ChangeLanguageDesc" xml:space="preserve">
+    <value>Do you want to change the language?</value>
+  </data>
+  <data name="gblNotification_ChangeLanguageTitle" xml:space="preserve">
+    <value>Change language?</value>
+  </data>
+  <data name="gblNotification_ConnectionLostHelp" xml:space="preserve">
+    <value>To help</value>
+  </data>
+  <data name="gblNotification_ConnectionLostMessage" xml:space="preserve">
+    <value>The connection to your {0} KIND hearing system has been interrupted.</value>
+  </data>
+  <data name="gblNotification_ConnectionLostOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="gblNotification_ConnectionLostTitle" xml:space="preserve">
+    <value>Connection interrupted</value>
+  </data>
+  <data name="gblNotification_ErrorTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="gblNotification_FindStoreConnectionErrorDesc" xml:space="preserve">
+    <value>Unable to connect to the Store Service.</value>
+  </data>
+  <data name="gblNotification_FindStoreGeneralErrorDesc" xml:space="preserve">
+    <value>Unable to load stores.</value>
+  </data>
+  <data name="gblNotification_GeneralOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="gblNotification_HALeft" xml:space="preserve">
+    <value>left</value>
+  </data>
+  <data name="gblNotification_HARight" xml:space="preserve">
+    <value>right</value>
+  </data>
+  <data name="gblNotification_LowBatteryMessage" xml:space="preserve">
+    <value>Your {0} KIND hearing system battery is almost empty. Please replace it in the next few hours.</value>
+  </data>
+  <data name="gblNotification_LowBatteryOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="gblNotification_LowBatteryTitle" xml:space="preserve">
+    <value>KIND hearing system battery almost empty</value>
+  </data>
+  <data name="gblNotification_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="gblNotification_NoGeoTrackingMsg" xml:space="preserve">
+    <value>You have disabled device tracking. To use this function, activate it under Settings.</value>
+  </data>
+  <data name="gblNotification_NoGeoTrackingTitle" xml:space="preserve">
+    <value>Tracking disabled</value>
+  </data>
+  <data name="gblNotification_NoGoogleMapsAvailableMessage" xml:space="preserve">
+    <value>Unfortunately, the map service cannot be used on your smartphone. Please check to ensure that Google Play Services are up-to-date.</value>
+  </data>
+  <data name="gblNotification_NoGoogleMapsAvailableTitle" xml:space="preserve">
+    <value>Map service not available</value>
+  </data>
+  <data name="gblNotification_ProgramCollectionAdjusted" xml:space="preserve">
+    <value>The hearing programs have been adjusted to the current KIND hearing system settings.</value>
+  </data>
+  <data name="gblNotification_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="gbl_AndroidServiceTitle" xml:space="preserve">
+    <value>KIND hearing systems</value>
+  </data>
+  <data name="gbl_btBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="gbl_ConnectionLost_Reconnecting" xml:space="preserve">
+    <value>Your KIND hearing systems have been disconnected. Please check your hearing systems. The KINDwings app tries to reconnect.</value>
+  </data>
+  <data name="gbl_DecibelShort" xml:space="preserve">
+    <value>dB</value>
+  </data>
+  <data name="gbl_DemoModeActivated" xml:space="preserve">
+    <value>Demo mode</value>
+  </data>
+  <data name="gbl_RemoteUpdateGotoBackupIndicator" xml:space="preserve">
+    <value>Previous fitting</value>
+  </data>
+  <data name="geofenceservice_notification_desc" xml:space="preserve">
+    <value>The KINDwings app geofence service is active.</value>
+  </data>
+  <data name="geofenceservice_notification_title" xml:space="preserve">
+    <value>KINDwings Geofence Service</value>
+  </data>
+  <data name="help_ConferenceMicrophonePage" xml:space="preserve">
+    <value>Conference microphone</value>
+  </data>
+  <data name="help_FindDeviceLeftDevice" xml:space="preserve">
+    <value>Left KIND hearing system</value>
+  </data>
+  <data name="help_FindDeviceMap" xml:space="preserve">
+    <value>Map view</value>
+  </data>
+  <data name="help_FindDeviceNearfield" xml:space="preserve">
+    <value>Near field search</value>
+  </data>
+  <data name="help_FindDevicePage" xml:space="preserve">
+    <value>Find KIND hearing systems</value>
+  </data>
+  <data name="help_FindDevicePage_LastSignalTextPartOne" xml:space="preserve">
+    <value>The last signal was received on </value>
+  </data>
+  <data name="help_FindDevicePage_LastSignalTextPartThree" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="help_FindDevicePage_LastSignalTextPartTwo" xml:space="preserve">
+    <value> at </value>
+  </data>
+  <data name="help_FindDevicePage_LocationTextPartOne" xml:space="preserve">
+    <value>The map shows the location where your hearing system </value>
+  </data>
+  <data name="help_FindDevicePage_LocationTextPartTwo" xml:space="preserve">
+    <value> was last connected with the app.</value>
+  </data>
+  <data name="help_FindDevicePage_MapNotLoaded" xml:space="preserve">
+    <value>No map available to show the location.</value>
+  </data>
+  <data name="help_FindDevicePage_NoDeviceKnown" xml:space="preserve">
+    <value>No hearing system known for this side.</value>
+  </data>
+  <data name="help_FindDevicePage_NoPositionData" xml:space="preserve">
+    <value>No location data found.</value>
+  </data>
+  <data name="help_FindDeviceRightDevice" xml:space="preserve">
+    <value>Right KIND hearing system</value>
+  </data>
+  <data name="help_LogPage" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="help_MenuPage" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="help_topic_1_1_content_text" xml:space="preserve">
+    <value>To use your KIND hearing systems with your iOS device (iPhone), you must first pair your hearing systems and iPhone before using the app. This way, the KIND hearing systems and the iPhone communicate with each other. Please follow the instructions to successfully pair the KIND hearing systems.</value>
+  </data>
+  <data name="help_topic_1_1_list_item_1" xml:space="preserve">
+    <value>Touch the Settings icon on your iPhone.</value>
+  </data>
+  <data name="help_topic_1_1_list_item_2" xml:space="preserve">
+    <value>In the Settings menu, go to: Hearing aids or General → Accessibility → MFi Hearing Aids, respectively</value>
+  </data>
+  <data name="help_topic_1_1_list_item_3" xml:space="preserve">
+    <value>If the Bluetooth function is still disabled in this screen, activate Bluetooth. While the iPhone searches for the KIND hearing systems, open and close the battery compartment of your KIND hearing systems (this puts the hearing systems in pairing mode).</value>
+  </data>
+  <data name="help_topic_1_1_list_item_4" xml:space="preserve">
+    <value>As soon as your iPhone detects your KIND hearing systems for the first time, your first name and “HA#123456" will appear. If this does not happen within 5-7 seconds, go back on the upper left edge of the screen and call up "Hearing aids" again.</value>
+  </data>
+  <data name="help_topic_1_1_list_item_5" xml:space="preserve">
+    <value>Touch the name of the KIND hearing system to connect the KIND hearing systems to the iPhone.</value>
+  </data>
+  <data name="help_topic_1_1_list_item_6" xml:space="preserve">
+    <value>Two pairing requests appear - one for each KIND hearing system. Select Pair to join. The requests may appear with a few seconds delay.</value>
+  </data>
+  <data name="help_topic_1_1_list_item_7" xml:space="preserve">
+    <value>Pairing is now complete.</value>
+  </data>
+  <data name="help_topic_1_1_sub_title" xml:space="preserve">
+    <value>Connect your KIND hearing systems to an iOS device</value>
+  </data>
+  <data name="help_topic_1_2_content_text" xml:space="preserve">
+    <value>To use your KIND hearing systems with your Android device, you must first pair your KIND hearing system and the Android device. Please follow the instructions:</value>
+  </data>
+  <data name="help_topic_1_2_list_item_1" xml:space="preserve">
+    <value>Touch the Settings icon.</value>
+  </data>
+  <data name="help_topic_1_2_list_item_2" xml:space="preserve">
+    <value>Select Connections → Bluetooth.</value>
+  </data>
+  <data name="help_topic_1_2_list_item_3" xml:space="preserve">
+    <value>Go to Settings and switch Bluetooth to ON. Open and close the battery compartment of your KIND hearing systems. This puts the hearing systems in pairing mode.</value>
+  </data>
+  <data name="help_topic_1_2_list_item_4" xml:space="preserve">
+    <value>Under Paired Devices you will see your first name followed by "HA#123456" once your KIND hearing systems have been detected. If the name does not appear in the list of paired devices within 5-7 seconds, go back to the previous page and select "Bluetooth".</value>
+  </data>
+  <data name="help_topic_1_2_list_item_5" xml:space="preserve">
+    <value>The right and left KIND hearing system each appear on the list once. Both list entries must be clicked for pairing.</value>
+  </data>
+  <data name="help_topic_1_2_list_item_6" xml:space="preserve">
+    <value>Pairing is complete.</value>
+  </data>
+  <data name="help_topic_1_2_sub_title" xml:space="preserve">
+    <value>Pairing your KIND hearing systems with an Android device</value>
+  </data>
+  <data name="help_topic_1_3_content_text_1" xml:space="preserve">
+    <value>After successfully connecting your KIND hearing systems to your phone, the KIND hearing systems can now be used with the app. When you first open the app, you will be prompted to pair / connect your KIND hearing systems with the smartphone during setup. To do this, select the appropriate KIND hearing system from the list of available KIND hearing systems.</value>
+  </data>
+  <data name="help_topic_1_3_content_text_2" xml:space="preserve">
+    <value>After completing the test, the app is activated and ready for use.</value>
+  </data>
+  <data name="help_topic_1_3_sub_title" xml:space="preserve">
+    <value>Using your KIND hearing systems with the app</value>
+  </data>
+  <data name="help_topic_1_title" xml:space="preserve">
+    <value>Connecting / pairing your KIND hearing systems</value>
+  </data>
+  <data name="help_topic_2_1_list_item_1" xml:space="preserve">
+    <value>On your smartphone, go to Settings or Settings → General → Accessibility.</value>
+  </data>
+  <data name="help_topic_2_1_list_item_2" xml:space="preserve">
+    <value>Select “MFi Hearing Aids”.</value>
+  </data>
+  <data name="help_topic_2_1_list_item_3" xml:space="preserve">
+    <value>Click on ‘Forget this device'.</value>
+  </data>
+  <data name="help_topic_2_1_sub_title" xml:space="preserve">
+    <value>Unpairing iOS devices:</value>
+  </data>
+  <data name="help_topic_2_2_list_item_1" xml:space="preserve">
+    <value>On your smartphone, go to Settings → Bluetooth.</value>
+  </data>
+  <data name="help_topic_2_2_list_item_2" xml:space="preserve">
+    <value>Tap on the gear icon to the right of your KIND hearing system.</value>
+  </data>
+  <data name="help_topic_2_2_list_item_3" xml:space="preserve">
+    <value>Click on "Forget this Device ".</value>
+  </data>
+  <data name="help_topic_2_2_sub_title" xml:space="preserve">
+    <value>Unpairing Android devices:</value>
+  </data>
+  <data name="help_topic_2_content_text" xml:space="preserve">
+    <value>When you update the software on your smartphone, the connection to your KIND hearing systems may be lost. If this happens, first unpair your KIND hearing systems and then reconnect them as described under “Connecting / pairing your KIND hearing systems".</value>
+  </data>
+  <data name="help_topic_2_title" xml:space="preserve">
+    <value>Unpairing</value>
+  </data>
+  <data name="help_topic_3_content_text" xml:space="preserve">
+    <value>As soon as you open the app, the startup screen appears to display the most important features at a glance. You can see the battery status of your KIND hearing systems, access the main menu, easily switch between hearing programs and adjust the volume.</value>
+  </data>
+  <data name="help_topic_3_title" xml:space="preserve">
+    <value>The home page</value>
+  </data>
+  <data name="help_topic_4_content_text_1" xml:space="preserve">
+    <value>A large icon of the active hearing program is displayed in the center of the screen. The color tells you what kind of program it is. The colors are used throughout the app:</value>
+  </data>
+  <data name="help_topic_4_content_text_2" xml:space="preserve">
+    <value>Click on the active hearing program icon to open the detail view where you can make adjustments and settings. Touch the corresponding icon to switch to another hearing program.</value>
+  </data>
+  <data name="help_topic_4_list_item_1" xml:space="preserve">
+    <value>Blue: Hearing programs set by the KIND hearing care professional</value>
+  </data>
+  <data name="help_topic_4_list_item_2" xml:space="preserve">
+    <value>Green: Streaming programs</value>
+  </data>
+  <data name="help_topic_4_list_item_3" xml:space="preserve">
+    <value>Gray: Hearing programs created by you (if available)</value>
+  </data>
+  <data name="help_topic_4_title" xml:space="preserve">
+    <value>Hearing program selection</value>
+  </data>
+  <data name="help_topic_5_content_text_1" xml:space="preserve">
+    <value>At the bottom of the screen you'll find the volume control that lets you adjust the volume or mute your KIND hearing systems. To do this, move the slider or use the +/- buttons.</value>
+  </data>
+  <data name="help_topic_5_content_text_2" xml:space="preserve">
+    <value>Different volume for right and left (binaural separation):</value>
+  </data>
+  <data name="help_topic_5_content_text_3" xml:space="preserve">
+    <value>When binaural separation is activated, the volume control at the bottom of the screen shows a red and a blue triangle. The adjusted ratio is maintained even if you make changes to the overall volume.</value>
+  </data>
+  <data name="help_topic_5_list_item_1" xml:space="preserve">
+    <value>On the detail page of a hearing program click the icon to the right, next to the volume slider. Activate "Binaural separation".</value>
+  </data>
+  <data name="help_topic_5_list_item_2" xml:space="preserve">
+    <value>In the dialog box, drag the sliders to the optimum setting for you. The blue triangle indicates the volume of your left KIND hearing system, the red one of your right.</value>
+  </data>
+  <data name="help_topic_5_list_item_3" xml:space="preserve">
+    <value>Save the setting with 'OK'.</value>
+  </data>
+  <data name="help_topic_5_title" xml:space="preserve">
+    <value>Disconnect volume control</value>
+  </data>
+  <data name="help_topic_6_content_text" xml:space="preserve">
+    <value>Instead of the basic program, your KIND hearing care professional can also activate the automatic program. In this hearing program, your KIND hearing system analyzes the hearing situation and automatically selects the correct settings - manual adjustments are not possible in this program.</value>
+  </data>
+  <data name="help_topic_6_title" xml:space="preserve">
+    <value>Automatic program</value>
+  </data>
+  <data name="help_topic_7_content_text" xml:space="preserve">
+    <value>The streaming program allows you to transfer sounds from an external source, for example phone calls or music, directly into your KIND hearing system. Currently, this is only possible with iOS devices. To use this feature with an Android device, you need additional accessories. Please contact your KIND hearing care professional for more information.</value>
+  </data>
+  <data name="help_topic_7_list_item_2" xml:space="preserve">
+    <value>Drag and drop the sliders in the “Sound” tile to adjust the treble, mids, and lows.</value>
+  </data>
+  <data name="help_topic_7_list_item_3" xml:space="preserve">
+    <value>The mixer lets you adjust the focus of your KIND hearing system: With the slider, you can adjust the relationship between the sounds from your surroundings and the sound being transmitted from the streaming source directly into the hearing system.</value>
+  </data>
+  <data name="help_topic_7_title" xml:space="preserve">
+    <value>Streaming program</value>
+  </data>
+  <data name="help_topic_8_content_text_1" xml:space="preserve">
+    <value>The app allows you to create your own hearing programs to save frequently used settings and easily recall them anytime. For example, store the settings you need in the office, while jogging, or in your favorite café, so you can quickly access them.</value>
+  </data>
+  <data name="help_topic_8_content_text_2" xml:space="preserve">
+    <value>Create hearing program:</value>
+  </data>
+  <data name="help_topic_8_content_text_3" xml:space="preserve">
+    <value>If you want, you can pair your hearing program to a Wi-Fi network or a specific location. Your smartphone then detects where you are and automatically launches the desired hearing program.</value>
+  </data>
+  <data name="help_topic_8_list_item_1" xml:space="preserve">
+    <value>Select a hearing program that you want to use to create a new hearing program.</value>
+  </data>
+  <data name="help_topic_8_list_item_2" xml:space="preserve">
+    <value>In the hearing program, click the gear icon and then click Create hearing program.</value>
+  </data>
+  <data name="help_topic_8_list_item_3" xml:space="preserve">
+    <value>Give your hearing program a name and select a suitable icon.</value>
+  </data>
+  <data name="help_topic_8_title" xml:space="preserve">
+    <value>Hearing programs</value>
+  </data>
+  <data name="help_topic_9_content_text" xml:space="preserve">
+    <value>Click on the menu icon in the top right corner of the screen to open the main menu. From here, you can switch to your programs and navigate to app settings. You can also call up the help function via the main menu. You will also find support and legal information here.</value>
+  </data>
+  <data name="help_topic_9_title" xml:space="preserve">
+    <value>Main menu</value>
+  </data>
+  <data name="home_btHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="home_pageTitle" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="info_distributedBy" xml:space="preserve">
+    <value>Distributed by</value>
+  </data>
+  <data name="info_imprintAddressTitle" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="info_imprintManufacturer" xml:space="preserve">
+    <value>Manufacturer:</value>
+  </data>
+  <data name="info_imprintSupportTitle" xml:space="preserve">
+    <value>KIND Support</value>
+  </data>
+  <data name="info_imprintTitle" xml:space="preserve">
+    <value>Imprint</value>
+  </data>
+  <data name="info_imprint_licencesText" xml:space="preserve">
+    <value>This is the content for the licenses section.</value>
+  </data>
+  <data name="info_instructionsTitle" xml:space="preserve">
+    <value>Instructions for use</value>
+  </data>
+  <data name="initPerm_btCloseHelp" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="initPerm_btConfirm" xml:space="preserve">
+    <value>Continue with these permissions</value>
+  </data>
+  <data name="initPerm_btPermissionAlreadyDeniedCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="initPerm_btPermissionAlreadyDeniedConfirm" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="initPerm_Description" xml:space="preserve">
+    <value>To use all the features of the KINDwings app, the app needs additional permissions.
+If you enable any of the features listed below, you may be asked to grant the necessary permission.
+You can withdraw the permissions at any time or disable the respective feature in the settings of the app.</value>
+  </data>
+  <data name="initPerm_GeolocationDescription" xml:space="preserve">
+    <value>Allow the KINDwings app to query the current location</value>
+  </data>
+  <data name="initPerm_GeolocationHelp" xml:space="preserve">
+    <value>This setting allows the KINDwings app to store the last position of the KIND hearing systems so that you can find them more easily again should you lose them.
+
+You can enable/disable this setting at any time in the app settings.</value>
+  </data>
+  <data name="initPerm_GeolocationScanMessage" xml:space="preserve">
+    <value>You have not activated device tracking. The KINDwings app needs this permission to scan for your KIND hearing systems. To use this feature, enable device tracking in the settings on your smartphone.</value>
+  </data>
+  <data name="initPerm_GeolocationScanTitle" xml:space="preserve">
+    <value>No permission to scan</value>
+  </data>
+  <data name="initPerm_GeolocationTitle" xml:space="preserve">
+    <value>Location services</value>
+  </data>
+  <data name="initPerm_MicrophoneDescription" xml:space="preserve">
+    <value>Allow the KINDwings app to record audio data using the microphone.</value>
+  </data>
+  <data name="initPerm_MicrophoneHelp" xml:space="preserve">
+    <value>This setting allows you to record audio samples using the microphone.</value>
+  </data>
+  <data name="initPerm_MicrophoneTitle" xml:space="preserve">
+    <value>Record function</value>
+  </data>
+  <data name="initPerm_PermissionAlreadyDeniedMessage" xml:space="preserve">
+    <value>You have already declined permission for ' {0} '. To re-grant permission, please open the settings on your smartphone.</value>
+  </data>
+  <data name="initPerm_PermissionAlreadyDeniedTitle" xml:space="preserve">
+    <value>Permission already declined</value>
+  </data>
+  <data name="initPerm_StorageDescription" xml:space="preserve">
+    <value>Access to the file system</value>
+  </data>
+  <data name="initPerm_StorageHelp" xml:space="preserve">
+    <value>Allows you to save audio data to the smartphone</value>
+  </data>
+  <data name="initPerm_StorageTitle" xml:space="preserve">
+    <value>File access</value>
+  </data>
+  <data name="initPerm_Subtitle" xml:space="preserve">
+    <value>Permissions:</value>
+  </data>
+  <data name="initPerm_Title" xml:space="preserve">
+    <value>Just one more small step ...</value>
+  </data>
+  <data name="init_CancelConnectionButtonCancel" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="init_CancelConnectionButtonOK" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="init_CancelConnectionMessage" xml:space="preserve">
+    <value>Do you want to cancel the connection attempt to your KIND hearing systems and get more information about establishing a connection?</value>
+  </data>
+  <data name="init_CancelConnectionTitle" xml:space="preserve">
+    <value>Cancel connection</value>
+  </data>
+  <data name="init_DeviceLeft" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="init_DeviceRight" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="init_StepChecking" xml:space="preserve">
+    <value>Providing access to your KIND hearing systems.</value>
+  </data>
+  <data name="init_StepConnection" xml:space="preserve">
+    <value>Connecting to your KIND hearing systems.</value>
+  </data>
+  <data name="init_StepConnectionCancellation" xml:space="preserve">
+    <value>Stop connecting KIND hearing systems. Takes up to 1 min.</value>
+  </data>
+  <data name="init_StepLoadingCachedProgramParams" xml:space="preserve">
+    <value>Loading cached KIND hearing system data from the phone.</value>
+  </data>
+  <data name="Init_txt_Bluetooth" xml:space="preserve">
+    <value>Bluetooth on</value>
+  </data>
+  <data name="Init_txt_Connection" xml:space="preserve">
+    <value>KIND hearing systems detected</value>
+  </data>
+  <data name="Init_txt_DevicePower" xml:space="preserve">
+    <value>Batteries OK</value>
+  </data>
+  <data name="Init_txt_DeviceState" xml:space="preserve">
+    <value>Status detected</value>
+  </data>
+  <data name="introPage1_Description" xml:space="preserve">
+    <value>Thank you for downloading the KINDwings app.</value>
+  </data>
+  <data name="introPage1_ImageSubLine" xml:space="preserve">
+    <value>Discover all of the convenient KINDwings features.</value>
+  </data>
+  <data name="introPage1_Title" xml:space="preserve">
+    <value>Welcome!</value>
+  </data>
+  <data name="introPage2_Description" xml:space="preserve">
+    <value>Regulate the volume of your KIND hearing systems.</value>
+  </data>
+  <data name="introPage2_ImageSubLine" xml:space="preserve">
+    <value>Your cell phone becomes the remote control for your hearing systems. This allows you to experience top sound quality - all the time, everywhere.</value>
+  </data>
+  <data name="introPage2_Title" xml:space="preserve">
+    <value>Control the volume</value>
+  </data>
+  <data name="introPage3_Description" xml:space="preserve">
+    <value>Apply individual modifications to your hearing programs.</value>
+  </data>
+  <data name="introPage3_ImageSubLine" xml:space="preserve">
+    <value>You can save these modifications as your own favorites.</value>
+  </data>
+  <data name="introPage3_Title" xml:space="preserve">
+    <value>Customize hearing programs</value>
+  </data>
+  <data name="introPage4_btContinue" xml:space="preserve">
+    <value>Here we go!</value>
+  </data>
+  <data name="introPage4_Description" xml:space="preserve">
+    <value>Always allow the KINDwings app to access your location in order to find your hearing devices or to set up location specific hearing programs.</value>
+  </data>
+  <data name="introPage4_ImageSubLine" xml:space="preserve">
+    <value>The KINDwings app then uses your location in the background to provide updated information.</value>
+  </data>
+  <data name="introPage4_Title" xml:space="preserve">
+    <value>Use your location</value>
+  </data>
+  <data name="introPage5_Description" xml:space="preserve">
+    <value>Please connect your hearing systems now to take full advantage of the KINDwings app.</value>
+  </data>
+  <data name="introPage5_ImageSubLine" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="introPage5_Title" xml:space="preserve">
+    <value>Connect your KIND hearing systems now</value>
+  </data>
+  <data name="licensePage_Build" xml:space="preserve">
+    <value>Build number</value>
+  </data>
+  <data name="licensePage_EmptyView" xml:space="preserve">
+    <value>No licenses found.</value>
+  </data>
+  <data name="licensePage_LicenseType" xml:space="preserve">
+    <value>License type</value>
+  </data>
+  <data name="licensePage_Provider" xml:space="preserve">
+    <value>Provider</value>
+  </data>
+  <data name="licensePage_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="loc_bt_ToGPSSettings" xml:space="preserve">
+    <value>To GPS settings</value>
+  </data>
+  <data name="loc_bt_ToNearFieldHearingAidSearch" xml:space="preserve">
+    <value>To near field search</value>
+  </data>
+  <data name="loc_msg_AllHearingAidsStillConnected" xml:space="preserve">
+    <value>Your KIND hearing systems are still connected to the smartphone, which means they are close by. Use near field search to find your KIND hearing systems.</value>
+  </data>
+  <data name="loc_msg_BothHearingAids" xml:space="preserve">
+    <value>Both KIND hearing systems</value>
+  </data>
+  <data name="loc_msg_GPSHardwareNotEnabled" xml:space="preserve">
+    <value>GPS is disabled. GPS must be enabled to use this feature.</value>
+  </data>
+  <data name="loc_msg_LastTimeConnectedStart" xml:space="preserve">
+    <value>Location on</value>
+  </data>
+  <data name="loc_msg_LoadingGPSData" xml:space="preserve">
+    <value>Loading GPS data ...</value>
+  </data>
+  <data name="loc_msg_NoGPSHardwareFound" xml:space="preserve">
+    <value>Your smartphone does not have GPS hardware. You cannot use this feature.</value>
+  </data>
+  <data name="loc_msg_NoInstrumentLocationsFound" xml:space="preserve">
+    <value>No location data for your KIND hearing systems has been found.</value>
+  </data>
+  <data name="mainMenu_BtnHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="mainMenu_BtnImprint" xml:space="preserve">
+    <value>Imprint</value>
+  </data>
+  <data name="mainMenu_BtnLicenses" xml:space="preserve">
+    <value>Licenses</value>
+  </data>
+  <data name="mainMenu_BtnMyHearingProfile" xml:space="preserve">
+    <value>My hearing profile</value>
+  </data>
+  <data name="mainMenu_BtnOptions" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="mainMenu_BtnPrograms" xml:space="preserve">
+    <value>Programs</value>
+  </data>
+  <data name="mainMenu_BtnStart" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="mainMenu_Header" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="mainPage_BackDisplayText" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="mainPage_LoadingProgramParams" xml:space="preserve">
+    <value>Processing KIND hearing system data.</value>
+  </data>
+  <data name="mainPage_UnableToSwitchProgramWhileLoading_Favorite" xml:space="preserve">
+    <value>Program data are loading. Please be patient.</value>
+  </data>
+  <data name="mainPage_UnableToSwitchProgramWhileLoading_Normal" xml:space="preserve">
+    <value>Program data are loading. Please be patient.</value>
+  </data>
+  <data name="mainPage_VolumeInitialized" xml:space="preserve">
+    <value>Volume settings have been loaded.</value>
+  </data>
+  <data name="mainPage_VolumeUnableToChange" xml:space="preserve">
+    <value>Volume settings are being loaded. Please wait.</value>
+  </data>
+  <data name="manageHA_btGotoSelection" xml:space="preserve">
+    <value>Manage KIND hearing systems</value>
+  </data>
+  <data name="manageHA_Disconnect" xml:space="preserve">
+    <value>Disconnect hearing systems</value>
+  </data>
+  <data name="manageHA_DisconnectingHearingSystems" xml:space="preserve">
+    <value>Disconnecting hearing systems ...</value>
+  </data>
+  <data name="manageHA_LabelFirmware" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="manageHA_LabelModel" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="manageHA_LabelName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="manageHA_LabelSerial" xml:space="preserve">
+    <value>Serial ID</value>
+  </data>
+  <data name="manageHA_LabelState" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="manageHA_leftDevice" xml:space="preserve">
+    <value>Left KIND hearing system</value>
+  </data>
+  <data name="manageHA_pageTitle" xml:space="preserve">
+    <value>My KIND hearing systems</value>
+  </data>
+  <data name="manageHA_pageTitle_monaural" xml:space="preserve">
+    <value>My KIND hearing system</value>
+  </data>
+  <data name="manageHA_rightDevice" xml:space="preserve">
+    <value>Right KIND hearing system</value>
+  </data>
+  <data name="manageHA_StateDescriptionDefault" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="manageHA_StateDescriptionNone" xml:space="preserve">
+    <value>Disconnected</value>
+  </data>
+  <data name="manufacturer_AddressCity" xml:space="preserve">
+    <value>D-99625 Kölleda</value>
+  </data>
+  <data name="manufacturer_AddressStreet" xml:space="preserve">
+    <value>Werner-von-Siemens-Str. 2</value>
+  </data>
+  <data name="manufacturer_CompanyName" xml:space="preserve">
+    <value>audifon GmbH &amp; Co. KG</value>
+  </data>
+  <data name="manufacturer_WebSite" xml:space="preserve">
+    <value>www.audifon.com</value>
+  </data>
+  <data name="menuPermission_HearingInstrumentLocationTracking" xml:space="preserve">
+    <value>Tracking the hearing systems</value>
+  </data>
+  <data name="menuPermission_LocationTitle" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="menu_Title_AppInfo" xml:space="preserve">
+    <value>About this app</value>
+  </data>
+  <data name="menu_Title_AppReset" xml:space="preserve">
+    <value>App reset</value>
+  </data>
+  <data name="menu_Title_ContractData" xml:space="preserve">
+    <value>Contract data</value>
+  </data>
+  <data name="menu_Title_DataProtection" xml:space="preserve">
+    <value>Data protection</value>
+  </data>
+  <data name="menu_Title_Devices" xml:space="preserve">
+    <value>Hearing systems</value>
+  </data>
+  <data name="menu_Title_HelpTopics" xml:space="preserve">
+    <value>Help topics</value>
+  </data>
+  <data name="menu_Title_HelpTutorials" xml:space="preserve">
+    <value>Tutorials, tips and help</value>
+  </data>
+  <data name="menu_Title_Infos" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="menu_Title_InstructionManual" xml:space="preserve">
+    <value>Instructions for use</value>
+  </data>
+  <data name="menu_Title_Legal_Infos" xml:space="preserve">
+    <value>Legal information</value>
+  </data>
+  <data name="menu_Title_MyProfile" xml:space="preserve">
+    <value>Personal data</value>
+  </data>
+  <data name="menu_Title_TermsOfUse" xml:space="preserve">
+    <value>Terms of use</value>
+  </data>
+  <data name="messagesView_navBarTitle" xml:space="preserve">
+    <value>My news</value>
+  </data>
+  <data name="notificationChannelName_Default" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="notificationChannelName_Services" xml:space="preserve">
+    <value>KINDwings Services</value>
+  </data>
+  <data name="oem_appName" xml:space="preserve">
+    <value>KINDwings</value>
+  </data>
+  <data name="oem_companyContactMail" xml:space="preserve">
+    <value>info@kind.com</value>
+  </data>
+  <data name="oem_companyName" xml:space="preserve">
+    <value>KIND GmbH &amp; Co. KG</value>
+  </data>
+  <data name="oem_companyPhoneNumber" xml:space="preserve">
+    <value>+49 - 800 - 6 999 333</value>
+  </data>
+  <data name="oem_companyPostalCodeCity" xml:space="preserve">
+    <value>D-30938 Großburgwedel</value>
+  </data>
+  <data name="oem_companyState" xml:space="preserve">
+    <value>Germany</value>
+  </data>
+  <data name="oem_companyStreet" xml:space="preserve">
+    <value>Kokenhorststraße 3-5</value>
+  </data>
+  <data name="oem_support_desc_1" xml:space="preserve">
+    <value>Please contact your KIND hearing care professional or our hotline:</value>
+  </data>
+  <data name="oem_support_desc_2" xml:space="preserve">
+    <value>Our staff are available to assist Mon - Fri from 9am - 6 pm (Saturdays 9am - 1pm).</value>
+  </data>
+  <data name="oem_website_url" xml:space="preserve">
+    <value>www.kind.com</value>
+  </data>
+  <data name="popup_btClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="popup_InstrumentInfoTitle" xml:space="preserve">
+    <value>KIND hearing system information</value>
+  </data>
+  <data name="programmsMenuPage_FavoritsPrograms" xml:space="preserve">
+    <value>Hearing programs</value>
+  </data>
+  <data name="programmsMenuPage_PresetPrograms" xml:space="preserve">
+    <value>Preset</value>
+  </data>
+  <data name="programmsMenuPage_StreamingPrograms" xml:space="preserve">
+    <value>Streaming</value>
+  </data>
+  <data name="programmsMenuPage_Title" xml:space="preserve">
+    <value>Hearing programs</value>
+  </data>
+  <data name="program_auto_changed_description" xml:space="preserve">
+    <value>'{0}' was activated</value>
+  </data>
+  <data name="program_auto_changed_subtitle" xml:space="preserve">
+    <value>Hearing system program was changed automatically!</value>
+  </data>
+  <data name="program_auto_changed_title" xml:space="preserve">
+    <value>Hearing aid program changed automatically</value>
+  </data>
+  <data name="prog_AutomationConnectedBluetooth" xml:space="preserve">
+    <value>Connected to Blueooth device</value>
+  </data>
+  <data name="prog_AutomationConnectedLocation" xml:space="preserve">
+    <value>Connected to location</value>
+  </data>
+  <data name="prog_AutomationConnectedScanWifi" xml:space="preserve">
+    <value>Detecting Wi-Fi</value>
+  </data>
+  <data name="prog_AutomationConnectedWiFi" xml:space="preserve">
+    <value>Connected to Wi-Fi</value>
+  </data>
+  <data name="prog_AutomationConnectedWiFiDesc" xml:space="preserve">
+    <value>This hearing system program is automatically activated when connected to this Wi-Fi.</value>
+  </data>
+  <data name="prog_AutomationConnectedWiFiDescSsid" xml:space="preserve">
+    <value>SSID: </value>
+  </data>
+  <data name="prog_AutomationConnectedWifiNotFound" xml:space="preserve">
+    <value>No Wi-Fi detected. Make sure that the device is connected.</value>
+  </data>
+  <data name="prog_AutomationConnectionAndroid8Hint" xml:space="preserve">
+    <value>For Android devices with Version 8 or later, access to location data is required.</value>
+  </data>
+  <data name="prog_AutomationConnectionIos13Hint" xml:space="preserve">
+    <value>For iOS devices with Version 13 or later, access to location data is required.</value>
+  </data>
+  <data name="prog_AutomationConnectToBluetooth" xml:space="preserve">
+    <value>Connect to Bluetooth device</value>
+  </data>
+  <data name="prog_AutomationConnectToLocation" xml:space="preserve">
+    <value>Connect to location</value>
+  </data>
+  <data name="prog_AutomationConnectToLocationInsufficientLocationPermissions" xml:space="preserve">
+    <value>Permission to collect location data in the background was denied or service is disabled. Setting a location for a hearing program is disabled.</value>
+  </data>
+  <data name="prog_AutomationConnectToWiFi" xml:space="preserve">
+    <value>Connect to Wi-Fi</value>
+  </data>
+  <data name="prog_AutomationDescription" xml:space="preserve">
+    <value>You can connect your hearing program to a specific location or to Wi-Fi. Your hearing program will then start automatically.</value>
+  </data>
+  <data name="prog_btCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="prog_btChangeIcon" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="prog_btParamValueTinnitusActiveTitle" xml:space="preserve">
+    <value>Noise</value>
+  </data>
+  <data name="prog_btParamValueTinnitusBack" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="prog_btParamValueTinnitusMixerTitle" xml:space="preserve">
+    <value>Noise mixer</value>
+  </data>
+  <data name="prog_btParamValueTinnitusSettingsTitle" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="prog_btSaveSettings" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="prog_dlgChangeProgramDescription" xml:space="preserve">
+    <value>You are in an area you have defined. Should the KIND hearing system switch to the appropriate situation?</value>
+  </data>
+  <data name="prog_dlgChangeProgramTitle" xml:space="preserve">
+    <value>Program switching</value>
+  </data>
+  <data name="prog_dlgGeofenceAlreadyExist" xml:space="preserve">
+    <value>Unfortunately, the position you have chosen has already been used. Please specify a different position.</value>
+  </data>
+  <data name="prog_dlgWifiAlreadyExist" xml:space="preserve">
+    <value>You have already connected this network to another hearing program.</value>
+  </data>
+  <data name="prog_IsAutomationActive" xml:space="preserve">
+    <value>Start hearing program automatically</value>
+  </data>
+  <data name="prog_msgButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="prog_msgButtonOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="prog_msgCancelFavoritCreationButtonOK" xml:space="preserve">
+    <value>Discard</value>
+  </data>
+  <data name="prog_msgCancelFavoritCreationMessage" xml:space="preserve">
+    <value>Your hearing program "{0}" will not be saved.</value>
+  </data>
+  <data name="prog_msgCancelFavoritCreationMessageNoname" xml:space="preserve">
+    <value>Your hearing program will not be saved.</value>
+  </data>
+  <data name="prog_msgCancelFavoritCreationTitle" xml:space="preserve">
+    <value>Discard hearing program?</value>
+  </data>
+  <data name="prog_msgDeleteButtonOK" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="prog_msgDeleteMessage" xml:space="preserve">
+    <value>Do you really want to delete the hearing program "{0}"?</value>
+  </data>
+  <data name="prog_msgDeleteTitle" xml:space="preserve">
+    <value>Delete hearing program</value>
+  </data>
+  <data name="prog_msgErrorNoIconMessage" xml:space="preserve">
+    <value>Select an icon for the program!</value>
+  </data>
+  <data name="prog_msgErrorNoIconTitle" xml:space="preserve">
+    <value>No program icon</value>
+  </data>
+  <data name="prog_msgErrorNoProgramNameMessage" xml:space="preserve">
+    <value>Please give the hearing program a name!</value>
+  </data>
+  <data name="prog_msgErrorNoProgramNameTitle" xml:space="preserve">
+    <value>No program name</value>
+  </data>
+  <data name="prog_msgResetButtonOK" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="prog_msgResetMessage" xml:space="preserve">
+    <value>Do you really want to reset the hearing program parameters?</value>
+  </data>
+  <data name="prog_msgResetTitle" xml:space="preserve">
+    <value>Reset hearing program?</value>
+  </data>
+  <data name="prog_pageTitle" xml:space="preserve">
+    <value>Hearing programs</value>
+  </data>
+  <data name="prog_ParamAutoProgramDescription" xml:space="preserve">
+    <value>Automatic active.
+The hearing systems recognize the hearing situation and adjust themselves automatically.</value>
+  </data>
+  <data name="prog_ParamAutoProgramSwitchText" xml:space="preserve">
+    <value>Auto program enabled:</value>
+  </data>
+  <data name="prog_ParamAutoProgramTitle" xml:space="preserve">
+    <value>Automatic</value>
+  </data>
+  <data name="prog_ParamBinauralDescription" xml:space="preserve">
+    <value>Set different volume for right and left</value>
+  </data>
+  <data name="prog_ParamBinauralSwitch" xml:space="preserve">
+    <value>Binaural separation</value>
+  </data>
+  <data name="prog_ParamBinauralTitle" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="prog_ParamBtCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="prog_ParamBtSave" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="prog_ParamEqualizerDescription" xml:space="preserve">
+    <value>Reduces or increases depths, mids and highs in the sound spectrum</value>
+  </data>
+  <data name="prog_ParamEqualizerHigh" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="prog_ParamEqualizerLow" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="prog_ParamEqualizerMid" xml:space="preserve">
+    <value>Mid</value>
+  </data>
+  <data name="prog_ParamEqualizerTitle" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="prog_ParamNoiseReductionDescription" xml:space="preserve">
+    <value>Reduces noise in your immediate surroundings.</value>
+  </data>
+  <data name="prog_ParamNoiseReductionTitle" xml:space="preserve">
+    <value>Noise reduction</value>
+  </data>
+  <data name="prog_ParamSpeechFocusDescription" xml:space="preserve">
+    <value>Configure the directionality of your KIND hearing system to the viewing direction.</value>
+  </data>
+  <data name="prog_ParamSpeechFocusTitle" xml:space="preserve">
+    <value>Speech focus</value>
+  </data>
+  <data name="prog_ParamSpeechStrengthDescription" xml:space="preserve">
+    <value>Strengthens human speech in your immediate surroundings.</value>
+  </data>
+  <data name="prog_ParamSpeechStrengthTitle" xml:space="preserve">
+    <value>Speech</value>
+  </data>
+  <data name="prog_ParamStreamingDescription" xml:space="preserve">
+    <value>Adjust the volume of your surroundings in relation to the audio source.</value>
+  </data>
+  <data name="prog_ParamStreamingEnvironment" xml:space="preserve">
+    <value>Environment</value>
+  </data>
+  <data name="prog_ParamStreamingSource" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="prog_ParamStreamingTitle" xml:space="preserve">
+    <value>Streaming</value>
+  </data>
+  <data name="prog_ParamTinnitusDescription" xml:space="preserve">
+    <value>Here you can activate the tinnitus program, adjusting both the volume and sound of the noise.</value>
+  </data>
+  <data name="prog_ParamTinnitusTitle" xml:space="preserve">
+    <value>Tinnitus</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionBoost" xml:space="preserve">
+    <value>Boost</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionHigh" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionLow" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionOff" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="prog_ParamValueNumeric0" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="prog_ParamValueNumeric1" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="prog_ParamValueNumeric2" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="prog_ParamValueNumeric3" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="prog_ParamValueOff" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="prog_ParamValueOn" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="prog_ParamValueSpeechFocusAuto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="prog_ParamValueSpeechFocusCentered" xml:space="preserve">
+    <value>Front</value>
+  </data>
+  <data name="prog_ParamValueSpeechFocusOff" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="prog_ParamValueTinnitusAmplificationHigh" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="prog_ParamValueTinnitusAmplificationLow" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="prog_ParamValueTinnitusAmplificationTitle" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="prog_ParamValueTinnitusDynamic" xml:space="preserve">
+    <value>Dynamic</value>
+  </data>
+  <data name="prog_ParamValueTinnitusEqualizerTitle" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="prog_ParamValueTinnitusFast" xml:space="preserve">
+    <value>Fast</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMedium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMixerActivate" xml:space="preserve">
+    <value>Mix ambient noise with tinnitus</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMixerEnvironment" xml:space="preserve">
+    <value>Environment</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMixerTinnitus" xml:space="preserve">
+    <value>Noise</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMixerTitle" xml:space="preserve">
+    <value>Noise mixer</value>
+  </data>
+  <data name="prog_ParamValueTinnitusOff" xml:space="preserve">
+    <value>Static</value>
+  </data>
+  <data name="prog_ParamValueTinnitusSettingsTitle" xml:space="preserve">
+    <value>Setting noise</value>
+  </data>
+  <data name="prog_ParamValueTinnitusSlow" xml:space="preserve">
+    <value>Slow</value>
+  </data>
+  <data name="prog_ParamValueTinnitusStatic" xml:space="preserve">
+    <value>Static</value>
+  </data>
+  <data name="prog_ParamValueTinnitusTypeTitle" xml:space="preserve">
+    <value>Modulation</value>
+  </data>
+  <data name="prog_ParamWindShieldDescription" xml:space="preserve">
+    <value>Reduces wind noise in your immediate environment.</value>
+  </data>
+  <data name="prog_ParamWindShieldTitle" xml:space="preserve">
+    <value>Wind filter</value>
+  </data>
+  <data name="prog_ParamWritingData" xml:space="preserve">
+    <value>Save changes</value>
+  </data>
+  <data name="prog_SettingsActionAutomation" xml:space="preserve">
+    <value>Auto hearing program start</value>
+  </data>
+  <data name="prog_SettingsActionChangeIcon" xml:space="preserve">
+    <value>Customize the icon</value>
+  </data>
+  <data name="prog_SettingsActionChangeName" xml:space="preserve">
+    <value>Customize name</value>
+  </data>
+  <data name="prog_SettingsActionCreateFavorite" xml:space="preserve">
+    <value>Create hearing program</value>
+  </data>
+  <data name="prog_SettingsActionDeleteFavorite" xml:space="preserve">
+    <value>Delete hearing program</value>
+  </data>
+  <data name="prog_SettingsActionReset" xml:space="preserve">
+    <value>Reset hearing program</value>
+  </data>
+  <data name="prog_SettingsAppReset" xml:space="preserve">
+    <value>Do you really want to reset the app?</value>
+  </data>
+  <data name="prog_SettingsAppResetTitle" xml:space="preserve">
+    <value>Reset app</value>
+  </data>
+  <data name="prog_SettingsAutomationIsActivated" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="prog_SettingsAutomationIsNotActivated" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="prog_SettingsDescription" xml:space="preserve">
+    <value>Here you can customize your hearing program, reset it or create a hearing program from your current settings. You can also get your hearing program to start automatically.</value>
+  </data>
+  <data name="prog_SettingsDescriptionAutoProgram" xml:space="preserve">
+    <value>Here you can customize your hearing program.
+In automatic mode, you can only change the name and icon of the program. All other settings are managed automatically.</value>
+  </data>
+  <data name="remoteHelp_Description1" xml:space="preserve">
+    <value>Insert text (Remote Help Description 1)</value>
+  </data>
+  <data name="remoteHelp_Description2" xml:space="preserve">
+    <value>Insert text (Remote Help Description 2)</value>
+  </data>
+  <data name="remoteHelp_DescriptionTitle1" xml:space="preserve">
+    <value>Introduction</value>
+  </data>
+  <data name="remoteHelp_DescriptionTitle2" xml:space="preserve">
+    <value>Detail information</value>
+  </data>
+  <data name="remoteHelp_PageTitle" xml:space="preserve">
+    <value>Help with installing new adjustment settings</value>
+  </data>
+  <data name="remove_hearingaid_title" xml:space="preserve">
+    <value>Remove KIND hearing systems</value>
+  </data>
+  <data name="remove_hearing_aid_Desc" xml:space="preserve">
+    <value>Here you can remove the current link to a KIND hearing system.</value>
+  </data>
+  <data name="remove_left_hearing_aid" xml:space="preserve">
+    <value>Remove left KIND hearing system</value>
+  </data>
+  <data name="remove_right_hearing_aid" xml:space="preserve">
+    <value>Remove right KIND hearing system</value>
+  </data>
+  <data name="selectDevices_btCancelScan" xml:space="preserve">
+    <value>Cancel search</value>
+  </data>
+  <data name="selectDevices_btConnectDevices" xml:space="preserve">
+    <value>Connect KIND hearing systems</value>
+  </data>
+  <data name="selectDevices_Description" xml:space="preserve">
+    <value>The KINDwings app is now looking for your KIND hearing systems. This process may take some time.
+
+Please select your hearing systems from the list and confirm your selection with "Connect KIND hearing systems".</value>
+  </data>
+  <data name="selectDevices_DlgConfirmHearingAidManagementbtConfirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="selectDevices_DlgConfirmHearingAidManagementDescription" xml:space="preserve">
+    <value>Please confirm that the app should use your newly selected KIND hearing systems.</value>
+  </data>
+  <data name="selectDevices_DlgConfirmHearingAidManagementTitle" xml:space="preserve">
+    <value>Change KIND hearing system?</value>
+  </data>
+  <data name="selectDevices_NotifyNoHearingAidsSelected" xml:space="preserve">
+    <value>You cannot disable all KIND hearing systems.
+Please select the devices that you would like to use in the app!</value>
+  </data>
+  <data name="selectDevices_PageTitle" xml:space="preserve">
+    <value>Select KIND hearing systems</value>
+  </data>
+  <data name="selectDevices_ScanMessage" xml:space="preserve">
+    <value>Searching for KIND hearing systems</value>
+  </data>
+  <data name="selectDevices_SideLeft" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="selectDevices_SideRight" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="selectDevices_SubTitle" xml:space="preserve">
+    <value>KIND hearing systems found:</value>
+  </data>
+  <data name="selectDevices_SubTitleKnownDevices" xml:space="preserve">
+    <value>KIND hearing systems used</value>
+  </data>
+  <data name="settingPage_LanguageInfoDesc" xml:space="preserve">
+    <value>Please choose a language from the list below:</value>
+  </data>
+  <data name="settingsPage_AppMode" xml:space="preserve">
+    <value>Demo mode</value>
+  </data>
+  <data name="settingsPage_AppMode_Demo" xml:space="preserve">
+    <value>Demo</value>
+  </data>
+  <data name="settingsPage_AppMode_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="settingsPage_AutomChangeFav" xml:space="preserve">
+    <value>Auto hearing program change</value>
+  </data>
+  <data name="settingsPage_BatteryTest" xml:space="preserve">
+    <value>Battery testing</value>
+  </data>
+  <data name="settingsPage_Binaural" xml:space="preserve">
+    <value>Binaural volume</value>
+  </data>
+  <data name="settingsPage_ConnectedDevice" xml:space="preserve">
+    <value>My KIND hearing system</value>
+  </data>
+  <data name="settingsPage_ConnectedDevices" xml:space="preserve">
+    <value>My KIND hearing systems</value>
+  </data>
+  <data name="settingsPage_Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="settingsPage_Notes" xml:space="preserve">
+    <value>Representation</value>
+  </data>
+  <data name="settingsPage_Permissions" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="settingsPage_Records" xml:space="preserve">
+    <value>My recordings</value>
+  </data>
+  <data name="settingsPage_StreamingSource" xml:space="preserve">
+    <value>Streaming sources</value>
+  </data>
+  <data name="settingsPage_SubTitle_AppDevelopment" xml:space="preserve">
+    <value>App development</value>
+  </data>
+  <data name="settingsPage_SubTitle_AppSettings" xml:space="preserve">
+    <value>App Settings</value>
+  </data>
+  <data name="settingsPage_SubTitle_HearingSystem" xml:space="preserve">
+    <value>KIND hearing system</value>
+  </data>
+  <data name="settingsPage_Title" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="settingsPage_Widgets" xml:space="preserve">
+    <value>Widgets</value>
+  </data>
+  <data name="settings_AppMode_Title" xml:space="preserve">
+    <value>Please select the mode in which you wish to use the app.</value>
+  </data>
+  <data name="settings_languageChangingAnimation" xml:space="preserve">
+    <value>Changing app language...</value>
+  </data>
+  <data name="settings_languageTitle" xml:space="preserve">
+    <value>Choose a language from the list.</value>
+  </data>
+  <data name="start_btStartScanning" xml:space="preserve">
+    <value>Start scan</value>
+  </data>
+  <data name="start_initializeHardware" xml:space="preserve">
+    <value>Checking hardware ...</value>
+  </data>
+  <data name="start_msg_Welcome" xml:space="preserve">
+    <value>Welcome to the app.</value>
+  </data>
+  <data name="start_PageTitle" xml:space="preserve">
+    <value>Hardware testing successful</value>
+  </data>
+  <data name="start_StartHearingModeForDevices" xml:space="preserve">
+    <value>You can now connect your KIND hearing systems.
+
+Please turn your hearing systems off and then on again and confirm with "Start Scan".</value>
+  </data>
+  <data name="toast_max_favorite_msg" xml:space="preserve">
+    <value>Unfortunately, you cannot create any more hearing programs.</value>
+  </data>
+  <data name="txtLeftSideShort" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="txtRightSideShort" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="welcomePageInfoText" xml:space="preserve">
+    <value>Thank you for downloading this app. This app allows you to:
+ • Control your hearing systems
+ • Create your own hearing programs
+ • Obtain information about your hearing solution
+ • Create statistics regarding the use of your hearing systems
+ • Contact support</value>
+  </data>
+  <data name="welcomePageMoreInfo" xml:space="preserve">
+    <value>More about the app</value>
+  </data>
+  <data name="welcome_btDemoMode" xml:space="preserve">
+    <value>Start in demo mode</value>
+  </data>
+  <data name="welcome_btStartInit" xml:space="preserve">
+    <value>Set up now</value>
+  </data>
+  <data name="welcome_PageTitle" xml:space="preserve">
+    <value>Welcome!</value>
+  </data>
+  <data name="widget_BatteryLeft" xml:space="preserve">
+    <value>Left battery:</value>
+  </data>
+  <data name="widget_BatteryRight" xml:space="preserve">
+    <value>Right battery:</value>
+  </data>
+  <data name="widget_EmptyViewTest" xml:space="preserve">
+    <value>The app is closed. To use the widget you must start the app. Touch here to start the app.</value>
+  </data>
+  <data name="widget_Title" xml:space="preserve">
+    <value>KIND</value>
+  </data>
+  <data name="wifi_Connected_Fallback" xml:space="preserve">
+    <value>Please connect to Wi-Fi if you want to use this.</value>
+  </data>
+</root>

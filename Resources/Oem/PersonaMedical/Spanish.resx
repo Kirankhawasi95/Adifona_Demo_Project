@@ -1,0 +1,1957 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addNewHearingInstrument_Btn_Text" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="add_hearing_aid_title" xml:space="preserve">
+    <value>Añadir audífono</value>
+  </data>
+  <data name="AndroidServiceDescriptionBothConnected" xml:space="preserve">
+    <value>Ambos audífonos ya están conectados.</value>
+  </data>
+  <data name="AndroidServiceDescriptionLeftConnected" xml:space="preserve">
+    <value>El audífono izquierdo ya está conectado.</value>
+  </data>
+  <data name="AndroidServiceDescriptionNoneConnected" xml:space="preserve">
+    <value>Hasta ahora no se ha conectado ningún audífono.</value>
+  </data>
+  <data name="AndroidServiceDescriptionRightConnected" xml:space="preserve">
+    <value>El audífono derecho ya está conectado.</value>
+  </data>
+  <data name="audio_streaming_start" xml:space="preserve">
+    <value>Activar micrófono</value>
+  </data>
+  <data name="audio_streaming_stop" xml:space="preserve">
+    <value>Desactivar micrófono</value>
+  </data>
+  <data name="automationHelpPageDescription" xml:space="preserve">
+    <value>La función de inicio automático le permite iniciar su programa de escucha automáticamente con una de estas dos opciones:</value>
+  </data>
+  <data name="automationHelpPageGeoDescription" xml:space="preserve">
+    <value>Puede iniciar su programa de escucha cerca de un lugar específico, por ejemplo, un restaurante.</value>
+  </data>
+  <data name="automationHelpPageGeoHeader" xml:space="preserve">
+    <value>Conectarse a un lugar</value>
+  </data>
+  <data name="automationHelpPageTitle" xml:space="preserve">
+    <value>Inicio automático</value>
+  </data>
+  <data name="automationHelpPageWifiDescription" xml:space="preserve">
+    <value>Puede hacer que su programa de escucha se inicie automáticamente una vez que su teléfono inteligente se haya conectado con una red inalámbrica (wifi).</value>
+  </data>
+  <data name="automationHelpPageWifiHeader" xml:space="preserve">
+    <value>Conectarse a una red wifi</value>
+  </data>
+  <data name="bluetoothAcivatePageTitle" xml:space="preserve">
+    <value>Activar Bluetooth</value>
+  </data>
+  <data name="bluetoothChoosePageTitle" xml:space="preserve">
+    <value>Seleccionar audífono</value>
+  </data>
+  <data name="bluetoothStartPageInfoText" xml:space="preserve">
+    <value>Encienda su audífono y asegúrese de que se encuentra cerca de su teléfono inteligente.</value>
+  </data>
+  <data name="bluetoothStartPageTitle" xml:space="preserve">
+    <value>Activar Bluetooth</value>
+  </data>
+  <data name="bt_accept" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="bt_ActivateBluetooth" xml:space="preserve">
+    <value>Activar Bluetooth</value>
+  </data>
+  <data name="bt_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="bt_Next" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="bt_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="bt_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="bt_send" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="bt_Settings" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="bt_Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="changeHearingInstrument_Btn_Text" xml:space="preserve">
+    <value>Reemplazar</value>
+  </data>
+  <data name="change_hearing_aid_Desc" xml:space="preserve">
+    <value>Aquí puede reemplazar un audífono actualmente conectado.</value>
+  </data>
+  <data name="change_hearing_aid_Title" xml:space="preserve">
+    <value>Reemplazar audífonos</value>
+  </data>
+  <data name="change_left_hearing_aid" xml:space="preserve">
+    <value>Reemplazar audífono izquierdo</value>
+  </data>
+  <data name="change_right_hearing_aid" xml:space="preserve">
+    <value>Reemplazar audífono derecho</value>
+  </data>
+  <data name="def_HA_LewiR_Modelname" xml:space="preserve">
+    <value>Sombra XR</value>
+  </data>
+  <data name="def_HA_LewiS_Modelname" xml:space="preserve">
+    <value>Sombra XS</value>
+  </data>
+  <data name="def_HA_RisaR_Modelname" xml:space="preserve">
+    <value>Sombra VR</value>
+  </data>
+  <data name="def_HA_RisaS_Modelname" xml:space="preserve">
+    <value>Sombra VS</value>
+  </data>
+  <data name="def_Sit_AudioStreaming_Icon" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="def_Sit_AudioStreaming_Name" xml:space="preserve">
+    <value>Transmisión de audio</value>
+  </data>
+  <data name="def_Sit_Automatic_Icon" xml:space="preserve">
+    <value>¿</value>
+  </data>
+  <data name="def_Sit_Automatic_Name" xml:space="preserve">
+    <value>Modo automático</value>
+  </data>
+  <data name="def_Sit_Basic_Icon" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="def_Sit_Basic_Name" xml:space="preserve">
+    <value>Programa básico</value>
+  </data>
+  <data name="def_Sit_Comfort_Icon" xml:space="preserve">
+    <value>r</value>
+  </data>
+  <data name="def_Sit_Comfort_Name" xml:space="preserve">
+    <value>Comodidad</value>
+  </data>
+  <data name="def_Sit_Music_Icon" xml:space="preserve">
+    <value>¢</value>
+  </data>
+  <data name="def_Sit_Music_Name" xml:space="preserve">
+    <value>Música</value>
+  </data>
+  <data name="def_Sit_Noise_Icon" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="def_Sit_Noise_Name" xml:space="preserve">
+    <value>Interferencia </value>
+  </data>
+  <data name="def_Sit_Phone_Icon" xml:space="preserve">
+    <value>q</value>
+  </data>
+  <data name="def_Sit_Phone_Name" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="def_Sit_TinnitusOnly_Icon" xml:space="preserve">
+    <value>¶</value>
+  </data>
+  <data name="def_Sit_TinnitusOnly_Name" xml:space="preserve">
+    <value>Tinnitus</value>
+  </data>
+  <data name="def_Sit_Wind_Icon" xml:space="preserve">
+    <value>g</value>
+  </data>
+  <data name="def_Sit_Wind_Name" xml:space="preserve">
+    <value>Viento</value>
+  </data>
+  <data name="demoModeStart" xml:space="preserve">
+    <value>Iniciar modo Demo</value>
+  </data>
+  <data name="demoPageTitle" xml:space="preserve">
+    <value>Modo Demo</value>
+  </data>
+  <data name="describe_hearing_aid_problem_desc" xml:space="preserve">
+    <value>Describa brevemente su problema de audición para poder ayudarle mejor.</value>
+  </data>
+  <data name="device_BatteryLevelValue" xml:space="preserve">
+    <value>Nivel de carga</value>
+  </data>
+  <data name="device_NameTitle" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="device_SerialNumberTitle" xml:space="preserve">
+    <value>Número de serie</value>
+  </data>
+  <data name="device_TypeTitle" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="device_UdiTitle" xml:space="preserve">
+    <value>Identificador universal de dispositivos (UDI)</value>
+  </data>
+  <data name="dialog_ActivateDemo_Desc" xml:space="preserve">
+    <value>¿Quiere cambiar al modo Demo?</value>
+  </data>
+  <data name="dialog_ActivateDemo_Title" xml:space="preserve">
+    <value>Activar el modo Demo</value>
+  </data>
+  <data name="dialog_Btn_Settings" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="dialog_Cancel_Connection_Desc" xml:space="preserve">
+    <value>Cancelar conexión</value>
+  </data>
+  <data name="dialog_Cancel_Connection_Title" xml:space="preserve">
+    <value>Cancelar conexión</value>
+  </data>
+  <data name="dialog_CloseDemo_Desc" xml:space="preserve">
+    <value>¿Quiere salir ahora del modo Demo?</value>
+  </data>
+  <data name="dialog_CloseDemo_Title" xml:space="preserve">
+    <value>Salir del modo Demo</value>
+  </data>
+  <data name="dialog_disconnect_hearingaids_btn_disconnect" xml:space="preserve">
+    <value>Desconectar</value>
+  </data>
+  <data name="dialog_disconnect_hearingaids_desc" xml:space="preserve">
+    <value>¿Realmente quiere desconectar estos audífonos?</value>
+  </data>
+  <data name="dialog_disconnect_hearingaids_title" xml:space="preserve">
+    <value>Finalizar conexión</value>
+  </data>
+  <data name="dialog_GeoLoc_InUse_User_Denied_Desc" xml:space="preserve">
+    <value>Ha denegado el permiso de los servicios de ubicación mientras utiliza la aplicación. Si desea utilizar esta función, configure el permiso en los ajustes de su teléfono inteligente.</value>
+  </data>
+  <data name="dialog_GeoLoc_InUse_User_Denied_Find_Desc" xml:space="preserve">
+    <value>Usted ha denegado el permiso para utilizar el servicio de localización durante el uso de la aplicación Persona Medical. Este permiso es necesario para la función de «Buscar audífonos». Si desea utilizar esta función, establezca el permiso correspondiente en los ajustes.</value>
+  </data>
+  <data name="dialog_GeoLoc_InUse_User_Denied_Start_Desc" xml:space="preserve">
+    <value>Usted ha denegado el permiso para utilizar el servicio de localización durante el uso de la aplicación Persona Medical. Este permiso es necesario para la función de «Inicio automático del programa de escucha». Si desea utilizar esta función, establezca el permiso correspondiente en los ajustes.</value>
+  </data>
+  <data name="dialog_GeoLoc_User_Denied_Desc" xml:space="preserve">
+    <value>Ha denegado el permiso de los servicios de ubicación. Si desea utilizar esta función, configure el permiso en los ajustes de su teléfono inteligente.</value>
+  </data>
+  <data name="dialog_Info_Title" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="dialog_InternetConnectionRequired" xml:space="preserve">
+    <value>Para utilizar este servicio se requiere una conexión activa a Internet.</value>
+  </data>
+  <data name="dialog_LoadUserProfileFailed" xml:space="preserve">
+    <value>El perfil no se pudo cargar por imposibilidad de establecer la conexión.</value>
+  </data>
+  <data name="dialog_promoteUserToUseThisFunctionalityDescription" xml:space="preserve">
+    <value>Para utilizar esta función debe asociar su usuario a su cuenta.</value>
+  </data>
+  <data name="dialog_promoteUserToUseThisFunctionalityTitle" xml:space="preserve">
+    <value>Usuario no conectado</value>
+  </data>
+  <data name="dialog_remove_hearingaid_btn_remove" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="dialog_remove_hearingaid_desc" xml:space="preserve">
+    <value>¿Realmente quiere eliminar este audífono?</value>
+  </data>
+  <data name="dialog_remove_hearingaid_title" xml:space="preserve">
+    <value>¡Importante!</value>
+  </data>
+  <data name="dialog_scanDevicesAgainDesc" xml:space="preserve">
+    <value>¿Quiere buscar otros audífonos disponibles?</value>
+  </data>
+  <data name="dialog_scanDevicesAgainOkButton" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="dialog_scanDevicesAgainTitle" xml:space="preserve">
+    <value>Buscar audífonos</value>
+  </data>
+  <data name="dialog_ServiceNotAvailable" xml:space="preserve">
+    <value>Este servicio no está disponible actualmente.</value>
+  </data>
+  <data name="dlg_autoProgramStart_backgroundLocation_hint" xml:space="preserve">
+    <value>Para utilizar la función de «Inicio automático del programa de escucha», la aplicación Persona Medical recopila los datos de localización, incluso si la aplicación se ejecuta en segundo plano.</value>
+  </data>
+  <data name="dlg_autoProgramStart_backgroundLocation_permissionDialog" xml:space="preserve">
+    <value>Abra los ajustes de localización para permitir que la aplicación Persona Medical utilice siempre la ubicación. Esto es necesario para utilizar la función de «Inicio automático del programa de escucha».</value>
+  </data>
+  <data name="dlg_autoProgramStart_backgroundLocation_preCheck" xml:space="preserve">
+    <value>La aplicación Persona Medical recoge los datos de localización para activar el inicio automático del programa de escucha, incluso si la aplicación se ejecuta únicamente en segundo plano. Usted ha denegado el permiso «Permitir siempre» para el acceso a la ubicación. Si desea utilizar la función de inicio automático del programa de escucha, habilite el permiso en los ajustes.</value>
+  </data>
+  <data name="dlg_autoProgramStart_fineBackgroundLocation_preCheck" xml:space="preserve">
+    <value>Abra los ajustes de localización para permitir que la aplicación Persona Medical utilice siempre la ubicación. Esto es necesario para utilizar la función de «Inicio automático del programa de escucha».</value>
+  </data>
+  <data name="dlg_connect_bluetoothConnect_preCheck" xml:space="preserve">
+    <value>Usted ha denegado el permiso para acceder a «Dispositivos cercanos». Este permiso es necesario para que la aplicación Persona Medical pueda conectarse con sus audífonos. Establezca el permiso correspondiente en el menú de ajustes de la aplicación.</value>
+  </data>
+  <data name="dlg_disabled_location_service_all_functions_description" xml:space="preserve">
+    <value>Para utilizar las funciones de buscar audífonos o inicio automático del programa de escucha basado en la posición, confirme el siguiente cuadro de diálogo.</value>
+  </data>
+  <data name="dlg_disabled_location_service_auto_program_description" xml:space="preserve">
+    <value>Para iniciar el programa de escucha automático basado en la posición, es necesario activar los servicios de localización. Confirme el siguiente cuadro de diálogo con «ACEPTAR».</value>
+  </data>
+  <data name="dlg_disabled_location_service_ble_scan_description" xml:space="preserve">
+    <value>Para buscar sus audífonos, es necesario activar los servicios de localización. Confirme el siguiente cuadro de diálogo con «ACEPTAR».</value>
+  </data>
+  <data name="dlg_disabled_location_service_title" xml:space="preserve">
+    <value>Localización desactivada</value>
+  </data>
+  <data name="dlg_discovery_bluetoothScanConnect_hint" xml:space="preserve">
+    <value>Para buscar los audífonos, debe permitir que la aplicación Persona Medical tenga acceso a «Dispositivos cercanos». Active esta función en el siguiente paso. </value>
+  </data>
+  <data name="dlg_discovery_bluetoothScanConnect_preCheck" xml:space="preserve">
+    <value>Usted ha denegado el permiso para acceder a «Dispositivos cercanos». Este permiso es necesario para que la aplicación Persona Medical pueda buscar sus audífonos y conectarse con ellos más adelante. Establezca el permiso correspondiente en el menú de ajustes de la aplicación.</value>
+  </data>
+  <data name="dlg_discovery_locationInUse_hint" xml:space="preserve">
+    <value>Para buscar los audífonos, debe otorgar permisos de localización durante el uso. Actívelos en el siguiente paso para encontrar y conectar sus audífonos.</value>
+  </data>
+  <data name="dlg_mapCurrentPosition_inUse_preCheck" xml:space="preserve">
+    <value>Usted ha denegado el permiso para utilizar el servicio de localización durante el uso de la aplicación Persona Medical. Este permiso es necesario para la función de «Ubicación actual en el mapa». Si desea utilizar esta función, establezca el permiso correspondiente en los ajustes.</value>
+  </data>
+  <data name="dlg_no_internet_desc" xml:space="preserve">
+    <value>Conecte su teléfono inteligente a Internet y luego ejecute esta acción nuevamente.</value>
+  </data>
+  <data name="dlg_no_internet_title" xml:space="preserve">
+    <value>Sin conexión a internet</value>
+  </data>
+  <data name="dlg_no_internet_warning_desc" xml:space="preserve">
+    <value>Algunas funciones no están disponibles mientras el dispositivo está desconectado.</value>
+  </data>
+  <data name="dlg_no_wifi_desc" xml:space="preserve">
+    <value>Conecte su teléfono inteligente a una red wifi y luego intente esta acción nuevamente.</value>
+  </data>
+  <data name="dlg_no_wifi_title" xml:space="preserve">
+    <value>Sin conexión a una red wifi</value>
+  </data>
+  <data name="dlg_permission_bluetooth_hint" xml:space="preserve">
+    <value>Para buscar o conectar sus audífonos, debe permitir que la aplicación Persona Medical tenga acceso a «Dispositivos cercanos». Active esta función en el siguiente paso. </value>
+  </data>
+  <data name="dlg_permission_bluetooth_preCheck" xml:space="preserve">
+    <value>Usted ha denegado el permiso para acceder a «Dispositivos cercanos». Este permiso es necesario para que la aplicación Persona Medical pueda buscar o conectarse con sus audífonos. Establezca el permiso correspondiente en el menú de ajustes de la aplicación.</value>
+  </data>
+  <data name="dlg_permission_location_hint" xml:space="preserve">
+    <value>Para algunas funciones, la aplicación requiere un permiso para establecer la ubicación. En el siguiente paso, autorice a la aplicación indicando «Permitir siempre».</value>
+  </data>
+  <data name="dlg_permission_location_in_use_find_hint" xml:space="preserve">
+    <value>Para utilizar la función de «Buscar audífonos», la aplicación Persona Medical requiere la autorización para determinar la ubicación. En el siguiente paso otorgue a la aplicación Persona Medical el permiso «Durante el uso».</value>
+  </data>
+  <data name="dlg_permission_location_in_use_hint" xml:space="preserve">
+    <value>Para algunas funciones, la aplicación Persona Medical requiere la autorización para determinar la ubicación. En el siguiente paso otorgue a la aplicación Persona Medical el permiso «Durante el uso».</value>
+  </data>
+  <data name="dlg_permission_title" xml:space="preserve">
+    <value>Permiso</value>
+  </data>
+  <data name="error_Connection_BothInstrumentErrorMessage" xml:space="preserve">
+    <value>No se pudo establecer una conexión con ninguno de sus audífonos. Compruebe que sus audífonos están encendidos e intente de nuevo.</value>
+  </data>
+  <data name="error_Connection_BothInstrumentErrorTitle" xml:space="preserve">
+    <value>Ambos audífonos no están conectados</value>
+  </data>
+  <data name="error_Connection_BothInstrumentUnsupportedErrorMessage" xml:space="preserve">
+    <value>A connection to your hearing systems could not be established because both of them are unsupported.</value>
+  </data>
+  <data name="error_Connection_BothInstrumentUnsupportedErrorTitle" xml:space="preserve">
+    <value>Both hearing systems are unsupported.</value>
+  </data>
+  <data name="error_Connection_GeneralErrorMessage" xml:space="preserve">
+    <value>No se pudo establecer una conexión con ninguno de sus audífonos. Compruebe que sus audífonos están encendidos e intente de nuevo.</value>
+  </data>
+  <data name="error_Connection_GeneralErrorTitle" xml:space="preserve">
+    <value>Error al conectar sus audífonos</value>
+  </data>
+  <data name="error_Connection_LeftInstrumentErrorMessage" xml:space="preserve">
+    <value>No se pudo establecer una conexión con su audífono izquierdo. Compruebe que el audífono está encendido e intente de nuevo. También puede utilizar la aplicación con un solo audífono.</value>
+  </data>
+  <data name="error_Connection_LeftInstrumentErrorTitle" xml:space="preserve">
+    <value>No hay conexión con su audífono izquierdo</value>
+  </data>
+  <data name="error_Connection_LeftInstrumentOnlyErrorMessage" xml:space="preserve">
+    <value>No se pudo establecer una conexión con su audífono izquierdo. Compruebe que el audífono está encendido e intente de nuevo. </value>
+  </data>
+  <data name="error_Connection_LeftInstrumentUnsupportedErrorMessage" xml:space="preserve">
+    <value>No connection could be established to the left hearing system because it is unsupported. You can still use the app with just one hearing system.</value>
+  </data>
+  <data name="error_Connection_LeftInstrumentUnsupportedErrorTitle" xml:space="preserve">
+    <value>Left hearing system not supported.</value>
+  </data>
+  <data name="error_Connection_ResolutionBackToSelectionMessage" xml:space="preserve">
+    <value>¿Seleccionó por error un audífono incorrecto?
+Vuelva al menú de selección y verifique el nombre de sus audífonos seleccionados.</value>
+  </data>
+  <data name="error_Connection_ResolutionBackToSelectionTitle" xml:space="preserve">
+    <value>Volver a la selección de audífonos</value>
+  </data>
+  <data name="error_Connection_ResolutionGotoFindHearingAidMessage" xml:space="preserve">
+    <value>Si perdió sus audífonos, la aplicación puede ayudarle a encontrarlos de nuevo. Para ello, pulse aquí.</value>
+  </data>
+  <data name="error_Connection_ResolutionGotoFindHearingAidTitle" xml:space="preserve">
+    <value>Encontrar mis audífonos</value>
+  </data>
+  <data name="error_Connection_ResolutionPairMessage" xml:space="preserve">
+    <value>Utilice el menú de ajustes de Bluetooth para emparejar, o volver a emparejar, sus audífonos con el smartphone. Después intente conectarse de nuevo.</value>
+  </data>
+  <data name="error_Connection_ResolutionPairTitle" xml:space="preserve">
+    <value>Emparejar mis audífonos</value>
+  </data>
+  <data name="error_Connection_ResolutionRetryMessage" xml:space="preserve">
+    <value>La aplicación intenta conectarse de nuevo. Reinicie los dispositivos, para ello debe apagarlos y encenderlos de nuevo.</value>
+  </data>
+  <data name="error_Connection_ResolutionRetryTitle" xml:space="preserve">
+    <value>Intentar conectarse de nuevo</value>
+  </data>
+  <data name="error_Connection_ResolutionUseOneInstrumentOnlyMessage" xml:space="preserve">
+    <value>La aplicación se conecta temporalmente con un solo audífono. Si desea volver a conectar ambos audífonos, desplácese hasta «Conectar audífonos» en el menú de ajustes de la aplicación o reinicie la aplicación.</value>
+  </data>
+  <data name="error_Connection_ResolutionUseOneInstrumentOnlyTitle" xml:space="preserve">
+    <value>Use temporalmente un solo audífono</value>
+  </data>
+  <data name="error_Connection_RightInstrumentErrorMessage" xml:space="preserve">
+    <value>No se pudo establecer una conexión con su audífono derecho. Compruebe que el audífono está encendido e intente de nuevo. También puede utilizar la aplicación con solamente un audífono.</value>
+  </data>
+  <data name="error_Connection_RightInstrumentErrorTitle" xml:space="preserve">
+    <value>No hay conexión con el audífono derecho</value>
+  </data>
+  <data name="error_Connection_RightInstrumentOnlyErrorMessage" xml:space="preserve">
+    <value>No se pudo establecer una conexión con su audífono derecho. Compruebe que el audífono está encendido e intente de nuevo.</value>
+  </data>
+  <data name="error_Connection_RightInstrumentUnsupportedErrorMessage" xml:space="preserve">
+    <value>No connection could be established to the right hearing system because it is unsupported. You can still use the app with just one hearing system.</value>
+  </data>
+  <data name="error_Connection_RightInstrumentUnsupportedErrorTitle" xml:space="preserve">
+    <value>Right hearing system not supported.</value>
+  </data>
+  <data name="error_Connection_UnsupportedHearingSystemErrorMessage" xml:space="preserve">
+    <value>Intentó conectarse a un sistema auditivo que no es compatible con esta versión de la aplicación.</value>
+  </data>
+  <data name="error_Connection_UnsupportedHearingSystemErrorTitle" xml:space="preserve">
+    <value>Dispositivos no compatibles</value>
+  </data>
+  <data name="error_Hardware_BluetoothMissingMessage" xml:space="preserve">
+    <value>Su teléfono inteligente no tiene Bluetooth. La aplicación requiere Bluetooth para comunicarse con sus audífonos. Lamentablemente, su teléfono inteligente no es adecuado para esto.</value>
+  </data>
+  <data name="error_Hardware_BluetoothMissingTitle" xml:space="preserve">
+    <value>No dispone de Bluetooth</value>
+  </data>
+  <data name="error_Hardware_BluetoothNotActivatedMessage" xml:space="preserve">
+    <value>Su teléfono inteligente tiene desactivado el Bluetooth. La aplicación requiere Bluetooth para poder comunicarse con sus audífonos.</value>
+  </data>
+  <data name="error_Hardware_BluetoothNotActivatedTitle" xml:space="preserve">
+    <value>Bluetooth está desactivado</value>
+  </data>
+  <data name="error_Hardware_LocationServiceDisabledMessage" xml:space="preserve">
+    <value>La localización está desactivada en su teléfono inteligente. La aplicación Persona Medical debe tener activada la localización para poder escanear y encontrar sus audífonos, así como para iniciar el programa de escucha automático.</value>
+  </data>
+  <data name="error_Hardware_LocationServiceDisabledTitle" xml:space="preserve">
+    <value>La localización está desactivada</value>
+  </data>
+  <data name="error_Hardware_NoHearingAidConnectPermissionMessage" xml:space="preserve">
+    <value>La aplicación Persona Medical no tiene permiso para establecer una conexión con sus audífonos. Seleccione «Configuración» en su teléfono inteligente para dar el permiso a la aplicación y así poder continuar.</value>
+  </data>
+  <data name="error_Hardware_NoHearingAidConnectPermissionTitle" xml:space="preserve">
+    <value>Sin permiso para conectar dispositivos</value>
+  </data>
+  <data name="error_Hardware_NoHearingAidDiscoveryPermissionMessage" xml:space="preserve">
+    <value>La aplicación no tiene permiso para buscar sus audífonos. Seleccione «Configuración» en su teléfono inteligente para dar el permiso a la aplicación y así poder continuar.</value>
+  </data>
+  <data name="error_Hardware_NoHearingAidDiscoveryPermissionTitle" xml:space="preserve">
+    <value>Sin permiso para buscar dispositivos</value>
+  </data>
+  <data name="error_Hardware_NoTrackingLocationPermissionMessage" xml:space="preserve">
+    <value>La aplicación no tiene permiso para obtener la ubicación de sus audífonos. Esto es necesario para la función de «Buscar audífonos». Seleccione los ajustes de ubicación de la aplicación y otorgue el permiso correspondiente para poder continuar.</value>
+  </data>
+  <data name="error_Hardware_NoTrackingLocationPermissionTitle" xml:space="preserve">
+    <value>No permission to find your hearing systems</value>
+  </data>
+  <data name="error_Hardware_ResolutionAllowAccessNearbyDevicesMessage" xml:space="preserve">
+    <value>Seleccione «Ajustes del sistema» y permita el acceso a «Dispositivos cercanos».</value>
+  </data>
+  <data name="error_Hardware_ResolutionAllowAccessNearbyDevicesTitle" xml:space="preserve">
+    <value>Cambiar permisos</value>
+  </data>
+  <data name="error_Hardware_ResolutionAllowLocationMessage" xml:space="preserve">
+    <value>Abra la opción de ajustes del sistema y permita el uso de los datos de posición.</value>
+  </data>
+  <data name="error_Hardware_ResolutionAllowLocationTitle" xml:space="preserve">
+    <value>Cambiar permisos</value>
+  </data>
+  <data name="error_Hardware_ResolutionGotoSettingsMessage" xml:space="preserve">
+    <value>Acceda a la configuración de su teléfono inteligente y active Bluetooth manualmente.</value>
+  </data>
+  <data name="error_Hardware_ResolutionGotoSettingsTitle" xml:space="preserve">
+    <value>Acceder a Configuración</value>
+  </data>
+  <data name="error_Hardware_ResolutionLocationServiceContinueMessage" xml:space="preserve">
+    <value>Continuar sin activar el servicio de localización.</value>
+  </data>
+  <data name="error_Hardware_ResolutionLocationServiceContinueTitle" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="error_Hardware_ResolutionLocationServiceEnableMessage" xml:space="preserve">
+    <value>Abra los ajustes de localización (servicios) para activar el servicio de localización.</value>
+  </data>
+  <data name="error_Hardware_ResolutionLocationServiceEnableTitle" xml:space="preserve">
+    <value>Activar localización</value>
+  </data>
+  <data name="error_Hardware_ResolutionRetryMessage" xml:space="preserve">
+    <value>El proceso se ejecutará de nuevo.</value>
+  </data>
+  <data name="error_Hardware_ResolutionRetryTitle" xml:space="preserve">
+    <value>Repetir proceso</value>
+  </data>
+  <data name="error_Hardware_ResolutionStartDemoMessage" xml:space="preserve">
+    <value>La aplicación se inicia en modo Demo. Esto le permite examinar las funciones incluso sin audífonos. Puede salirse del modo Demo en cualquier momento.</value>
+  </data>
+  <data name="error_Hardware_ResolutionStartDemoTitle" xml:space="preserve">
+    <value>Iniciar modo Demo</value>
+  </data>
+  <data name="error_Hardware_ResolutionTitle" xml:space="preserve">
+    <value>¿Qué quiere hacer ahora?</value>
+  </data>
+  <data name="error_Hardware_ResolutionTrackingLocationPermissionContinueMessage" xml:space="preserve">
+    <value>Continuar sin el permiso de ubicación otorgado.</value>
+  </data>
+  <data name="error_Hardware_ResolutionTrackingLocationPermissionContinueTitle" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="error_Hardware_SDKErrorMessage" xml:space="preserve">
+    <value>Durante la inicialización de la aplicación se produjo un error. Intente de nuevo o póngase en contacto con soporte técnico.</value>
+  </data>
+  <data name="error_Hardware_SDKErrorTitle" xml:space="preserve">
+    <value>Error en la inicialización de la aplicación</value>
+  </data>
+  <data name="error_NoPhoneNumber" xml:space="preserve">
+    <value>No hay ningún número de teléfono</value>
+  </data>
+  <data name="fav_btCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="fav_btCreate" xml:space="preserve">
+    <value>Guardar favorito</value>
+  </data>
+  <data name="fav_btOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="fav_EditIconDescription" xml:space="preserve">
+    <value>Seleccione un nuevo icono:</value>
+  </data>
+  <data name="fav_EditIconSubTitle" xml:space="preserve">
+    <value>Seleccionar icono</value>
+  </data>
+  <data name="fav_EditIconTitle" xml:space="preserve">
+    <value>Personalizar icono</value>
+  </data>
+  <data name="fav_EditNameDescription" xml:space="preserve">
+    <value>Asigne un nombre nuevo a su programa de escucha:</value>
+  </data>
+  <data name="fav_EditNameSubTitleFav" xml:space="preserve">
+    <value>Nombre del programa de escucha</value>
+  </data>
+  <data name="fav_EditNameSubTitleStd" xml:space="preserve">
+    <value>Nombre del programa de escucha</value>
+  </data>
+  <data name="fav_EditNameTitle" xml:space="preserve">
+    <value>Personalizar nombre</value>
+  </data>
+  <data name="gblNotification_ActivateGeoTrackingCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="gblNotification_ActivateGeoTrackingMsg" xml:space="preserve">
+    <value>La función de compartir ubicación de la aplicación está desactivada. Por lo tanto, no puede utilizar esta función. Puede cancelar el proceso y activar la función en otro momento en los ajustes de su teléfono inteligente o también puede activarla directamente aquí.</value>
+  </data>
+  <data name="gblNotification_ActivateGeoTrackingOk" xml:space="preserve">
+    <value>Activar</value>
+  </data>
+  <data name="gblNotification_ActivateGeoTrackingTitle" xml:space="preserve">
+    <value>Función de compartir ubicación desactivada</value>
+  </data>
+  <data name="gblNotification_ChangeLanguageDesc" xml:space="preserve">
+    <value>¿Desea cambiar el idioma?</value>
+  </data>
+  <data name="gblNotification_ChangeLanguageTitle" xml:space="preserve">
+    <value>¿Cambiar idioma?</value>
+  </data>
+  <data name="gblNotification_ConnectionLostHelp" xml:space="preserve">
+    <value>Ir a «Ayuda»</value>
+  </data>
+  <data name="gblNotification_ConnectionLostMessage" xml:space="preserve">
+    <value>La conexión con su audífono {0} fue interrumpida.</value>
+  </data>
+  <data name="gblNotification_ConnectionLostOK" xml:space="preserve">
+    <value>De acuerdo</value>
+  </data>
+  <data name="gblNotification_ConnectionLostTitle" xml:space="preserve">
+    <value>Conexión interrumpida</value>
+  </data>
+  <data name="gblNotification_ErrorTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="gblNotification_FindStoreConnectionErrorDesc" xml:space="preserve">
+    <value>No se pudo establecer una conexión para cargar las tiendas especializadas.</value>
+  </data>
+  <data name="gblNotification_FindStoreGeneralErrorDesc" xml:space="preserve">
+    <value>No fue posible cargar las tiendas especializadas.</value>
+  </data>
+  <data name="gblNotification_GeneralOK" xml:space="preserve">
+    <value>De acuerdo</value>
+  </data>
+  <data name="gblNotification_HALeft" xml:space="preserve">
+    <value>izquierdo</value>
+  </data>
+  <data name="gblNotification_HARight" xml:space="preserve">
+    <value>derecho</value>
+  </data>
+  <data name="gblNotification_LowBatteryMessage" xml:space="preserve">
+    <value>La pila de su audífono {0} está casi descargada. Debe reemplazarla en las próximas horas.</value>
+  </data>
+  <data name="gblNotification_LowBatteryOK" xml:space="preserve">
+    <value>De acuerdo</value>
+  </data>
+  <data name="gblNotification_LowBatteryTitle" xml:space="preserve">
+    <value>Pila del audífono casi descargada</value>
+  </data>
+  <data name="gblNotification_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="gblNotification_NoGeoTrackingMsg" xml:space="preserve">
+    <value>La función de compartir ubicación está desactivada. Para poder usar esta función debe activar «compartir ubicación» en los ajustes de su teléfono inteligente.</value>
+  </data>
+  <data name="gblNotification_NoGeoTrackingTitle" xml:space="preserve">
+    <value>Función de compartir ubicación desactivada</value>
+  </data>
+  <data name="gblNotification_NoGoogleMapsAvailableMessage" xml:space="preserve">
+    <value>Lamentablemente, el servicio de mapas no puede utilizarse en su teléfono inteligente. Compruebe si los servicios de Google Play están actualizados.</value>
+  </data>
+  <data name="gblNotification_NoGoogleMapsAvailableTitle" xml:space="preserve">
+    <value>Servicio de mapas no disponible</value>
+  </data>
+  <data name="gblNotification_ProgramCollectionAdjusted" xml:space="preserve">
+    <value>Sus favoritos se han ajustado a la configuración actual de los audífonos.</value>
+  </data>
+  <data name="gblNotification_Yes" xml:space="preserve">
+    <value>Sí</value>
+  </data>
+  <data name="gbl_AndroidServiceTitle" xml:space="preserve">
+    <value>Audífonos</value>
+  </data>
+  <data name="gbl_btBack" xml:space="preserve">
+    <value>Atrás</value>
+  </data>
+  <data name="gbl_ConnectionLost_Reconnecting" xml:space="preserve">
+    <value>Sus audífonos se desconectaron. Revise sus audífonos. La aplicación trata de restablecer la conexión.</value>
+  </data>
+  <data name="gbl_DecibelShort" xml:space="preserve">
+    <value>dB</value>
+  </data>
+  <data name="gbl_DemoModeActivated" xml:space="preserve">
+    <value>Modo Demo</value>
+  </data>
+  <data name="gbl_RemoteUpdateGotoBackupIndicator" xml:space="preserve">
+    <value>Personalización antigua</value>
+  </data>
+  <data name="geofenceservice_notification_desc" xml:space="preserve">
+    <value>El servicio “geofence” (geocerca) de la aplicación Persona Medical está activado.</value>
+  </data>
+  <data name="geofenceservice_notification_title" xml:space="preserve">
+    <value>Servicio Geofence de la aplicación Persona Medical</value>
+  </data>
+  <data name="help_ConferenceMicrophonePage" xml:space="preserve">
+    <value>Micrófono de conferencia</value>
+  </data>
+  <data name="help_FindDeviceLeftDevice" xml:space="preserve">
+    <value>Audífono izquierdo</value>
+  </data>
+  <data name="help_FindDeviceMap" xml:space="preserve">
+    <value>Vista de mapa</value>
+  </data>
+  <data name="help_FindDeviceNearfield" xml:space="preserve">
+    <value>Búsqueda de campo cercano</value>
+  </data>
+  <data name="help_FindDevicePage" xml:space="preserve">
+    <value>Encontrar audífonos</value>
+  </data>
+  <data name="help_FindDevicePage_LastSignalTextPartOne" xml:space="preserve">
+    <value>La última señal fue recibida el </value>
+  </data>
+  <data name="help_FindDevicePage_LastSignalTextPartThree" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="help_FindDevicePage_LastSignalTextPartTwo" xml:space="preserve">
+    <value> a las </value>
+  </data>
+  <data name="help_FindDevicePage_LocationTextPartOne" xml:space="preserve">
+    <value>El mapa muestra la ubicación desde la que su audífono </value>
+  </data>
+  <data name="help_FindDevicePage_LocationTextPartTwo" xml:space="preserve">
+    <value> se conectó con la aplicación por última vez.</value>
+  </data>
+  <data name="help_FindDevicePage_MapNotLoaded" xml:space="preserve">
+    <value>No hay un mapa disponible para mostrar la ubicación.</value>
+  </data>
+  <data name="help_FindDevicePage_NoDeviceKnown" xml:space="preserve">
+    <value>No se conoce ningún audífono para este lado.</value>
+  </data>
+  <data name="help_FindDevicePage_NoPositionData" xml:space="preserve">
+    <value>No se pudieron establecer datos de posición.</value>
+  </data>
+  <data name="help_FindDeviceRightDevice" xml:space="preserve">
+    <value>Audífono derecho</value>
+  </data>
+  <data name="help_LogPage" xml:space="preserve">
+    <value>Registros</value>
+  </data>
+  <data name="help_MenuPage" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="help_topic_1_1_content_text" xml:space="preserve">
+    <value>Para usar sus audífonos con su dispositivo iOS (iPhone), debe emparejar los audífonos con el iPhone antes de utilizar la aplicación. Esto permite que los audífonos y el iPhone se comuniquen entre sí. Siga las instrucciones para emparejar con éxito los audífonos.</value>
+  </data>
+  <data name="help_topic_1_1_list_item_1" xml:space="preserve">
+    <value>Pulse el ícono de ajustes en su iPhone.</value>
+  </data>
+  <data name="help_topic_1_1_list_item_2" xml:space="preserve">
+    <value>En el menú «Ajustes», seleccione: General → Accesibilidad → Audífonos MFi</value>
+  </data>
+  <data name="help_topic_1_1_list_item_3" xml:space="preserve">
+    <value>Si la función Bluetooth aparece desactivada en esta pantalla, actívela. Mientras el iPhone busca los audífonos, abra y cierre el compartimento de las pilas de sus audífonos (de esta manera, los audífonos entran en modo de emparejamiento).</value>
+  </data>
+  <data name="help_topic_1_1_list_item_4" xml:space="preserve">
+    <value>En cuanto el iPhone detecte sus audífonos por primera vez, aparecen su nombre y «HG#123456». Si esto no ocurre en el plazo de 5 a 7 segundos, regrese al borde superior izquierdo de la pantalla y vuelva a abrir el menú «Audífonos».</value>
+  </data>
+  <data name="help_topic_1_1_list_item_5" xml:space="preserve">
+    <value>Pulse el nombre del audífono para conectar los dispositivos al iPhone.</value>
+  </data>
+  <data name="help_topic_1_1_list_item_6" xml:space="preserve">
+    <value>Aparecen dos solicitudes de emparejamiento, una para cada audífono. Seleccione «Emparejamiento» para finalmente conectarse. Las dos solicitudes pueden aparecer con unos segundos de retraso.</value>
+  </data>
+  <data name="help_topic_1_1_list_item_7" xml:space="preserve">
+    <value>El emparejamiento está completo.</value>
+  </data>
+  <data name="help_topic_1_1_sub_title" xml:space="preserve">
+    <value>Conecte sus audífonos a un dispositivo iOS</value>
+  </data>
+  <data name="help_topic_1_2_content_text" xml:space="preserve">
+    <value>Para usar sus audífonos con su dispositivo Android, primero debe emparejar el audífono con el dispositivo Android. Siga las siguientes instrucciones:</value>
+  </data>
+  <data name="help_topic_1_2_list_item_1" xml:space="preserve">
+    <value>Pulse el icono «Ajustes».</value>
+  </data>
+  <data name="help_topic_1_2_list_item_2" xml:space="preserve">
+    <value>Seleccione Conexiones → Bluetooth.</value>
+  </data>
+  <data name="help_topic_1_2_list_item_3" xml:space="preserve">
+    <value>Si la función Bluetooth esta desactivada, actívela. Abra y cierre el compartimento de las pilas de los audífonos. De esta manera, los audífonos entran en modo de emparejamiento.</value>
+  </data>
+  <data name="help_topic_1_2_list_item_4" xml:space="preserve">
+    <value>En dispositivos emparejados verá su nombre seguido de «HG#123456» cuando se detecten los audífonos. Si el nombre no aparece en el plazo de 5-7 segundos en la lista de dispositivos emparejados, regrese al menú anterior y seleccione «Bluetooth».</value>
+  </data>
+  <data name="help_topic_1_2_list_item_5" xml:space="preserve">
+    <value>Al hacerlo, en la lista aparece primero el audífono derecho y, después, el izquierdo. Se debe hacer clic en las dos entradas de la lista para el emparejamiento.</value>
+  </data>
+  <data name="help_topic_1_2_list_item_6" xml:space="preserve">
+    <value>El emparejamiento ha finalizado.</value>
+  </data>
+  <data name="help_topic_1_2_sub_title" xml:space="preserve">
+    <value>Empareje sus audífonos con un dispositivo Android</value>
+  </data>
+  <data name="help_topic_1_3_content_text_1" xml:space="preserve">
+    <value>Después de conectar correctamente los audífonos en su teléfono, los dispositivos pueden utilizarse ahora con la aplicación. La primera vez que abra la aplicación, se le pedirá durante la configuración que conecte/empareje sus audífonos con su teléfono inteligente. Seleccione el dispositivo correspondiente en la lista de audífonos disponibles.</value>
+  </data>
+  <data name="help_topic_1_3_content_text_2" xml:space="preserve">
+    <value>Al completar la prueba, la aplicación está activada y lista para su uso.</value>
+  </data>
+  <data name="help_topic_1_3_sub_title" xml:space="preserve">
+    <value>Use sus audífonos con la aplicación</value>
+  </data>
+  <data name="help_topic_1_title" xml:space="preserve">
+    <value>Conectar/emparejar audífonos</value>
+  </data>
+  <data name="help_topic_2_1_list_item_1" xml:space="preserve">
+    <value>En su teléfono inteligente, seleccione Ajustes o Ajustes → General → Accesibilidad.</value>
+  </data>
+  <data name="help_topic_2_1_list_item_2" xml:space="preserve">
+    <value>Seleccione «Audífonos MFi».</value>
+  </data>
+  <data name="help_topic_2_1_list_item_3" xml:space="preserve">
+    <value>Haga clic en «Ignorar este dispositivo».</value>
+  </data>
+  <data name="help_topic_2_1_sub_title" xml:space="preserve">
+    <value>Cómo desemparejar dispositivos iOS (iPhone):</value>
+  </data>
+  <data name="help_topic_2_2_list_item_1" xml:space="preserve">
+    <value>En su teléfono inteligente, seleccione Ajustes → Bluetooth.</value>
+  </data>
+  <data name="help_topic_2_2_list_item_2" xml:space="preserve">
+    <value>Pulse el icono de rueda dentada que aparece junto a su audífono.</value>
+  </data>
+  <data name="help_topic_2_2_list_item_3" xml:space="preserve">
+    <value>Haga clic en «Desemparejar».</value>
+  </data>
+  <data name="help_topic_2_2_sub_title" xml:space="preserve">
+    <value>Cómo desemparejar en dispositivos Android:</value>
+  </data>
+  <data name="help_topic_2_content_text" xml:space="preserve">
+    <value>Al actualizar el software de su teléfono inteligente, puede que se pierda la conexión con sus audífonos. En este caso, primero debe desemparejar (unpairing) sus dispositivos y, a continuación, reconectarlos como se describe en «Conectar/emparejar audífonos».</value>
+  </data>
+  <data name="help_topic_2_title" xml:space="preserve">
+    <value>Cómo desemparejar sus audífonos</value>
+  </data>
+  <data name="help_topic_3_content_text" xml:space="preserve">
+    <value>La pantalla de inicio aparece inmediatamente después de abrir la aplicación y le muestra las funciones más importantes de un vistazo. Aquí puede ver el estado de las pilas de sus audífonos, acceder al menú principal, cambiar entre los programas con facilidad y ajustar el volumen.</value>
+  </data>
+  <data name="help_topic_3_title" xml:space="preserve">
+    <value>La página de inicio</value>
+  </data>
+  <data name="help_topic_4_content_text_1" xml:space="preserve">
+    <value>El icono del programa de escucha activo aparece grande en el centro de la pantalla. El color indica el tipo de programa. Los colores se usan en toda la aplicación:</value>
+  </data>
+  <data name="help_topic_4_content_text_2" xml:space="preserve">
+    <value>Al hacer clic en el icono del programa activo, se abre la vista detallada donde puede realizar adaptaciones y ajustes. Pulse el ícono correspondiente para cambiar a otro programa.</value>
+  </data>
+  <data name="help_topic_4_list_item_1" xml:space="preserve">
+    <value>Rojo: programas de escucha establecidos por el profesional de la audición</value>
+  </data>
+  <data name="help_topic_4_list_item_2" xml:space="preserve">
+    <value>Azul: programas de transmisión</value>
+  </data>
+  <data name="help_topic_4_list_item_3" xml:space="preserve">
+    <value>Gris: favoritos que ha creado (si están disponibles)</value>
+  </data>
+  <data name="help_topic_4_title" xml:space="preserve">
+    <value>Selección de programas</value>
+  </data>
+  <data name="help_topic_5_content_text_1" xml:space="preserve">
+    <value>En la parte inferior de la pantalla se encuentra el regulador de volumen que le permite ajustar el volumen o silenciar sus audífonos. Para ello, deslice el regulador o use los botones +/- .</value>
+  </data>
+  <data name="help_topic_5_content_text_2" xml:space="preserve">
+    <value>Volumen diferente para derecha e izquierda (separación binaural):</value>
+  </data>
+  <data name="help_topic_5_content_text_3" xml:space="preserve">
+    <value>Si se activa la separación binaural, el regulador de volumen muestra un triángulo rojo y uno azul en la parte inferior de la pantalla. La relación ajustada se mantiene incluso si se hacen cambios en el volumen general.</value>
+  </data>
+  <data name="help_topic_5_list_item_1" xml:space="preserve">
+    <value>En la página de detalles de un programa de escucha haga clic en el icono a la derecha del regulador de volumen. Active la separación derecha e izquierda (separación binaural).</value>
+  </data>
+  <data name="help_topic_5_list_item_2" xml:space="preserve">
+    <value>En el cuadro de diálogo, arrastre los reguladores hasta el ajuste que le resulte más conveniente. El triángulo azul indica el volumen de su audífono izquierdo, el rojo el de su audífono derecho.</value>
+  </data>
+  <data name="help_topic_5_list_item_3" xml:space="preserve">
+    <value>Pulse «Aceptar» para guardar este ajuste.</value>
+  </data>
+  <data name="help_topic_5_title" xml:space="preserve">
+    <value>Desconecte el regulador de volumen</value>
+  </data>
+  <data name="help_topic_6_content_text" xml:space="preserve">
+    <value>En lugar del programa básico, su profesional de la audición también puede activar el programa automático. Mediante algoritmos inteligentes se detecta la situación auditiva y se selecciona automáticamente los ajustes correctos; no es posible realizar ajustes manuales en este programa.</value>
+  </data>
+  <data name="help_topic_6_title" xml:space="preserve">
+    <value>Programa automático</value>
+  </data>
+  <data name="help_topic_7_content_text" xml:space="preserve">
+    <value>El programa de streaming permite transmitir sonidos de una fuente externa, por ejemplo llamadas telefónicas o música, directamente a su audífono. Actualmente, esto solo es posible con dispositivos Apple. Para usar esta función en un dispositivo Android se necesitan otros accesorios. Póngase en contacto con su especialista en audífonos para más detalles.</value>
+  </data>
+  <data name="help_topic_7_list_item_2" xml:space="preserve">
+    <value>En el mosaico «Sonido» ajuste los agudos, medios y bajos por medio de los controles deslizantes.</value>
+  </data>
+  <data name="help_topic_7_list_item_3" xml:space="preserve">
+    <value>En el mezclador ajuste el enfoque de su audífono: con el control deslizante puede ajustar la relación entre los sonidos de su entorno y el sonido que llega directamente al audífono desde la fuente de transmisión.</value>
+  </data>
+  <data name="help_topic_7_title" xml:space="preserve">
+    <value>Programa de transmisión</value>
+  </data>
+  <data name="help_topic_8_content_text_1" xml:space="preserve">
+    <value>Esta aplicación le permite crear favoritos a su gusto, con el fin de guardar los ajustes de uso frecuente y recuperarlos fácilmente en cualquier momento. Por ejemplo, guarde los ajustes que necesita en la oficina, mientras trota o cuando está en su cafetería favorita, para poder acceder a ellos rápidamente.</value>
+  </data>
+  <data name="help_topic_8_content_text_2" xml:space="preserve">
+    <value>Crear un favorito:</value>
+  </data>
+  <data name="help_topic_8_content_text_3" xml:space="preserve">
+    <value>Si lo desea, puede sincronizar su favorito con una red wifi o con una ubicación específica. Su teléfono inteligente detecta dónde se encuentra y luego inicia automáticamente el programa deseado.</value>
+  </data>
+  <data name="help_topic_8_list_item_1" xml:space="preserve">
+    <value>Seleccione un programa que sirva de base para crear un nuevo favorito.</value>
+  </data>
+  <data name="help_topic_8_list_item_2" xml:space="preserve">
+    <value>En el programa, haga clic en el ícono de la rueda dentada y luego en «Crear favorito».</value>
+  </data>
+  <data name="help_topic_8_list_item_3" xml:space="preserve">
+    <value>Introduzca un nombre para su favorito y seleccione un icono adecuado.</value>
+  </data>
+  <data name="help_topic_8_title" xml:space="preserve">
+    <value>Favoritos</value>
+  </data>
+  <data name="help_topic_9_content_text" xml:space="preserve">
+    <value>Haga clic en el símbolo del menú en la parte superior derecha de la pantalla para abrir el menú principal. Desde aquí, puede alternar en sus programas y desplazarse por los ajustes de la aplicación. También puede acceder a la función de ayuda a través del menú principal. Aquí encontrará también información legal y soporte técnico.</value>
+  </data>
+  <data name="help_topic_9_title" xml:space="preserve">
+    <value>Menú principal</value>
+  </data>
+  <data name="home_btHelp" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="home_pageTitle" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="info_distributedBy" xml:space="preserve">
+    <value>Distribuido por</value>
+  </data>
+  <data name="info_imprintAddressTitle" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="info_imprintManufacturer" xml:space="preserve">
+    <value>Fabricante:</value>
+  </data>
+  <data name="info_imprintSupportTitle" xml:space="preserve">
+    <value>Soporte técnico</value>
+  </data>
+  <data name="info_imprintTitle" xml:space="preserve">
+    <value>Impresión</value>
+  </data>
+  <data name="info_imprint_licencesText" xml:space="preserve">
+    <value>Este es el contenido de la sección de licencias.</value>
+  </data>
+  <data name="info_instructionsTitle" xml:space="preserve">
+    <value>Instrucciones de uso</value>
+  </data>
+  <data name="initPerm_btCloseHelp" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="initPerm_btConfirm" xml:space="preserve">
+    <value>Continuar con estos permisos</value>
+  </data>
+  <data name="initPerm_btPermissionAlreadyDeniedCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="initPerm_btPermissionAlreadyDeniedConfirm" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="initPerm_Description" xml:space="preserve">
+    <value>Para poder usar todas las funciones de la aplicación, ésta requiere permisos adicionales.
+Si habilita alguna de las funciones que se especifican a continuación, se le pedirá que conceda el permiso necesario.
+Los permisos se pueden revocar en cualquier momento o también se puede deshabilitar la función respectiva en los ajustes de la aplicación.</value>
+  </data>
+  <data name="initPerm_GeolocationDescription" xml:space="preserve">
+    <value>Permitir que la aplicación consulte la ubicación actual</value>
+  </data>
+  <data name="initPerm_GeolocationHelp" xml:space="preserve">
+    <value>Este ajuste permite que la aplicación guarde la última ubicación de los audífonos para que pueda encontrarlos más fácilmente si los pierde.
+
+Usted puede activar o desactivar este ajuste en cualquier momento en los ajustes de la aplicación.</value>
+  </data>
+  <data name="initPerm_GeolocationScanMessage" xml:space="preserve">
+    <value>No ha activado la función de compartir ubicación de la aplicación. La aplicación requiere este permiso para buscar sus audífonos. Para usar esta función, es necesario que active la función de compartir ubicación en los ajustes de su teléfono inteligente.</value>
+  </data>
+  <data name="initPerm_GeolocationScanTitle" xml:space="preserve">
+    <value>Sin permiso para buscar</value>
+  </data>
+  <data name="initPerm_GeolocationTitle" xml:space="preserve">
+    <value>Servicios de ubicación</value>
+  </data>
+  <data name="initPerm_MicrophoneDescription" xml:space="preserve">
+    <value>Permitir a la aplicación la captura de datos de audio a través del micrófono.</value>
+  </data>
+  <data name="initPerm_MicrophoneHelp" xml:space="preserve">
+    <value>Este ajuste permite hacer grabaciones a través del micrófono.</value>
+  </data>
+  <data name="initPerm_MicrophoneTitle" xml:space="preserve">
+    <value>Función de grabación</value>
+  </data>
+  <data name="initPerm_PermissionAlreadyDeniedMessage" xml:space="preserve">
+    <value>Ya ha denegado el permiso para ' {0} '. Para conceder el permiso de nuevo, abra los ajustes de la aplicación de su teléfono inteligente.</value>
+  </data>
+  <data name="initPerm_PermissionAlreadyDeniedTitle" xml:space="preserve">
+    <value>Permiso ya denegado</value>
+  </data>
+  <data name="initPerm_StorageDescription" xml:space="preserve">
+    <value>Acceso al sistema de archivos</value>
+  </data>
+  <data name="initPerm_StorageHelp" xml:space="preserve">
+    <value>Permite guardar datos de audio en el teléfono inteligente</value>
+  </data>
+  <data name="initPerm_StorageTitle" xml:space="preserve">
+    <value>Acceso a los archivos</value>
+  </data>
+  <data name="initPerm_Subtitle" xml:space="preserve">
+    <value>Permisos:</value>
+  </data>
+  <data name="initPerm_Title" xml:space="preserve">
+    <value>Sólo un pequeño paso más...</value>
+  </data>
+  <data name="init_CancelConnectionButtonCancel" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="init_CancelConnectionButtonOK" xml:space="preserve">
+    <value>Finalizar</value>
+  </data>
+  <data name="init_CancelConnectionMessage" xml:space="preserve">
+    <value>¿Quiere dejar de intentar conectarse a su audífono y obtener más información sobre cómo establecer una conexión?</value>
+  </data>
+  <data name="init_CancelConnectionTitle" xml:space="preserve">
+    <value>Cancelar el proceso de conexión</value>
+  </data>
+  <data name="init_DeviceLeft" xml:space="preserve">
+    <value>Izquierda</value>
+  </data>
+  <data name="init_DeviceRight" xml:space="preserve">
+    <value>Derecha</value>
+  </data>
+  <data name="init_StepChecking" xml:space="preserve">
+    <value>Proporcionando acceso a sus audífonos.</value>
+  </data>
+  <data name="init_StepConnection" xml:space="preserve">
+    <value>Los audífonos están conectados.</value>
+  </data>
+  <data name="init_StepConnectionCancellation" xml:space="preserve">
+    <value>Deje de conectar los audífonos. Tarda hasta 1 min.</value>
+  </data>
+  <data name="init_StepLoadingCachedProgramParams" xml:space="preserve">
+    <value>Cargando desde el teléfono los datos de los audífonos guardados en la caché.</value>
+  </data>
+  <data name="Init_txt_Bluetooth" xml:space="preserve">
+    <value>Bluetooth activado</value>
+  </data>
+  <data name="Init_txt_Connection" xml:space="preserve">
+    <value>Audífonos detectados</value>
+  </data>
+  <data name="Init_txt_DevicePower" xml:space="preserve">
+    <value>Pilas en buen estado</value>
+  </data>
+  <data name="Init_txt_DeviceState" xml:space="preserve">
+    <value>Estado detectado</value>
+  </data>
+  <data name="introPage1_Description" xml:space="preserve">
+    <value>Muchas gracias por haber elegido los audífonos Persona Medical.</value>
+  </data>
+  <data name="introPage1_ImageSubLine" xml:space="preserve">
+    <value>La aplicación Persona Medical ofrece una variedad de funciones para facilitar su vida cotidiana y el uso de sus audífonos.</value>
+  </data>
+  <data name="introPage1_Title" xml:space="preserve">
+    <value>¡Bienvenido!</value>
+  </data>
+  <data name="introPage2_Description" xml:space="preserve">
+    <value>Controle cómodamente sus audífonos con la aplicación Persona Medical.</value>
+  </data>
+  <data name="introPage2_ImageSubLine" xml:space="preserve">
+    <value>Use la aplicación como mando a distancia y regule el sonido y el volumen o bien cambie entre los programas de escucha.</value>
+  </data>
+  <data name="introPage2_Title" xml:space="preserve">
+    <value>Control remoto de sus audífonos</value>
+  </data>
+  <data name="introPage3_Description" xml:space="preserve">
+    <value>Realice adaptaciones personalizados en sus favoritos.</value>
+  </data>
+  <data name="introPage3_ImageSubLine" xml:space="preserve">
+    <value>Estos ajustes también pueden guardarse como favoritos propios.</value>
+  </data>
+  <data name="introPage3_Title" xml:space="preserve">
+    <value>Adaptar programas de escucha</value>
+  </data>
+  <data name="introPage4_btContinue" xml:space="preserve">
+    <value>¡Aquí vamos!</value>
+  </data>
+  <data name="introPage4_Description" xml:space="preserve">
+    <value>Permita que la aplicación Persona Medical pueda acceder a su ubicación en todo momento para encontrar sus audífonos o configurar programas de escucha en función de la ubicación.</value>
+  </data>
+  <data name="introPage4_ImageSubLine" xml:space="preserve">
+    <value>La aplicación Persona Medical utiliza la ubicación en segundo plano para proporcionar información actualizada.</value>
+  </data>
+  <data name="introPage4_Title" xml:space="preserve">
+    <value>Usar la ubicación</value>
+  </data>
+  <data name="introPage5_Description" xml:space="preserve">
+    <value>Esperamos que disfrute del uso de sus audífonos y de la aplicación Persona Medical.</value>
+  </data>
+  <data name="introPage5_ImageSubLine" xml:space="preserve">
+    <value>Para más información, consulte las instrucciones de uso o póngase en contacto con su especialista en audífonos.</value>
+  </data>
+  <data name="introPage5_Title" xml:space="preserve">
+    <value>Uso de la aplicación</value>
+  </data>
+  <data name="licensePage_Build" xml:space="preserve">
+    <value>Número de construcción </value>
+  </data>
+  <data name="licensePage_EmptyView" xml:space="preserve">
+    <value>No se encontraron licencias.</value>
+  </data>
+  <data name="licensePage_LicenseType" xml:space="preserve">
+    <value>Tipo de licencia</value>
+  </data>
+  <data name="licensePage_Provider" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="licensePage_Version" xml:space="preserve">
+    <value>Versión</value>
+  </data>
+  <data name="loc_bt_ToGPSSettings" xml:space="preserve">
+    <value>Ir a los ajustes de GPS</value>
+  </data>
+  <data name="loc_bt_ToNearFieldHearingAidSearch" xml:space="preserve">
+    <value>Ir a búsqueda por proximidad</value>
+  </data>
+  <data name="loc_msg_AllHearingAidsStillConnected" xml:space="preserve">
+    <value>Sus audífonos siguen conectados al teléfono inteligente, de modo que están cerca. Para encontrar sus audífonos, puede utilizar la función de búsqueda por proximidad.</value>
+  </data>
+  <data name="loc_msg_BothHearingAids" xml:space="preserve">
+    <value>Ambos audífonos</value>
+  </data>
+  <data name="loc_msg_GPSHardwareNotEnabled" xml:space="preserve">
+    <value>El GPS está desactivado. El GPS debe estar activado para poder utilizar esta función.</value>
+  </data>
+  <data name="loc_msg_LastTimeConnectedStart" xml:space="preserve">
+    <value>Posición desde</value>
+  </data>
+  <data name="loc_msg_LoadingGPSData" xml:space="preserve">
+    <value>Los datos del GPS se están cargando...</value>
+  </data>
+  <data name="loc_msg_NoGPSHardwareFound" xml:space="preserve">
+    <value>Su teléfono inteligente no tiene hardware de GPS. No puede utilizar esta función.</value>
+  </data>
+  <data name="loc_msg_NoInstrumentLocationsFound" xml:space="preserve">
+    <value>Todavía no se han registrado datos de posición de sus audífonos.</value>
+  </data>
+  <data name="mainMenu_BtnHelp" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="mainMenu_BtnImprint" xml:space="preserve">
+    <value>Aviso legal</value>
+  </data>
+  <data name="mainMenu_BtnLicenses" xml:space="preserve">
+    <value>Licencias</value>
+  </data>
+  <data name="mainMenu_BtnMyHearingProfile" xml:space="preserve">
+    <value>Mi perfil de escucha</value>
+  </data>
+  <data name="mainMenu_BtnOptions" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="mainMenu_BtnPrograms" xml:space="preserve">
+    <value>Programas</value>
+  </data>
+  <data name="mainMenu_BtnStart" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="mainMenu_Header" xml:space="preserve">
+    <value>Desplazamiento</value>
+  </data>
+  <data name="mainPage_BackDisplayText" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="mainPage_LoadingProgramParams" xml:space="preserve">
+    <value>Los datos de los audífonos se cotejan.</value>
+  </data>
+  <data name="mainPage_UnableToSwitchProgramWhileLoading_Favorite" xml:space="preserve">
+    <value>Los datos del programa de escucha todavía se están cargando. Tenga un poco de paciencia.</value>
+  </data>
+  <data name="mainPage_UnableToSwitchProgramWhileLoading_Normal" xml:space="preserve">
+    <value>Los datos del programa de escucha todavía se están cargando. Tenga un poco de paciencia.</value>
+  </data>
+  <data name="mainPage_VolumeInitialized" xml:space="preserve">
+    <value>Los ajustes de volumen fueron cargados.</value>
+  </data>
+  <data name="mainPage_VolumeUnableToChange" xml:space="preserve">
+    <value>Los ajustes de volumen se están cargando. Por favor, espere.</value>
+  </data>
+  <data name="manageHA_btGotoSelection" xml:space="preserve">
+    <value>Gestionar audífonos</value>
+  </data>
+  <data name="manageHA_Disconnect" xml:space="preserve">
+    <value>Finalizar conexión</value>
+  </data>
+  <data name="manageHA_DisconnectingHearingSystems" xml:space="preserve">
+    <value>Desconectar audífonos ...</value>
+  </data>
+  <data name="manageHA_LabelFirmware" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="manageHA_LabelModel" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="manageHA_LabelName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="manageHA_LabelSerial" xml:space="preserve">
+    <value>Número de serie</value>
+  </data>
+  <data name="manageHA_LabelState" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="manageHA_leftDevice" xml:space="preserve">
+    <value>Audífono izquierdo</value>
+  </data>
+  <data name="manageHA_pageTitle" xml:space="preserve">
+    <value>Mis audífonos</value>
+  </data>
+  <data name="manageHA_pageTitle_monaural" xml:space="preserve">
+    <value>Mi audífono</value>
+  </data>
+  <data name="manageHA_rightDevice" xml:space="preserve">
+    <value>Audífono derecho</value>
+  </data>
+  <data name="manageHA_StateDescriptionDefault" xml:space="preserve">
+    <value>Conectado</value>
+  </data>
+  <data name="manageHA_StateDescriptionNone" xml:space="preserve">
+    <value>No conectado</value>
+  </data>
+  <data name="manufacturer_AddressCity" xml:space="preserve">
+    <value>D-99625 Kölleda</value>
+  </data>
+  <data name="manufacturer_AddressStreet" xml:space="preserve">
+    <value>Werner-von-Siemens-Str. 2</value>
+  </data>
+  <data name="manufacturer_CompanyName" xml:space="preserve">
+    <value>audifon GmbH &amp; Co. KG</value>
+  </data>
+  <data name="manufacturer_WebSite" xml:space="preserve">
+    <value>www.audifon.com</value>
+  </data>
+  <data name="menuPermission_HearingInstrumentLocationTracking" xml:space="preserve">
+    <value>Determinar la ubicación</value>
+  </data>
+  <data name="menuPermission_LocationTitle" xml:space="preserve">
+    <value>Ubicación</value>
+  </data>
+  <data name="menu_Title_AppInfo" xml:space="preserve">
+    <value>Acerca de esta aplicación</value>
+  </data>
+  <data name="menu_Title_AppReset" xml:space="preserve">
+    <value>Reiniciar la aplicación</value>
+  </data>
+  <data name="menu_Title_ContractData" xml:space="preserve">
+    <value>Datos del contrato</value>
+  </data>
+  <data name="menu_Title_DataProtection" xml:space="preserve">
+    <value>Política de privacidad</value>
+  </data>
+  <data name="menu_Title_Devices" xml:space="preserve">
+    <value>Audífonos</value>
+  </data>
+  <data name="menu_Title_HelpTopics" xml:space="preserve">
+    <value>Temas de ayuda</value>
+  </data>
+  <data name="menu_Title_HelpTutorials" xml:space="preserve">
+    <value>Tutoriales, consejos y ayudas</value>
+  </data>
+  <data name="menu_Title_Infos" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="menu_Title_InstructionManual" xml:space="preserve">
+    <value>Instrucciones de uso</value>
+  </data>
+  <data name="menu_Title_Legal_Infos" xml:space="preserve">
+    <value>Información legal</value>
+  </data>
+  <data name="menu_Title_MyProfile" xml:space="preserve">
+    <value>Datos personales</value>
+  </data>
+  <data name="menu_Title_TermsOfUse" xml:space="preserve">
+    <value>Condiciones de uso</value>
+  </data>
+  <data name="messagesView_navBarTitle" xml:space="preserve">
+    <value>Mis noticias</value>
+  </data>
+  <data name="notificationChannelName_Default" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="notificationChannelName_Services" xml:space="preserve">
+    <value>Persona Medical App Services</value>
+  </data>
+  <data name="oem_appName" xml:space="preserve">
+    <value>Persona Medical</value>
+  </data>
+  <data name="oem_companyName" xml:space="preserve">
+    <value>Persona Medical</value>
+  </data>
+  <data name="oem_companyPhoneNumber" xml:space="preserve">
+    <value>+1 (407) 339-2422</value>
+  </data>
+  <data name="oem_companyPostalCodeCity" xml:space="preserve">
+    <value>Casselberry, FL 32707</value>
+  </data>
+  <data name="oem_companyState" xml:space="preserve">
+    <value>Estados Unidos</value>
+  </data>
+  <data name="oem_companyStreet" xml:space="preserve">
+    <value>170 N. Cypress Way</value>
+  </data>
+  <data name="oem_support_desc_1" xml:space="preserve">
+    <value>Número de teléfono de soporte</value>
+  </data>
+  <data name="oem_website_url" xml:space="preserve">
+    <value>www.personamedical.com</value>
+  </data>
+  <data name="popup_btClose" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="popup_InstrumentInfoTitle" xml:space="preserve">
+    <value>Información sobre audífonos</value>
+  </data>
+  <data name="programmsMenuPage_FavoritsPrograms" xml:space="preserve">
+    <value>Favoritos</value>
+  </data>
+  <data name="programmsMenuPage_PresetPrograms" xml:space="preserve">
+    <value>Predeterminado</value>
+  </data>
+  <data name="programmsMenuPage_StreamingPrograms" xml:space="preserve">
+    <value>Transmisión</value>
+  </data>
+  <data name="programmsMenuPage_Title" xml:space="preserve">
+    <value>Programas de escucha</value>
+  </data>
+  <data name="program_auto_changed_description" xml:space="preserve">
+    <value>«{0}» fue activado</value>
+  </data>
+  <data name="program_auto_changed_subtitle" xml:space="preserve">
+    <value>¡El programa de escucha fue cambiado automáticamente!</value>
+  </data>
+  <data name="program_auto_changed_title" xml:space="preserve">
+    <value>Programa de escucha cambiado automáticamente</value>
+  </data>
+  <data name="prog_AutomationConnectedBluetooth" xml:space="preserve">
+    <value>Conectado a un dispositivo Bluetooth</value>
+  </data>
+  <data name="prog_AutomationConnectedLocation" xml:space="preserve">
+    <value>Conectado a un lugar</value>
+  </data>
+  <data name="prog_AutomationConnectedScanWifi" xml:space="preserve">
+    <value>Detectar red wifi</value>
+  </data>
+  <data name="prog_AutomationConnectedWiFi" xml:space="preserve">
+    <value>Conectado a red wifi</value>
+  </data>
+  <data name="prog_AutomationConnectedWiFiDesc" xml:space="preserve">
+    <value>Este programa de escucha se activa automáticamente cuando se conecta a esta red wifi.</value>
+  </data>
+  <data name="prog_AutomationConnectedWiFiDescSsid" xml:space="preserve">
+    <value>SSID: </value>
+  </data>
+  <data name="prog_AutomationConnectedWifiNotFound" xml:space="preserve">
+    <value>No se detecta ninguna red wifi. Asegúrese de que el dispositivo está conectado.</value>
+  </data>
+  <data name="prog_AutomationConnectionAndroid8Hint" xml:space="preserve">
+    <value>En los dispositivos Android versión 8 y superior se requiere el acceso a los datos de ubicación para esto.</value>
+  </data>
+  <data name="prog_AutomationConnectionIos13Hint" xml:space="preserve">
+    <value>En los dispositivos iOS versión 13 y superior se requiere el acceso a los datos de ubicación para esto.</value>
+  </data>
+  <data name="prog_AutomationConnectToBluetooth" xml:space="preserve">
+    <value>Conectarse a un dispositivo Bluetooth</value>
+  </data>
+  <data name="prog_AutomationConnectToLocation" xml:space="preserve">
+    <value>Conectarse a un lugar</value>
+  </data>
+  <data name="prog_AutomationConnectToLocationInsufficientLocationPermissions" xml:space="preserve">
+    <value>No se ha dado el permiso para determinar los datos de localización en segundo plano o el servicio está desactivado. No es posible establecer una ubicación geográfica para un programa de escucha.</value>
+  </data>
+  <data name="prog_AutomationConnectToWiFi" xml:space="preserve">
+    <value>Conectarse a una red wifi</value>
+  </data>
+  <data name="prog_AutomationDescription" xml:space="preserve">
+    <value>También puede vincular su programa de escucha a un lugar específico o a una red wifi. En este caso, su programa de escucha se activará de manera automática.</value>
+  </data>
+  <data name="prog_btCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="prog_btChangeIcon" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
+  <data name="prog_btParamValueTinnitusActiveTitle" xml:space="preserve">
+    <value>Ruido</value>
+  </data>
+  <data name="prog_btParamValueTinnitusBack" xml:space="preserve">
+    <value>Atrás</value>
+  </data>
+  <data name="prog_btParamValueTinnitusMixerTitle" xml:space="preserve">
+    <value>Mezclador de ruido</value>
+  </data>
+  <data name="prog_btParamValueTinnitusSettingsTitle" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="prog_btSaveSettings" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="prog_dlgChangeProgramDescription" xml:space="preserve">
+    <value>Usted se encuentra en un área establecida por usted. ¿Es necesario que el audífono cambie a la posición correspondiente?</value>
+  </data>
+  <data name="prog_dlgChangeProgramTitle" xml:space="preserve">
+    <value>Cambio del programa de escucha</value>
+  </data>
+  <data name="prog_dlgGeofenceAlreadyExist" xml:space="preserve">
+    <value>La posición que ha elegido ya fue utilizada anteriormente. Indique una posición diferente.</value>
+  </data>
+  <data name="prog_dlgWifiAlreadyExist" xml:space="preserve">
+    <value>Ya ha conectado esta red a otro programa de escucha.</value>
+  </data>
+  <data name="prog_IsAutomationActive" xml:space="preserve">
+    <value>Iniciar el programa de escucha automáticamente</value>
+  </data>
+  <data name="prog_msgButtonCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="prog_msgButtonOK" xml:space="preserve">
+    <value>De acuerdo</value>
+  </data>
+  <data name="prog_msgCancelFavoritCreationButtonOK" xml:space="preserve">
+    <value>Anular</value>
+  </data>
+  <data name="prog_msgCancelFavoritCreationMessage" xml:space="preserve">
+    <value>Su programa de escucha «{0}» no se guardará.</value>
+  </data>
+  <data name="prog_msgCancelFavoritCreationMessageNoname" xml:space="preserve">
+    <value>Su programa de escucha no se guardará.</value>
+  </data>
+  <data name="prog_msgCancelFavoritCreationTitle" xml:space="preserve">
+    <value>¿Anular el programa de escucha?</value>
+  </data>
+  <data name="prog_msgDeleteButtonOK" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="prog_msgDeleteMessage" xml:space="preserve">
+    <value>¿Debe borrarse realmente el programa de escucha «{0}»?</value>
+  </data>
+  <data name="prog_msgDeleteTitle" xml:space="preserve">
+    <value>Borrar programa de escucha</value>
+  </data>
+  <data name="prog_msgErrorNoIconMessage" xml:space="preserve">
+    <value>Seleccione un icono para el programa de escucha.</value>
+  </data>
+  <data name="prog_msgErrorNoIconTitle" xml:space="preserve">
+    <value>No hay icono de programa de escucha</value>
+  </data>
+  <data name="prog_msgErrorNoProgramNameMessage" xml:space="preserve">
+    <value>Asigne un nombre para el programa de escucha.</value>
+  </data>
+  <data name="prog_msgErrorNoProgramNameTitle" xml:space="preserve">
+    <value>No hay nombre de programa de escucha</value>
+  </data>
+  <data name="prog_msgResetButtonOK" xml:space="preserve">
+    <value>Restablecer</value>
+  </data>
+  <data name="prog_msgResetMessage" xml:space="preserve">
+    <value>¿Quiere restablecer realmente los parámetros del programa de escucha?</value>
+  </data>
+  <data name="prog_msgResetTitle" xml:space="preserve">
+    <value>¿Restablecer programa de escucha?</value>
+  </data>
+  <data name="prog_pageTitle" xml:space="preserve">
+    <value>Programas de escucha</value>
+  </data>
+  <data name="prog_ParamAutoProgramDescription" xml:space="preserve">
+    <value>Su audífono detecta automáticamente la situación y selecciona los ajustes ideales.</value>
+  </data>
+  <data name="prog_ParamAutoProgramSwitchText" xml:space="preserve">
+    <value>Programa de escucha automático activado:</value>
+  </data>
+  <data name="prog_ParamAutoProgramTitle" xml:space="preserve">
+    <value>Situación automática</value>
+  </data>
+  <data name="prog_ParamBinauralDescription" xml:space="preserve">
+    <value>Ajustar un volumen diferente para la derecha y la izquierda</value>
+  </data>
+  <data name="prog_ParamBinauralSwitch" xml:space="preserve">
+    <value>Separación D/I</value>
+  </data>
+  <data name="prog_ParamBinauralTitle" xml:space="preserve">
+    <value>Volumen</value>
+  </data>
+  <data name="prog_ParamBtCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="prog_ParamBtSave" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="prog_ParamEqualizerDescription" xml:space="preserve">
+    <value>Disminuye o aumenta los bajos, los medios y los agudos en el espectro de sonido</value>
+  </data>
+  <data name="prog_ParamEqualizerHigh" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="prog_ParamEqualizerLow" xml:space="preserve">
+    <value>Bajo</value>
+  </data>
+  <data name="prog_ParamEqualizerMid" xml:space="preserve">
+    <value>Medio</value>
+  </data>
+  <data name="prog_ParamEqualizerTitle" xml:space="preserve">
+    <value>Sonido</value>
+  </data>
+  <data name="prog_ParamNoiseReductionDescription" xml:space="preserve">
+    <value>Reduce las interferencias en su entorno inmediato.</value>
+  </data>
+  <data name="prog_ParamNoiseReductionTitle" xml:space="preserve">
+    <value>Filtro de interferencias</value>
+  </data>
+  <data name="prog_ParamSpeechFocusDescription" xml:space="preserve">
+    <value>Configure la direccionalidad de su audífono en dirección de visualización.</value>
+  </data>
+  <data name="prog_ParamSpeechFocusTitle" xml:space="preserve">
+    <value>Enfoque en el habla</value>
+  </data>
+  <data name="prog_ParamSpeechStrengthDescription" xml:space="preserve">
+    <value>Fortalece el lenguaje humano en su entorno inmediato.</value>
+  </data>
+  <data name="prog_ParamSpeechStrengthTitle" xml:space="preserve">
+    <value>Habla</value>
+  </data>
+  <data name="prog_ParamStreamingDescription" xml:space="preserve">
+    <value>Ajuste el volumen de su entorno en relación con la fuente de audio.</value>
+  </data>
+  <data name="prog_ParamStreamingEnvironment" xml:space="preserve">
+    <value>Entorno</value>
+  </data>
+  <data name="prog_ParamStreamingSource" xml:space="preserve">
+    <value>Fuente</value>
+  </data>
+  <data name="prog_ParamStreamingTitle" xml:space="preserve">
+    <value>Streaming</value>
+  </data>
+  <data name="prog_ParamTinnitusDescription" xml:space="preserve">
+    <value>Aquí puede activar el programa de tinnitus, ajustar el volumen y el sonido del ruido.</value>
+  </data>
+  <data name="prog_ParamTinnitusTitle" xml:space="preserve">
+    <value>Tinnitus</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionBoost" xml:space="preserve">
+    <value>Boost</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionHigh" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionLow" xml:space="preserve">
+    <value>Suave</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionMedium" xml:space="preserve">
+    <value>Medio</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionOff" xml:space="preserve">
+    <value>Apagado</value>
+  </data>
+  <data name="prog_ParamValueNumeric0" xml:space="preserve">
+    <value>Apagado</value>
+  </data>
+  <data name="prog_ParamValueNumeric1" xml:space="preserve">
+    <value>Bajo</value>
+  </data>
+  <data name="prog_ParamValueNumeric2" xml:space="preserve">
+    <value>Medio</value>
+  </data>
+  <data name="prog_ParamValueNumeric3" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="prog_ParamValueOff" xml:space="preserve">
+    <value>Apagado</value>
+  </data>
+  <data name="prog_ParamValueOn" xml:space="preserve">
+    <value>Encendido</value>
+  </data>
+  <data name="prog_ParamValueSpeechFocusAuto" xml:space="preserve">
+    <value>Automático</value>
+  </data>
+  <data name="prog_ParamValueSpeechFocusCentered" xml:space="preserve">
+    <value>Adelante</value>
+  </data>
+  <data name="prog_ParamValueSpeechFocusOff" xml:space="preserve">
+    <value>Apagado</value>
+  </data>
+  <data name="prog_ParamValueTinnitusAmplificationHigh" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="prog_ParamValueTinnitusAmplificationLow" xml:space="preserve">
+    <value>Bajo</value>
+  </data>
+  <data name="prog_ParamValueTinnitusAmplificationTitle" xml:space="preserve">
+    <value>Volumen</value>
+  </data>
+  <data name="prog_ParamValueTinnitusDynamic" xml:space="preserve">
+    <value>Dinámico</value>
+  </data>
+  <data name="prog_ParamValueTinnitusEqualizerTitle" xml:space="preserve">
+    <value>Sonido</value>
+  </data>
+  <data name="prog_ParamValueTinnitusFast" xml:space="preserve">
+    <value>Rápido</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMedium" xml:space="preserve">
+    <value>Medio</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMixerActivate" xml:space="preserve">
+    <value>Mezclar los sonidos ambientales con el tinnitus</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMixerEnvironment" xml:space="preserve">
+    <value>Entorno</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMixerTinnitus" xml:space="preserve">
+    <value>Ruido</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMixerTitle" xml:space="preserve">
+    <value>Mezclador de ruido</value>
+  </data>
+  <data name="prog_ParamValueTinnitusOff" xml:space="preserve">
+    <value>Estática</value>
+  </data>
+  <data name="prog_ParamValueTinnitusSettingsTitle" xml:space="preserve">
+    <value>Ajuste del ruido</value>
+  </data>
+  <data name="prog_ParamValueTinnitusSlow" xml:space="preserve">
+    <value>Lento</value>
+  </data>
+  <data name="prog_ParamValueTinnitusStatic" xml:space="preserve">
+    <value>Estática</value>
+  </data>
+  <data name="prog_ParamValueTinnitusTypeTitle" xml:space="preserve">
+    <value>Modulación</value>
+  </data>
+  <data name="prog_ParamWindShieldDescription" xml:space="preserve">
+    <value>Reduce el ruido del viento en su entorno inmediato.</value>
+  </data>
+  <data name="prog_ParamWindShieldTitle" xml:space="preserve">
+    <value>Filtro de viento</value>
+  </data>
+  <data name="prog_ParamWritingData" xml:space="preserve">
+    <value>Guardar cambios</value>
+  </data>
+  <data name="prog_SettingsActionAutomation" xml:space="preserve">
+    <value>Programa de escucha automático</value>
+  </data>
+  <data name="prog_SettingsActionChangeIcon" xml:space="preserve">
+    <value>Personalizar icono</value>
+  </data>
+  <data name="prog_SettingsActionChangeName" xml:space="preserve">
+    <value>Personalizar nombre</value>
+  </data>
+  <data name="prog_SettingsActionCreateFavorite" xml:space="preserve">
+    <value>Crear programa de escucha</value>
+  </data>
+  <data name="prog_SettingsActionDeleteFavorite" xml:space="preserve">
+    <value>Borrar programa de escucha</value>
+  </data>
+  <data name="prog_SettingsActionReset" xml:space="preserve">
+    <value>Restablecer programa de escucha</value>
+  </data>
+  <data name="prog_SettingsAppReset" xml:space="preserve">
+    <value>¿Realmente quiere restablecer la aplicación?</value>
+  </data>
+  <data name="prog_SettingsAppResetTitle" xml:space="preserve">
+    <value>Restablecer la aplicación</value>
+  </data>
+  <data name="prog_SettingsAutomationIsActivated" xml:space="preserve">
+    <value>Activado</value>
+  </data>
+  <data name="prog_SettingsAutomationIsNotActivated" xml:space="preserve">
+    <value>Desactivado</value>
+  </data>
+  <data name="prog_SettingsDescription" xml:space="preserve">
+    <value>Aquí puede personalizar o restablecer su programa de escucha o crear un programa de escucha basado en sus ajustes actuales. También puede iniciar el programa de escucha automáticamente.</value>
+  </data>
+  <data name="prog_SettingsDescriptionAutoProgram" xml:space="preserve">
+    <value>Aquí puede personalizar su programa de escucha.
+En el modo automático, únicamente se pueden personalizar el nombre y el icono. Todos los demás ajustes se gestionan automáticamente.</value>
+  </data>
+  <data name="remoteHelp_Description1" xml:space="preserve">
+    <value>Insertar texto (Ayuda Remota descripción 1)</value>
+  </data>
+  <data name="remoteHelp_Description2" xml:space="preserve">
+    <value>Insertar texto (Ayuda Remota descripción 2)</value>
+  </data>
+  <data name="remoteHelp_DescriptionTitle1" xml:space="preserve">
+    <value>Introducción</value>
+  </data>
+  <data name="remoteHelp_DescriptionTitle2" xml:space="preserve">
+    <value>Información detallada</value>
+  </data>
+  <data name="remoteHelp_PageTitle" xml:space="preserve">
+    <value>Ayuda con la instalación de nuevas preferencias</value>
+  </data>
+  <data name="remove_hearingaid_title" xml:space="preserve">
+    <value>Eliminar audífonos</value>
+  </data>
+  <data name="remove_hearing_aid_Desc" xml:space="preserve">
+    <value>Aquí puede eliminar el enlace actual a un audífono.</value>
+  </data>
+  <data name="remove_left_hearing_aid" xml:space="preserve">
+    <value>Eliminar el audífono izquierdo</value>
+  </data>
+  <data name="remove_right_hearing_aid" xml:space="preserve">
+    <value>Eliminar el audífono derecho</value>
+  </data>
+  <data name="selectDevices_btCancelScan" xml:space="preserve">
+    <value>Cancelar búsqueda</value>
+  </data>
+  <data name="selectDevices_btConnectDevices" xml:space="preserve">
+    <value>Conectar audífonos</value>
+  </data>
+  <data name="selectDevices_Description" xml:space="preserve">
+    <value>La aplicación ahora está buscando sus audífonos. Este proceso puede durar algo de tiempo.
+
+Seleccione sus audífonos de la lista y confirme su selección haciendo clic en «conectar audífonos».</value>
+  </data>
+  <data name="selectDevices_DlgConfirmHearingAidManagementbtConfirm" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="selectDevices_DlgConfirmHearingAidManagementDescription" xml:space="preserve">
+    <value>Confirme que la aplicación debe utilizar los audífonos recién seleccionados.</value>
+  </data>
+  <data name="selectDevices_DlgConfirmHearingAidManagementTitle" xml:space="preserve">
+    <value>¿Cambiar el audífono utilizado?</value>
+  </data>
+  <data name="selectDevices_NotifyNoHearingAidsSelected" xml:space="preserve">
+    <value>No puede desactivar todos los audífonos. 
+Seleccione los dispositivos que quiere utilizar en la aplicación!</value>
+  </data>
+  <data name="selectDevices_PageTitle" xml:space="preserve">
+    <value>Seleccionar audífonos</value>
+  </data>
+  <data name="selectDevices_ScanMessage" xml:space="preserve">
+    <value>Los audífonos se están buscando...</value>
+  </data>
+  <data name="selectDevices_SideLeft" xml:space="preserve">
+    <value>Izquierda</value>
+  </data>
+  <data name="selectDevices_SideRight" xml:space="preserve">
+    <value>Derecha</value>
+  </data>
+  <data name="selectDevices_SubTitle" xml:space="preserve">
+    <value>Audífonos encontrados:</value>
+  </data>
+  <data name="selectDevices_SubTitleKnownDevices" xml:space="preserve">
+    <value>Audífonos utilizados:</value>
+  </data>
+  <data name="settingPage_LanguageInfoDesc" xml:space="preserve">
+    <value>Seleccione un idioma de la siguiente lista:</value>
+  </data>
+  <data name="settingsPage_AppMode" xml:space="preserve">
+    <value>Modo Demo</value>
+  </data>
+  <data name="settingsPage_AppMode_Demo" xml:space="preserve">
+    <value>Demo</value>
+  </data>
+  <data name="settingsPage_AppMode_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="settingsPage_AutomChangeFav" xml:space="preserve">
+    <value>Cambio automático del programa de escucha</value>
+  </data>
+  <data name="settingsPage_BatteryTest" xml:space="preserve">
+    <value>Prueba de las pilas</value>
+  </data>
+  <data name="settingsPage_Binaural" xml:space="preserve">
+    <value>Volumen binaural</value>
+  </data>
+  <data name="settingsPage_ConnectedDevice" xml:space="preserve">
+    <value>Mi audífono</value>
+  </data>
+  <data name="settingsPage_ConnectedDevices" xml:space="preserve">
+    <value>Mis audífonos</value>
+  </data>
+  <data name="settingsPage_Language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="settingsPage_Notes" xml:space="preserve">
+    <value>Representación</value>
+  </data>
+  <data name="settingsPage_Permissions" xml:space="preserve">
+    <value>Permisos</value>
+  </data>
+  <data name="settingsPage_Records" xml:space="preserve">
+    <value>Mis grabaciones</value>
+  </data>
+  <data name="settingsPage_StreamingSource" xml:space="preserve">
+    <value>Fuentes de transmisión</value>
+  </data>
+  <data name="settingsPage_SubTitle_AppDevelopment" xml:space="preserve">
+    <value>Desarrollo de la aplicación</value>
+  </data>
+  <data name="settingsPage_SubTitle_AppSettings" xml:space="preserve">
+    <value>Ajustes de la aplicación</value>
+  </data>
+  <data name="settingsPage_SubTitle_HearingSystem" xml:space="preserve">
+    <value>Audífono</value>
+  </data>
+  <data name="settingsPage_Title" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="settingsPage_Widgets" xml:space="preserve">
+    <value>Widgets</value>
+  </data>
+  <data name="settings_AppMode_Title" xml:space="preserve">
+    <value>Seleccione el modo en el que desea utilizar la aplicación.</value>
+  </data>
+  <data name="settings_languageChangingAnimation" xml:space="preserve">
+    <value>Cambiando el idioma de la aplicación...</value>
+  </data>
+  <data name="settings_languageTitle" xml:space="preserve">
+    <value>Seleccione un idioma de la lista.</value>
+  </data>
+  <data name="start_btStartScanning" xml:space="preserve">
+    <value>Iniciar búsqueda</value>
+  </data>
+  <data name="start_initializeHardware" xml:space="preserve">
+    <value>El hardware se está comprobando ...</value>
+  </data>
+  <data name="start_msg_Welcome" xml:space="preserve">
+    <value>Bienvenido a la aplicación.</value>
+  </data>
+  <data name="start_PageTitle" xml:space="preserve">
+    <value>Prueba del hardware exitosa</value>
+  </data>
+  <data name="start_StartHearingModeForDevices" xml:space="preserve">
+    <value>Ya puede conectar sus audífonos.
+
+Apague y vuelva a encender sus audífonos y confirme pulsando «Iniciar búsqueda».</value>
+  </data>
+  <data name="toast_max_favorite_msg" xml:space="preserve">
+    <value>Lamentablemente, no puede crear más favoritos.</value>
+  </data>
+  <data name="txtLeftSideShort" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="txtRightSideShort" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="welcomePageInfoText" xml:space="preserve">
+    <value>Gracias por descargar la aplicación. Esta aplicación le permite:
+ • controlar sus audífonos
+ • Crear sus propios programas de escucha
+ • Obtener información sobre su solución auditiva
+ • Elaborar estadísticas sobre el uso de sus audífonos
+ • Ponerse em contacto con soporte técnico.</value>
+  </data>
+  <data name="welcomePageMoreInfo" xml:space="preserve">
+    <value>Más sobre la aplicación</value>
+  </data>
+  <data name="welcome_btDemoMode" xml:space="preserve">
+    <value>Iniciar en modo Demo</value>
+  </data>
+  <data name="welcome_btStartInit" xml:space="preserve">
+    <value>Configurar ahora</value>
+  </data>
+  <data name="welcome_PageTitle" xml:space="preserve">
+    <value>¡Bienvenido!</value>
+  </data>
+  <data name="widget_BatteryLeft" xml:space="preserve">
+    <value>Pila a la izquierda:</value>
+  </data>
+  <data name="widget_BatteryRight" xml:space="preserve">
+    <value>Pila a la derecha:</value>
+  </data>
+  <data name="widget_EmptyViewTest" xml:space="preserve">
+    <value>La aplicación está cerrada. Es necesario iniciar la aplicación para usar el widget. Pulse aquí para iniciar la aplicación.</value>
+  </data>
+  <data name="widget_Title" xml:space="preserve">
+    <value>Persona Medical</value>
+  </data>
+  <data name="wifi_Connected_Fallback" xml:space="preserve">
+    <value>Conéctese a una red wifi para usarlo.</value>
+  </data>
+</root>

@@ -1,0 +1,1960 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addNewHearingInstrument_Btn_Text" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="add_hearing_aid_title" xml:space="preserve">
+    <value>Adicionar aparelho auditivo</value>
+  </data>
+  <data name="AndroidServiceDescriptionBothConnected" xml:space="preserve">
+    <value>Ambos os aparelhos auditivos estão conectados.</value>
+  </data>
+  <data name="AndroidServiceDescriptionLeftConnected" xml:space="preserve">
+    <value>O aparelho auditivo esquerdo está conectado.</value>
+  </data>
+  <data name="AndroidServiceDescriptionNoneConnected" xml:space="preserve">
+    <value>Nenhum aparelho auditivo foi conectado até agora.</value>
+  </data>
+  <data name="AndroidServiceDescriptionRightConnected" xml:space="preserve">
+    <value>O aparelho auditivo direito está conectado.</value>
+  </data>
+  <data name="audio_streaming_start" xml:space="preserve">
+    <value>Ativar microfone</value>
+  </data>
+  <data name="audio_streaming_stop" xml:space="preserve">
+    <value>Desativar microfone</value>
+  </data>
+  <data name="automationHelpPageDescription" xml:space="preserve">
+    <value>Com a função Autostart, você pode iniciar seu programa auditivo automaticamente com uma destas duas opções:</value>
+  </data>
+  <data name="automationHelpPageGeoDescription" xml:space="preserve">
+    <value>Você pode ativar o início do seu programa auditivo na proximidade de um determinado local, por exemplo, um restaurante.</value>
+  </data>
+  <data name="automationHelpPageGeoHeader" xml:space="preserve">
+    <value>Conectar com local</value>
+  </data>
+  <data name="automationHelpPageTitle" xml:space="preserve">
+    <value>Autostart</value>
+  </data>
+  <data name="automationHelpPageWifiDescription" xml:space="preserve">
+    <value>Você pode ativar o início automático do seu programa auditivo, assim que seu smartphone estiver conectado com uma rede Wi-Fi.</value>
+  </data>
+  <data name="automationHelpPageWifiHeader" xml:space="preserve">
+    <value>Conectar com Wi-Fi</value>
+  </data>
+  <data name="bluetoothAcivatePageTitle" xml:space="preserve">
+    <value>Ativar Bluetooth</value>
+  </data>
+  <data name="bluetoothChoosePageTitle" xml:space="preserve">
+    <value>Selecionar aparelho auditivo</value>
+  </data>
+  <data name="bluetoothStartPageInfoText" xml:space="preserve">
+    <value>Ligue seu aparelho auditivo. Certifique-se de que esteja próximo do seu smartphone.</value>
+  </data>
+  <data name="bluetoothStartPageTitle" xml:space="preserve">
+    <value>Ativar Bluetooth</value>
+  </data>
+  <data name="bt_accept" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="bt_ActivateBluetooth" xml:space="preserve">
+    <value>Ativar Bluetooth</value>
+  </data>
+  <data name="bt_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="bt_Next" xml:space="preserve">
+    <value>Avançar</value>
+  </data>
+  <data name="bt_No" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="bt_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="bt_send" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="bt_Settings" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="bt_Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="changeHearingInstrument_Btn_Text" xml:space="preserve">
+    <value>Substituir</value>
+  </data>
+  <data name="change_hearing_aid_Desc" xml:space="preserve">
+    <value>Aqui você pode substituir um aparelho auditivo atualmente conectado.</value>
+  </data>
+  <data name="change_hearing_aid_Title" xml:space="preserve">
+    <value>Substituir aparelhos auditivos</value>
+  </data>
+  <data name="change_left_hearing_aid" xml:space="preserve">
+    <value>Substituir aparelho auditivo esquerdo</value>
+  </data>
+  <data name="change_right_hearing_aid" xml:space="preserve">
+    <value>Substituir aparelho auditivo direito</value>
+  </data>
+  <data name="def_HA_LewiR_Modelname" xml:space="preserve">
+    <value>lewi R</value>
+  </data>
+  <data name="def_HA_LewiS_Modelname" xml:space="preserve">
+    <value>lewi S</value>
+  </data>
+  <data name="def_HA_RisaR_Modelname" xml:space="preserve">
+    <value>risa R</value>
+  </data>
+  <data name="def_HA_RisaS_Modelname" xml:space="preserve">
+    <value>risa S</value>
+  </data>
+  <data name="def_Sit_AudioStreaming_Icon" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="def_Sit_AudioStreaming_Name" xml:space="preserve">
+    <value>Transmissão de áudio</value>
+  </data>
+  <data name="def_Sit_Automatic_Icon" xml:space="preserve">
+    <value>¿</value>
+  </data>
+  <data name="def_Sit_Automatic_Name" xml:space="preserve">
+    <value>Automático</value>
+  </data>
+  <data name="def_Sit_Basic_Icon" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="def_Sit_Basic_Name" xml:space="preserve">
+    <value>Programa básico</value>
+  </data>
+  <data name="def_Sit_Comfort_Icon" xml:space="preserve">
+    <value>r</value>
+  </data>
+  <data name="def_Sit_Comfort_Name" xml:space="preserve">
+    <value>Conforto</value>
+  </data>
+  <data name="def_Sit_Music_Icon" xml:space="preserve">
+    <value>¢</value>
+  </data>
+  <data name="def_Sit_Music_Name" xml:space="preserve">
+    <value>Música</value>
+  </data>
+  <data name="def_Sit_Noise_Icon" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="def_Sit_Noise_Name" xml:space="preserve">
+    <value>Ruído de fundo </value>
+  </data>
+  <data name="def_Sit_Phone_Icon" xml:space="preserve">
+    <value>q</value>
+  </data>
+  <data name="def_Sit_Phone_Name" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="def_Sit_TinnitusOnly_Icon" xml:space="preserve">
+    <value>¶</value>
+  </data>
+  <data name="def_Sit_TinnitusOnly_Name" xml:space="preserve">
+    <value>Zumbido</value>
+  </data>
+  <data name="def_Sit_Wind_Icon" xml:space="preserve">
+    <value>g</value>
+  </data>
+  <data name="def_Sit_Wind_Name" xml:space="preserve">
+    <value>Vento</value>
+  </data>
+  <data name="demoModeStart" xml:space="preserve">
+    <value>Iniciar modo demonstração</value>
+  </data>
+  <data name="demoPageTitle" xml:space="preserve">
+    <value>Modo demonstração</value>
+  </data>
+  <data name="describe_hearing_aid_problem_desc" xml:space="preserve">
+    <value>Descreva brevemente o problema auditivo, para que possamos ajudar-lhe.</value>
+  </data>
+  <data name="device_BatteryLevelValue" xml:space="preserve">
+    <value>Nível de carga</value>
+  </data>
+  <data name="device_NameTitle" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="device_SerialNumberTitle" xml:space="preserve">
+    <value>Número de série</value>
+  </data>
+  <data name="device_TypeTitle" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="device_UdiTitle" xml:space="preserve">
+    <value>Universal Device Identifier (UDI)</value>
+  </data>
+  <data name="dialog_ActivateDemo_Desc" xml:space="preserve">
+    <value>Deseja mudar para o modo demonstração?</value>
+  </data>
+  <data name="dialog_ActivateDemo_Title" xml:space="preserve">
+    <value>Ativar modo demonstração</value>
+  </data>
+  <data name="dialog_Btn_Settings" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="dialog_Cancel_Connection_Desc" xml:space="preserve">
+    <value>Interromper conexão</value>
+  </data>
+  <data name="dialog_Cancel_Connection_Title" xml:space="preserve">
+    <value>Interromper conexão</value>
+  </data>
+  <data name="dialog_CloseDemo_Desc" xml:space="preserve">
+    <value>Deseja encerrar o modo demonstração agora?</value>
+  </data>
+  <data name="dialog_CloseDemo_Title" xml:space="preserve">
+    <value>Encerrar modo demonstração</value>
+  </data>
+  <data name="dialog_disconnect_hearingaids_btn_disconnect" xml:space="preserve">
+    <value>Desconectar</value>
+  </data>
+  <data name="dialog_disconnect_hearingaids_desc" xml:space="preserve">
+    <value>Deseja realmente desconectar a conexão para este aparelho auditivo?</value>
+  </data>
+  <data name="dialog_disconnect_hearingaids_title" xml:space="preserve">
+    <value>Desconectar conexão</value>
+  </data>
+  <data name="dialog_GeoLoc_InUse_User_Denied_Desc" xml:space="preserve">
+    <value>Você recusou a permissão para usar a localização enquanto estiver usando o aplicativo. Se você deseja usar este recurso, ajuste a permissão apropriada nas definições.</value>
+  </data>
+  <data name="dialog_GeoLoc_InUse_User_Denied_Find_Desc" xml:space="preserve">
+    <value>Você recusou a permissão para usar a localização enquanto estiver usando o aplicativo audifon. Esta permissão é necessária para o recurso ‘Encontrar sistemas auditivos’. Se você deseja usar este recurso, ajuste a permissão apropriada nas definições.</value>
+  </data>
+  <data name="dialog_GeoLoc_InUse_User_Denied_Start_Desc" xml:space="preserve">
+    <value>Você recusou a permissão para usar a localização enquanto estiver usando o aplicativo audifon. Esta permissão é necessária para o recurso ‘Início automático do programa auditivo’. Se você deseja usar este recurso, ajuste a permissão apropriada nas definições.</value>
+  </data>
+  <data name="dialog_GeoLoc_User_Denied_Desc" xml:space="preserve">
+    <value>Você recusou a permissão para usar a localização sempre. Se você deseja usar este recurso, ajuste a permissão apropriada nas definições.</value>
+  </data>
+  <data name="dialog_Info_Title" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="dialog_InternetConnectionRequired" xml:space="preserve">
+    <value>Para utilizar este serviço é necessária uma conexão ativa com a internet.</value>
+  </data>
+  <data name="dialog_LoadUserProfileFailed" xml:space="preserve">
+    <value>Não foi possível carregar o perfil, porque o estabelecimento da conexão falhou.</value>
+  </data>
+  <data name="dialog_promoteUserToUseThisFunctionalityDescription" xml:space="preserve">
+    <value>Conecte seu usuário com a conta para poder utilizar esta função.</value>
+  </data>
+  <data name="dialog_promoteUserToUseThisFunctionalityTitle" xml:space="preserve">
+    <value>Usuário não conectado</value>
+  </data>
+  <data name="dialog_remove_hearingaid_btn_remove" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="dialog_remove_hearingaid_desc" xml:space="preserve">
+    <value>Tem certeza que deseja remover o aparelho auditivo?</value>
+  </data>
+  <data name="dialog_remove_hearingaid_title" xml:space="preserve">
+    <value>Importante!</value>
+  </data>
+  <data name="dialog_scanDevicesAgainDesc" xml:space="preserve">
+    <value>Deseja procurar outros aparelhos auditivos disponíveis?</value>
+  </data>
+  <data name="dialog_scanDevicesAgainOkButton" xml:space="preserve">
+    <value>Scan</value>
+  </data>
+  <data name="dialog_scanDevicesAgainTitle" xml:space="preserve">
+    <value>Scan aparelhos auditivos</value>
+  </data>
+  <data name="dialog_ServiceNotAvailable" xml:space="preserve">
+    <value>Serviço atualmente não disponível.</value>
+  </data>
+  <data name="dlg_autoProgramStart_backgroundLocation_hint" xml:space="preserve">
+    <value>Para utilização do recurso “Início automático do programa auditivo”, o app audifon coleta dados, mesmo quando o aplicativo é usado em segundo plano.</value>
+  </data>
+  <data name="dlg_autoProgramStart_backgroundLocation_permissionDialog" xml:space="preserve">
+    <value>Abra os ajustes de localização para permitir que o aplicativo audifon use a localização sempre. Isto é necessário para usar o recurso “Início automático do programa auditivo”.</value>
+  </data>
+  <data name="dlg_autoProgramStart_backgroundLocation_preCheck" xml:space="preserve">
+    <value>O app audifon coleta dados de localização para ativar o início automático do programa auditivo, mesmo quando o aplicativo é usado em segundo plano. Você recusou a permissão “permitir sempre” para uso dos serviços de localização. Se você desejar usar o recurso de início automático do programa auditivo, defina a permissão apropriada nos ajustes.</value>
+  </data>
+  <data name="dlg_autoProgramStart_fineBackgroundLocation_preCheck" xml:space="preserve">
+    <value>Abra os ajustes de localização para permitir que o aplicativo audifon use a localização exata sempre. Isto é necessário para usar o recurso “Início automático do programa auditivo”.</value>
+  </data>
+  <data name="dlg_connect_bluetoothConnect_preCheck" xml:space="preserve">
+    <value>Você recusou a permissão para acessar ‘Dispositivos próximos’. Esta permissão é necessária para que o aplicativo audifon se conecte ao seu sistema auditivo. Defina a permissão apropriada no menu de ajustes do aplicativo.</value>
+  </data>
+  <data name="dlg_disabled_location_service_all_functions_description" xml:space="preserve">
+    <value>Para poder usar as funções Encontrar aparelhos auditivos ou Início automático do programa auditivo baseado na posição, confirme o seguinte diálogo.</value>
+  </data>
+  <data name="dlg_disabled_location_service_auto_program_description" xml:space="preserve">
+    <value>Para poder usar o Início automático do programa auditivo baseado na posição, você precisa ativar os serviços de localização. Confirme o seguinte diálogo com OK.</value>
+  </data>
+  <data name="dlg_disabled_location_service_ble_scan_description" xml:space="preserve">
+    <value>Para poder procurar seus aparelhos auditivos, você precisa ativar os serviços de localização. Confirme o seguinte diálogo com OK.</value>
+  </data>
+  <data name="dlg_disabled_location_service_title" xml:space="preserve">
+    <value>Localização desativada</value>
+  </data>
+  <data name="dlg_discovery_bluetoothScanConnect_hint" xml:space="preserve">
+    <value>Para poder procurar seus aparelhos auditivos, você precisa conceder a permissão para acessar ‘Dispositivos próximos’ ao aplicativo audifon. Faça isso no passo seguinte. </value>
+  </data>
+  <data name="dlg_discovery_bluetoothScanConnect_preCheck" xml:space="preserve">
+    <value>Você recusou a permissão para acessar ‘Dispositivos próximos’. Esta permissão é necessária para que o aplicativo audifon procure seus sistemas auditivos e para conectar-se mais tarde. Defina a permissão apropriada no menu de ajustes do aplicativo.</value>
+  </data>
+  <data name="dlg_discovery_locationInUse_hint" xml:space="preserve">
+    <value>Para poder procurar seus aparelhos auditivos, você precisa conceder permissões de localização ‘Durante o uso’. Faça isso no passo seguinte para encontrar e conectar seus sistemas auditivos.</value>
+  </data>
+  <data name="dlg_mapCurrentPosition_inUse_preCheck" xml:space="preserve">
+    <value>Você recusou a permissão para usar a localização enquanto estiver usando o aplicativo audifon. Esta permissão é necessária para o recurso ‘Posição atual no mapa’. Se você deseja usar este recurso, ajuste a permissão apropriada nas definições.</value>
+  </data>
+  <data name="dlg_no_internet_desc" xml:space="preserve">
+    <value>Conecte seu smartphone com a internet e, em seguida, execute esta ação novamente.</value>
+  </data>
+  <data name="dlg_no_internet_title" xml:space="preserve">
+    <value>Sem conexão com a internet</value>
+  </data>
+  <data name="dlg_no_internet_warning_desc" xml:space="preserve">
+    <value>Algumas funcionalidades não estão disponíveis enquanto o aparelho estiver offline.</value>
+  </data>
+  <data name="dlg_no_wifi_desc" xml:space="preserve">
+    <value>Conecte seu smartphone com uma rede WiFi e, em seguida, execute esta ação novamente.</value>
+  </data>
+  <data name="dlg_no_wifi_title" xml:space="preserve">
+    <value>Sem conexão Wi-Fi</value>
+  </data>
+  <data name="dlg_permission_bluetooth_hint" xml:space="preserve">
+    <value>Para procurar ou conectar seus aparelhos auditivos, você precisa conceder a permissão para acessar ‘Dispositivos próximos’ ao aplicativo audifon. Faça isso no passo seguinte.</value>
+  </data>
+  <data name="dlg_permission_bluetooth_preCheck" xml:space="preserve">
+    <value>Você recusou a permissão para acessar ‘Dispositivos próximos’. Esta permissão é necessária para que o aplicativo audifon procure os seus sistemas auditivos. Defina a permissão apropriada no menu de ajustes do aplicativo.</value>
+  </data>
+  <data name="dlg_permission_location_hint" xml:space="preserve">
+    <value>Para algumas funções, o app requer a permissão para a localização. No passo seguinte, defina no app o acesso ‘Permitir sempre’.</value>
+  </data>
+  <data name="dlg_permission_location_in_use_find_hint" xml:space="preserve">
+    <value>Para usar a função “Encontrar sistemas auditivos”, o aplicativo audifon requer uma autorização para determinar a localização. No passo seguinte, conceda a permissão ‘Durante o uso’ ao aplicativo audifon.</value>
+  </data>
+  <data name="dlg_permission_location_in_use_hint" xml:space="preserve">
+    <value>Para algumas funções, o aplicativo audifon requer autorização para determinar a localização. No passo seguinte, conceda a permissão “Durante o uso” ao aplicativo audifon.</value>
+  </data>
+  <data name="dlg_permission_title" xml:space="preserve">
+    <value>Permissão</value>
+  </data>
+  <data name="error_Connection_BothInstrumentErrorMessage" xml:space="preserve">
+    <value>Não foi possível estabelecer uma conexão com nenhum dos seus aparelhos auditivos. Verifique se os seus aparelhos auditivos estão ligados e tente novamente!</value>
+  </data>
+  <data name="error_Connection_BothInstrumentErrorTitle" xml:space="preserve">
+    <value>Ambos os aparelhos auditivos não estão conectados.</value>
+  </data>
+  <data name="error_Connection_BothInstrumentUnsupportedErrorMessage" xml:space="preserve">
+    <value>A connection to your hearing systems could not be established because both of them are unsupported.</value>
+  </data>
+  <data name="error_Connection_BothInstrumentUnsupportedErrorTitle" xml:space="preserve">
+    <value>Both hearing systems are unsupported.</value>
+  </data>
+  <data name="error_Connection_GeneralErrorMessage" xml:space="preserve">
+    <value>Não foi possível estabelecer uma conexão com nenhum dos seus aparelhos auditivos. Verifique se os seus aparelhos auditivos estão ligados e tente novamente!</value>
+  </data>
+  <data name="error_Connection_GeneralErrorTitle" xml:space="preserve">
+    <value>Erro ao conectar seus aparelhos auditivos</value>
+  </data>
+  <data name="error_Connection_LeftInstrumentErrorMessage" xml:space="preserve">
+    <value>Não foi possível estabelecer uma conexão com seu aparelho auditivo esquerdo. Verifique se o aparelho auditivo está ligado e tente novamente! Você também pode usar o app com apenas um aparelho auditivo.</value>
+  </data>
+  <data name="error_Connection_LeftInstrumentErrorTitle" xml:space="preserve">
+    <value>Sem conexão com o seu aparelho auditivo esquerdo</value>
+  </data>
+  <data name="error_Connection_LeftInstrumentOnlyErrorMessage" xml:space="preserve">
+    <value>Não foi possível estabelecer uma conexão com seu aparelho auditivo esquerdo. Verifique se o aparelho auditivo está ligado e tente novamente! </value>
+  </data>
+  <data name="error_Connection_LeftInstrumentUnsupportedErrorMessage" xml:space="preserve">
+    <value>No connection could be established to the left hearing system because it is unsupported. You can still use the app with just one hearing system.</value>
+  </data>
+  <data name="error_Connection_LeftInstrumentUnsupportedErrorTitle" xml:space="preserve">
+    <value>Left hearing system not supported.</value>
+  </data>
+  <data name="error_Connection_ResolutionBackToSelectionMessage" xml:space="preserve">
+    <value>Você selecionou acidentalmente um aparelho auditivo errado?
+Volte para a seleção e verifique o nome dos seus aparelhos auditivos selecionados.</value>
+  </data>
+  <data name="error_Connection_ResolutionBackToSelectionTitle" xml:space="preserve">
+    <value>Voltar para a seleção de aparelhos auditivos</value>
+  </data>
+  <data name="error_Connection_ResolutionGotoFindHearingAidMessage" xml:space="preserve">
+    <value>Se você tiver perdido seus aparelhos auditivos, o app poderá ajudar a encontrá-los. Para isso, toque aqui.</value>
+  </data>
+  <data name="error_Connection_ResolutionGotoFindHearingAidTitle" xml:space="preserve">
+    <value>Localizar meus aparelhos auditivos</value>
+  </data>
+  <data name="error_Connection_ResolutionPairMessage" xml:space="preserve">
+    <value>Use o menu de configurações bluetooth para parear ou reparear seus aparelhos auditivos com o smartphone. Em seguida, tente conectar novamente.</value>
+  </data>
+  <data name="error_Connection_ResolutionPairTitle" xml:space="preserve">
+    <value>Parear meus aparelhos auditivos</value>
+  </data>
+  <data name="error_Connection_ResolutionRetryMessage" xml:space="preserve">
+    <value>O app tenta novamente estabelecer uma conexão. Reinicie os aparelhos, desligando e ligando-os novamente.</value>
+  </data>
+  <data name="error_Connection_ResolutionRetryTitle" xml:space="preserve">
+    <value>Tentar conexão novamente</value>
+  </data>
+  <data name="error_Connection_ResolutionUseOneInstrumentOnlyMessage" xml:space="preserve">
+    <value>O app está conectado com apenas um sistema auditivo. Se você deseja conectá-lo mais tarde com ambos os sistemas auditivos, navegue no menu Ajustes do app até “Meus sistemas auditivos” e desconecte o sistema auditivo individual.</value>
+  </data>
+  <data name="error_Connection_ResolutionUseOneInstrumentOnlyTitle" xml:space="preserve">
+    <value>Uso temporário de apenas um aparelho sistema</value>
+  </data>
+  <data name="error_Connection_RightInstrumentErrorMessage" xml:space="preserve">
+    <value>Não foi possível estabelecer uma conexão com seu aparelho auditivo direito. Verifique se o aparelho auditivo está ligado e tente novamente. Você também pode usar o app com apenas um aparelho auditivo.</value>
+  </data>
+  <data name="error_Connection_RightInstrumentErrorTitle" xml:space="preserve">
+    <value>Sem conexão com o aparelho auditivo direito</value>
+  </data>
+  <data name="error_Connection_RightInstrumentOnlyErrorMessage" xml:space="preserve">
+    <value>Não foi possível estabelecer uma conexão com seu aparelho auditivo direito. Verifique se o aparelho auditivo está ligado e tente novamente.</value>
+  </data>
+  <data name="error_Connection_RightInstrumentUnsupportedErrorMessage" xml:space="preserve">
+    <value>No connection could be established to the right hearing system because it is unsupported. You can still use the app with just one hearing system.</value>
+  </data>
+  <data name="error_Connection_RightInstrumentUnsupportedErrorTitle" xml:space="preserve">
+    <value>Right hearing system not supported.</value>
+  </data>
+  <data name="error_Connection_UnsupportedHearingSystemErrorMessage" xml:space="preserve">
+    <value>Você tentou se conectar a um aparelho auditivo não compatível com esta versão do aplicativo.</value>
+  </data>
+  <data name="error_Connection_UnsupportedHearingSystemErrorTitle" xml:space="preserve">
+    <value>Dispositivos não suportados</value>
+  </data>
+  <data name="error_Hardware_BluetoothMissingMessage" xml:space="preserve">
+    <value>Seu smartphone não dispõe de Bluetooth. O app precisa de Bluetooth para poder comunicar-se com seus aparelhos auditivos. Infelizmente seu smartphone não é apropriado para essa função.</value>
+  </data>
+  <data name="error_Hardware_BluetoothMissingTitle" xml:space="preserve">
+    <value>Não há Bluetooth</value>
+  </data>
+  <data name="error_Hardware_BluetoothNotActivatedMessage" xml:space="preserve">
+    <value>Bluetooth está desativado em seu smartphone. O app precisa de Bluetooth para poder comunicar-se com seus aparelhos auditivos.</value>
+  </data>
+  <data name="error_Hardware_BluetoothNotActivatedTitle" xml:space="preserve">
+    <value>Bluetooth está desativado</value>
+  </data>
+  <data name="error_Hardware_LocationServiceDisabledMessage" xml:space="preserve">
+    <value>A localização está desativada em seu smartphone. O app audifon requer que o serviço de localização pesquise e encontre seus aparelhos auditivos para o início automático do programa auditivo.</value>
+  </data>
+  <data name="error_Hardware_LocationServiceDisabledTitle" xml:space="preserve">
+    <value>A localização está desativada</value>
+  </data>
+  <data name="error_Hardware_NoHearingAidConnectPermissionMessage" xml:space="preserve">
+    <value>O aplicativo audifon não tem a permissão para estabelecer uma conexão com seus sistemas auditivos. Abra os ajustes do seu smartphone para conceder ao aplicativo a permissão para continuar.</value>
+  </data>
+  <data name="error_Hardware_NoHearingAidConnectPermissionTitle" xml:space="preserve">
+    <value>Não há permissões para conectar dispositivos</value>
+  </data>
+  <data name="error_Hardware_NoHearingAidDiscoveryPermissionMessage" xml:space="preserve">
+    <value>O app não possui permissão para localizar seus sistemas auditivos. Defina as permissões para o app através dos ajustes do seu smartphone, para poder prosseguir.</value>
+  </data>
+  <data name="error_Hardware_NoHearingAidDiscoveryPermissionTitle" xml:space="preserve">
+    <value>Não há permissões para procurar dispositivos</value>
+  </data>
+  <data name="error_Hardware_NoTrackingLocationPermissionMessage" xml:space="preserve">
+    <value>O aplicativo não tem permissão para obter a posição dos seus sistemas auditivos. Isto é necessário para a função “Encontrar sistemas auditivos”. Abra os ajustes de localização do aplicativo para conceder a permissão necessária para continuar.</value>
+  </data>
+  <data name="error_Hardware_NoTrackingLocationPermissionTitle" xml:space="preserve">
+    <value>Não há permissões para encontrar sistemas auditivos</value>
+  </data>
+  <data name="error_Hardware_ResolutionAllowAccessNearbyDevicesMessage" xml:space="preserve">
+    <value>Vá às Definições do Sistema e permita o acesso a “Dispositivos próximos”.</value>
+  </data>
+  <data name="error_Hardware_ResolutionAllowAccessNearbyDevicesTitle" xml:space="preserve">
+    <value>Permissões de alterações</value>
+  </data>
+  <data name="error_Hardware_ResolutionAllowLocationMessage" xml:space="preserve">
+    <value>Vá às Definições do Sistema e permita o uso de dados de localização para este aplicativo.</value>
+  </data>
+  <data name="error_Hardware_ResolutionAllowLocationTitle" xml:space="preserve">
+    <value>Alterar permissões</value>
+  </data>
+  <data name="error_Hardware_ResolutionGotoSettingsMessage" xml:space="preserve">
+    <value>Acesse as configurações do seu smartphone e ative o Bluetooth manualmente.</value>
+  </data>
+  <data name="error_Hardware_ResolutionGotoSettingsTitle" xml:space="preserve">
+    <value>Acessar Configurações</value>
+  </data>
+  <data name="error_Hardware_ResolutionLocationServiceContinueMessage" xml:space="preserve">
+    <value>Continuar sem o serviço de localização ativado.</value>
+  </data>
+  <data name="error_Hardware_ResolutionLocationServiceContinueTitle" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="error_Hardware_ResolutionLocationServiceEnableMessage" xml:space="preserve">
+    <value>Abrir os ajustes de localização (serviços) para ativar o serviço de localização.</value>
+  </data>
+  <data name="error_Hardware_ResolutionLocationServiceEnableTitle" xml:space="preserve">
+    <value>Ativar a localização</value>
+  </data>
+  <data name="error_Hardware_ResolutionRetryMessage" xml:space="preserve">
+    <value>O procedimento é executado novamente.</value>
+  </data>
+  <data name="error_Hardware_ResolutionRetryTitle" xml:space="preserve">
+    <value>Repetir procedimento</value>
+  </data>
+  <data name="error_Hardware_ResolutionStartDemoMessage" xml:space="preserve">
+    <value>O app inicia em modo demonstração. Você também pode experimentar as funções sem aparelhos auditivos. O modo demonstração pode ser encerrado a qualquer momento.</value>
+  </data>
+  <data name="error_Hardware_ResolutionStartDemoTitle" xml:space="preserve">
+    <value>Iniciar modo demonstração</value>
+  </data>
+  <data name="error_Hardware_ResolutionTitle" xml:space="preserve">
+    <value>O que deseja fazer agora?</value>
+  </data>
+  <data name="error_Hardware_ResolutionTrackingLocationPermissionContinueMessage" xml:space="preserve">
+    <value>Continuar sem conceder a permissão de localização.</value>
+  </data>
+  <data name="error_Hardware_ResolutionTrackingLocationPermissionContinueTitle" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="error_Hardware_SDKErrorMessage" xml:space="preserve">
+    <value>Ocorreu um erro ao inicializar o app. Tente novamente ou entre em contato com o suporte.</value>
+  </data>
+  <data name="error_Hardware_SDKErrorTitle" xml:space="preserve">
+    <value>A inicialização do app falhou</value>
+  </data>
+  <data name="error_NoPhoneNumber" xml:space="preserve">
+    <value>Nenhum número de telefone registrado</value>
+  </data>
+  <data name="fav_btCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="fav_btCreate" xml:space="preserve">
+    <value>Salvar favorito</value>
+  </data>
+  <data name="fav_btOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="fav_EditIconDescription" xml:space="preserve">
+    <value>Selecione um novo símbolo:</value>
+  </data>
+  <data name="fav_EditIconSubTitle" xml:space="preserve">
+    <value>Selecionar símbolo</value>
+  </data>
+  <data name="fav_EditIconTitle" xml:space="preserve">
+    <value>Adaptar símbolo</value>
+  </data>
+  <data name="fav_EditNameDescription" xml:space="preserve">
+    <value>Atribua um novo nome ao seu programa auditivo:</value>
+  </data>
+  <data name="fav_EditNameSubTitleFav" xml:space="preserve">
+    <value>Nome do programa auditivo</value>
+  </data>
+  <data name="fav_EditNameSubTitleStd" xml:space="preserve">
+    <value>Nome do programa auditivo</value>
+  </data>
+  <data name="fav_EditNameTitle" xml:space="preserve">
+    <value>Adaptar nome</value>
+  </data>
+  <data name="gblNotification_ActivateGeoTrackingCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="gblNotification_ActivateGeoTrackingMsg" xml:space="preserve">
+    <value>O compartilhamento de local está desativado para o app. Por isso você não pode utilizar esta função. Você pode cancelar o procedimento e ativar a função mais tarde nas configurações do seu smartphone ou ativá-la diretamente aqui.</value>
+  </data>
+  <data name="gblNotification_ActivateGeoTrackingOk" xml:space="preserve">
+    <value>Ativar</value>
+  </data>
+  <data name="gblNotification_ActivateGeoTrackingTitle" xml:space="preserve">
+    <value>Compartilhamento de local desativado</value>
+  </data>
+  <data name="gblNotification_ChangeLanguageDesc" xml:space="preserve">
+    <value>Deseja alterar o idioma?</value>
+  </data>
+  <data name="gblNotification_ChangeLanguageTitle" xml:space="preserve">
+    <value>Alterar idioma?</value>
+  </data>
+  <data name="gblNotification_ConnectionLostHelp" xml:space="preserve">
+    <value>Ir para a Ajuda</value>
+  </data>
+  <data name="gblNotification_ConnectionLostMessage" xml:space="preserve">
+    <value>A conexão com seu aparelho auditivo {0} foi interrompida.</value>
+  </data>
+  <data name="gblNotification_ConnectionLostOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="gblNotification_ConnectionLostTitle" xml:space="preserve">
+    <value>Conexão interrompida</value>
+  </data>
+  <data name="gblNotification_ErrorTitle" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="gblNotification_FindStoreConnectionErrorDesc" xml:space="preserve">
+    <value>Não foi possível estabelecer uma conexão para carregar as lojas especializadas.</value>
+  </data>
+  <data name="gblNotification_FindStoreGeneralErrorDesc" xml:space="preserve">
+    <value>Não foi possível carregar as lojas especializadas.</value>
+  </data>
+  <data name="gblNotification_GeneralOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="gblNotification_HALeft" xml:space="preserve">
+    <value>esquerdo</value>
+  </data>
+  <data name="gblNotification_HARight" xml:space="preserve">
+    <value>direito</value>
+  </data>
+  <data name="gblNotification_LowBatteryMessage" xml:space="preserve">
+    <value>A bateria do seu aparelho auditivo {0} está quase vazia. Troque-a nas próximas horas.</value>
+  </data>
+  <data name="gblNotification_LowBatteryOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="gblNotification_LowBatteryTitle" xml:space="preserve">
+    <value>Bateria do aparelho auditivo quase vazia</value>
+  </data>
+  <data name="gblNotification_No" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="gblNotification_NoGeoTrackingMsg" xml:space="preserve">
+    <value>Você desativou o compartilhamento de local. Para utilizar esta função, ative o compartilhamento de local nas configurações do seu smartphone.</value>
+  </data>
+  <data name="gblNotification_NoGeoTrackingTitle" xml:space="preserve">
+    <value>Compartilhamento de local desativado</value>
+  </data>
+  <data name="gblNotification_NoGoogleMapsAvailableMessage" xml:space="preserve">
+    <value>Infelizmente o serviço de mapas não pode ser utilizado em seu smartphone. Verifique se os serviços do Google Play estão atualizados.</value>
+  </data>
+  <data name="gblNotification_NoGoogleMapsAvailableTitle" xml:space="preserve">
+    <value>Serviço de mapas não disponível</value>
+  </data>
+  <data name="gblNotification_ProgramCollectionAdjusted" xml:space="preserve">
+    <value>Os favoritos foram adaptados aos ajustes atuais do seu aparelho auditivo.</value>
+  </data>
+  <data name="gblNotification_Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="gbl_AndroidServiceTitle" xml:space="preserve">
+    <value>Aparelhos auditivos</value>
+  </data>
+  <data name="gbl_btBack" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="gbl_ConnectionLost_Reconnecting" xml:space="preserve">
+    <value>A conexão com seus aparelhos auditivos foi interrompida. Verifique seus aparelhos auditivos. O app está tentando restabelecer a conexão.</value>
+  </data>
+  <data name="gbl_DecibelShort" xml:space="preserve">
+    <value>dB</value>
+  </data>
+  <data name="gbl_DemoModeActivated" xml:space="preserve">
+    <value>Modo demonstração</value>
+  </data>
+  <data name="gbl_RemoteUpdateGotoBackupIndicator" xml:space="preserve">
+    <value>Adaptação antiga</value>
+  </data>
+  <data name="geofenceservice_notification_desc" xml:space="preserve">
+    <value>O serviço geofence do aplicativo audifon está ativo.</value>
+  </data>
+  <data name="geofenceservice_notification_title" xml:space="preserve">
+    <value>Serviço Geofence do Aplicativo Audifon</value>
+  </data>
+  <data name="help_ConferenceMicrophonePage" xml:space="preserve">
+    <value>Microfone para conferência</value>
+  </data>
+  <data name="help_FindDeviceLeftDevice" xml:space="preserve">
+    <value>Aparelho auditivo esquerdo</value>
+  </data>
+  <data name="help_FindDeviceMap" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="help_FindDeviceNearfield" xml:space="preserve">
+    <value>Busca de campo próximo</value>
+  </data>
+  <data name="help_FindDevicePage" xml:space="preserve">
+    <value>Aparelhos auditivos encontrar</value>
+  </data>
+  <data name="help_FindDevicePage_LastSignalTextPartOne" xml:space="preserve">
+    <value>O último sinal foi recebido em </value>
+  </data>
+  <data name="help_FindDevicePage_LastSignalTextPartThree" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="help_FindDevicePage_LastSignalTextPartTwo" xml:space="preserve">
+    <value> às </value>
+  </data>
+  <data name="help_FindDevicePage_LocationTextPartOne" xml:space="preserve">
+    <value>O mapa mostra o local, onde seu sistema auditivo </value>
+  </data>
+  <data name="help_FindDevicePage_LocationTextPartTwo" xml:space="preserve">
+    <value> foi conectado por último com o aplicativo.</value>
+  </data>
+  <data name="help_FindDevicePage_MapNotLoaded" xml:space="preserve">
+    <value>Nenhum mapa disponível para mostrar a localização.</value>
+  </data>
+  <data name="help_FindDevicePage_NoDeviceKnown" xml:space="preserve">
+    <value>Nenhum sistema auditivo conhecido para este lado.</value>
+  </data>
+  <data name="help_FindDevicePage_NoPositionData" xml:space="preserve">
+    <value>Nenhum dado de localização encontrado.</value>
+  </data>
+  <data name="help_FindDeviceRightDevice" xml:space="preserve">
+    <value>Aparelho auditivo direito</value>
+  </data>
+  <data name="help_LogPage" xml:space="preserve">
+    <value>Registros</value>
+  </data>
+  <data name="help_MenuPage" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="help_topic_1_1_content_text" xml:space="preserve">
+    <value>Para poder utilizar seus aparelhos auditivos com seu dispositivo iOS (iPhone), os aparelhos auditivos e iPhone precisam primeiro ser emparelhados, antes de usar o app. Desta forma, os aparelhos auditivos e o iPhone se comunicam. Siga as instruções para emparelhar os aparelhos auditivos com sucesso.</value>
+  </data>
+  <data name="help_topic_1_1_list_item_1" xml:space="preserve">
+    <value>Toque o ícone de Ajustes no seu iPhone.</value>
+  </data>
+  <data name="help_topic_1_1_list_item_2" xml:space="preserve">
+    <value>No menu Ajustes, vá para: Geral → Acessibilidade → Dispositivos auditivos MFi</value>
+  </data>
+  <data name="help_topic_1_1_list_item_3" xml:space="preserve">
+    <value>Nesta tela, a função Bluetooth ainda está desativada, ative o Bluetooth. Enquanto o iPhone procura os aparelhos auditivos, abra e feche o compartimento dos seus aparelhos auditivos (desta forma, os aparelhos auditivos são colocados em modo de emparelhamento).</value>
+  </data>
+  <data name="help_topic_1_1_list_item_4" xml:space="preserve">
+    <value>É exibido o seu nome e "HG#123456”, assim que o iPhone detectar seus aparelhos auditivos pela primeira vez. Se isto no for o caso no prazo de 5 a 7 segundos, volte no canto superior esquerdo da tela e acesse novamente os “Dispositivos auditivos”.</value>
+  </data>
+  <data name="help_topic_1_1_list_item_5" xml:space="preserve">
+    <value>Toque no nome do aparelho auditivo para conectar os aparelhos com o iPhone.</value>
+  </data>
+  <data name="help_topic_1_1_list_item_6" xml:space="preserve">
+    <value>São exibidas duas consultas de emparelhamento - uma para cada aparelho auditivo. Selecione Emparelhar para estabelecer a conexão em definitivo. Ambas as consultas podem sofrer um pequeno atraso de segundos.</value>
+  </data>
+  <data name="help_topic_1_1_list_item_7" xml:space="preserve">
+    <value>O emparelhamento agora está concluído.</value>
+  </data>
+  <data name="help_topic_1_1_sub_title" xml:space="preserve">
+    <value>Conectar seus aparelhos auditivos com um dispositivo iOS</value>
+  </data>
+  <data name="help_topic_1_2_content_text" xml:space="preserve">
+    <value>Para poder utilizar seus aparelhos auditivos com seu dispositivo Android, os aparelhos auditivos e o dispositivo Android precisam primeiro ser emparelhados. Siga as instruções:</value>
+  </data>
+  <data name="help_topic_1_2_list_item_1" xml:space="preserve">
+    <value>Toque o ícone de Ajustes.</value>
+  </data>
+  <data name="help_topic_1_2_list_item_2" xml:space="preserve">
+    <value>Selecione Bluetooth.</value>
+  </data>
+  <data name="help_topic_1_2_list_item_3" xml:space="preserve">
+    <value>Mude os Ajustes para Ativar, se o Bluetooth estiver desativado. Abra e feche o compartimento da bateria dos aparelhos auditivos. Desta forma, os aparelhos auditivos são colocados em modo de emparelhamento.</value>
+  </data>
+  <data name="help_topic_1_2_list_item_4" xml:space="preserve">
+    <value>Abaixo de Dispositivos emparelhados, é exibido o seu nome seguido de “HG#123456”, assim que os aparelhos auditivos forem detectados. Caso o seu nome não for exibido no prazo de 5 a 7 segundos na lista de dispositivos emparelhados, toque no canto superior esquerdo no ícone “Acessibilidade” e, em seguida em “Dispositivos auditivos”.</value>
+  </data>
+  <data name="help_topic_1_2_list_item_5" xml:space="preserve">
+    <value>São exibidos uma vez o aparelho auditivo direito e uma vez o esquerdo na lista. Ambos os itens na lista devem ser clicados para o emparelhamento.</value>
+  </data>
+  <data name="help_topic_1_2_list_item_6" xml:space="preserve">
+    <value>O emparelhamento está concluído.</value>
+  </data>
+  <data name="help_topic_1_2_sub_title" xml:space="preserve">
+    <value>Emparelhar seus aparelhos auditivos com um dispositivo Android</value>
+  </data>
+  <data name="help_topic_1_3_content_text_1" xml:space="preserve">
+    <value>Depois da conexão bem sucedida dos seus aparelhos auditivos com seu telefone, os aparelhos podem ser usados com o app. Ao abrir o aplicativo pela primeira vez, você é solicitado para conectar/emparelhar seus aparelhos auditivos com o smartphone. Para tanto, selecione o aparelho correspondente na lista exibida de aparelhos auditivos disponíveis.</value>
+  </data>
+  <data name="help_topic_1_3_content_text_2" xml:space="preserve">
+    <value>Depois de concluir a verificação, o app está ativado e pronto para ser utilizado.</value>
+  </data>
+  <data name="help_topic_1_3_sub_title" xml:space="preserve">
+    <value>Utilizar seus aparelhos auditivos com o app</value>
+  </data>
+  <data name="help_topic_1_title" xml:space="preserve">
+    <value>Aparelhos auditivos conectar/emparelhar</value>
+  </data>
+  <data name="help_topic_2_1_list_item_1" xml:space="preserve">
+    <value>Vá para Ajustes ou para Ajustes → Geral  → Acessibilidade em seu smartphone.</value>
+  </data>
+  <data name="help_topic_2_1_list_item_2" xml:space="preserve">
+    <value>Selecione “Dispositivos auditivos MFi".</value>
+  </data>
+  <data name="help_topic_2_1_list_item_3" xml:space="preserve">
+    <value>Clique em ‘Ignorar este aparelho’.</value>
+  </data>
+  <data name="help_topic_2_1_sub_title" xml:space="preserve">
+    <value>Desemparelhar aparelhos iOS:</value>
+  </data>
+  <data name="help_topic_2_2_list_item_1" xml:space="preserve">
+    <value>Vá para Ajustes → Bluetooth em seu smartphone.</value>
+  </data>
+  <data name="help_topic_2_2_list_item_2" xml:space="preserve">
+    <value>Toque no símbolo da roda dentada à direita no seu aparelho auditivo.</value>
+  </data>
+  <data name="help_topic_2_2_list_item_3" xml:space="preserve">
+    <value>Clique em “Desemparelhar”.</value>
+  </data>
+  <data name="help_topic_2_2_sub_title" xml:space="preserve">
+    <value>Desemparelhar aparelhos no dispositivo Android:</value>
+  </data>
+  <data name="help_topic_2_content_text" xml:space="preserve">
+    <value>Por ocasião de uma atualização do seu smartphone pode ocorrer que o mesmo perca a conexão com seus aparelhos auditivos. Nesse caso, é necessário primeiro desemparelhar seus aparelhos (Unpairing) e, em seguida, estabelecer a conexão novamente, conforme descrito acima.</value>
+  </data>
+  <data name="help_topic_2_title" xml:space="preserve">
+    <value>Desemparelhar seus aparelhos auditivos</value>
+  </data>
+  <data name="help_topic_3_content_text" xml:space="preserve">
+    <value>A tela inicial é exibida diretamente depois de abrir o app e oferece um resumo das funções mais importantes. Aqui você pode visualizar o status da bateria dos seus aparelhos auditivos, acessar o menu principal, mudar de um programa para outro e ajustar o volume.</value>
+  </data>
+  <data name="help_topic_3_title" xml:space="preserve">
+    <value>A página inicial</value>
+  </data>
+  <data name="help_topic_4_content_text_1" xml:space="preserve">
+    <value>O símbolo do programa auditivo ativo é exibido em tamanho grande no centro da tela. A cor identifica o tipo de programa. As cores são utilizadas em todo o aplicativo:</value>
+  </data>
+  <data name="help_topic_4_content_text_2" xml:space="preserve">
+    <value>Um clique no símbolo do programa ativo abre a vista detalhada, onde você pode realizar ajustes e configurações. Toque o símbolo correspondente para alternar para outro programa.</value>
+  </data>
+  <data name="help_topic_4_list_item_1" xml:space="preserve">
+    <value>Vermelho: programas auditivos ajustados pelo especialista em acústica</value>
+  </data>
+  <data name="help_topic_4_list_item_2" xml:space="preserve">
+    <value>Azul: programas de Streaming</value>
+  </data>
+  <data name="help_topic_4_list_item_3" xml:space="preserve">
+    <value>Cinza: favoritos definidos por você (se houver)</value>
+  </data>
+  <data name="help_topic_4_title" xml:space="preserve">
+    <value>Seleção de programas</value>
+  </data>
+  <data name="help_topic_5_content_text_1" xml:space="preserve">
+    <value>Na área inferior da tela está localizado o regulador de volume, através do qual você pode ajustar o volume ou desativar o áudio dos seus aparelhos auditivos. Para tanto deslize o regulador ou utilize as teclas +/- .</value>
+  </data>
+  <data name="help_topic_5_content_text_2" xml:space="preserve">
+    <value>Volume diferente para a direita e esquerda (separação binaural):</value>
+  </data>
+  <data name="help_topic_5_content_text_3" xml:space="preserve">
+    <value>Se a separação binaural estiver ativada, o regulador de volume na borda inferior da tela exibe um triângulo vermelho e um azul. A proporção ajustada é mantida mesmo se você efetuar mudanças no volume em geral.</value>
+  </data>
+  <data name="help_topic_5_list_item_1" xml:space="preserve">
+    <value>Na página detalhada de um programa auditivo, clique no símbolo à direita do regulador de volume. Ative a “Separação D/E”.</value>
+  </data>
+  <data name="help_topic_5_list_item_2" xml:space="preserve">
+    <value>Na janela de diálogo, puxe o regulador para o ajuste ideal para o seu caso. O triângulo azul mostra o volume do seu aparelho auditivo esquerdo, o vermelho do direito.</value>
+  </data>
+  <data name="help_topic_5_list_item_3" xml:space="preserve">
+    <value>Salve o ajuste com ‘OK’.</value>
+  </data>
+  <data name="help_topic_5_title" xml:space="preserve">
+    <value>Separar o regulador de volume</value>
+  </data>
+  <data name="help_topic_6_content_text" xml:space="preserve">
+    <value>Em vez do programa básico, seu especialista em acústica também pode ativar o programa automático. Através de algoritmos inteligentes, este programa detecta a situação auditiva e seleciona, automaticamente, os ajustes corretos - ajustes manuais não são possíveis neste programa.</value>
+  </data>
+  <data name="help_topic_6_title" xml:space="preserve">
+    <value>Programa automático</value>
+  </data>
+  <data name="help_topic_7_content_text" xml:space="preserve">
+    <value>Com o programa de Streaming você pode transmitir ruídos de uma fonte externa diretamente para o seu aparelho auditivo. Atualmente isto só é possível com dispositivos Apple. Para utilizar esta função em um dispositivo Android, é necessário adquirir outros acessórios. Em caso de necessidade, consulte seu especialista em acústica.</value>
+  </data>
+  <data name="help_topic_7_list_item_2" xml:space="preserve">
+    <value>Ajuste os agudos, médios e graves no bloco ‘Som’, puxando a barra deslizante.</value>
+  </data>
+  <data name="help_topic_7_list_item_3" xml:space="preserve">
+    <value>O misturador permite ajustar o foco do seu aparelho auditivo: com auxílio da barra deslizante é possível ajustar a proporção entre os ruídos do seu entorno e o som transmitido diretamente da fonte de transmissão para o aparelho auditivo.</value>
+  </data>
+  <data name="help_topic_7_title" xml:space="preserve">
+    <value>Programa de Streaming</value>
+  </data>
+  <data name="help_topic_8_content_text_1" xml:space="preserve">
+    <value>O aplicativo permite criar favoritos para salvar configurações de uso frequente e recuperá-las facilmente a qualquer momento. Por exemplo, salve as configurações que você usa no escritório, na sua corrida diária ou na sua cafeteria habitual, para poder acessá-las rapidamente.</value>
+  </data>
+  <data name="help_topic_8_content_text_2" xml:space="preserve">
+    <value>Criar favorito:</value>
+  </data>
+  <data name="help_topic_8_content_text_3" xml:space="preserve">
+    <value>Se desejar, você pode vincular seus favoritos a um dispositivo Wi-Fi ou um determinado local. Nesse caso, seu smartphone detecta onde você está e inicia o programa desejado automaticamente.</value>
+  </data>
+  <data name="help_topic_8_list_item_1" xml:space="preserve">
+    <value>Selecione um programa, que servirá como base para criar um novo favorito.</value>
+  </data>
+  <data name="help_topic_8_list_item_2" xml:space="preserve">
+    <value>Clique no símbolo da roda dentada no programa e, em seguida, em Criar favorito.</value>
+  </data>
+  <data name="help_topic_8_list_item_3" xml:space="preserve">
+    <value>Atribua um nome ao favorito e selecione um símbolo adequado.</value>
+  </data>
+  <data name="help_topic_8_title" xml:space="preserve">
+    <value>Favoritos</value>
+  </data>
+  <data name="help_topic_9_content_text" xml:space="preserve">
+    <value>Abra o menu principal, clicando no símbolo de menu no canto superior direito da tela. A partir dali, você pode mudar para seus programas e navegar nas configurações do app. A função Ajuda também pode ser acessada a partir do menu principal. Além disso, aqui você pode consultar informações legais e de suporte técnico.</value>
+  </data>
+  <data name="help_topic_9_title" xml:space="preserve">
+    <value>Menu principal</value>
+  </data>
+  <data name="home_btHelp" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="home_pageTitle" xml:space="preserve">
+    <value>Início</value>
+  </data>
+  <data name="info_distributedBy" xml:space="preserve">
+    <value>Distribuído por</value>
+  </data>
+  <data name="info_imprintAddressTitle" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="info_imprintManufacturer" xml:space="preserve">
+    <value>Fabricante:</value>
+  </data>
+  <data name="info_imprintSupportTitle" xml:space="preserve">
+    <value>Suporte</value>
+  </data>
+  <data name="info_imprintTitle" xml:space="preserve">
+    <value>Aviso legal</value>
+  </data>
+  <data name="info_imprint_licencesText" xml:space="preserve">
+    <value>Este é o conteúdo para a área de licenças.</value>
+  </data>
+  <data name="info_instructionsTitle" xml:space="preserve">
+    <value>Instruções de uso</value>
+  </data>
+  <data name="initPerm_btCloseHelp" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="initPerm_btConfirm" xml:space="preserve">
+    <value>Continuar com estas permissões</value>
+  </data>
+  <data name="initPerm_btPermissionAlreadyDeniedCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="initPerm_btPermissionAlreadyDeniedConfirm" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="initPerm_Description" xml:space="preserve">
+    <value>Para poder utilizar todas as funções do aplicativo, o app requer permissões adicionais.
+Se desejar ativar uma das funções abaixo relacionadas, você será solicitado para dar a permissão necessária.
+Você pode remover as permissões a qualquer momento ou desativar a respectiva função nas configurações do app.</value>
+  </data>
+  <data name="initPerm_GeolocationDescription" xml:space="preserve">
+    <value>Permitir ao app consultar a localização atual</value>
+  </data>
+  <data name="initPerm_GeolocationHelp" xml:space="preserve">
+    <value>Este ajuste permite ao app salvar a última localização dos aparelhos auditivos, para que você possa encontrá-los mais facilmente em caso de perda.
+
+Você pode ativar ou desativar este ajuste a qualquer momento nas configurações do app.</value>
+  </data>
+  <data name="initPerm_GeolocationScanMessage" xml:space="preserve">
+    <value>Você não ativou o compartilhamento de local para o app. O app precisa desta permissão para poder procurar seus aparelhos auditivos. Para utilizar esta função, ative o compartilhamento de local nas configurações do seu smartphone.</value>
+  </data>
+  <data name="initPerm_GeolocationScanTitle" xml:space="preserve">
+    <value>Sem permissão para localizar</value>
+  </data>
+  <data name="initPerm_GeolocationTitle" xml:space="preserve">
+    <value>Serviços de localização</value>
+  </data>
+  <data name="initPerm_MicrophoneDescription" xml:space="preserve">
+    <value>Permitir ao app registrar dados de áudio através do microfone.</value>
+  </data>
+  <data name="initPerm_MicrophoneHelp" xml:space="preserve">
+    <value>Este ajuste permite efetuar gravações através do microfone.</value>
+  </data>
+  <data name="initPerm_MicrophoneTitle" xml:space="preserve">
+    <value>Função gravação</value>
+  </data>
+  <data name="initPerm_PermissionAlreadyDeniedMessage" xml:space="preserve">
+    <value>Você já recusou a permissão para ‘{0}’. Para conceder a permissão novamente, abra as configurações do seu smartphone.</value>
+  </data>
+  <data name="initPerm_PermissionAlreadyDeniedTitle" xml:space="preserve">
+    <value>Permissão já recusada</value>
+  </data>
+  <data name="initPerm_StorageDescription" xml:space="preserve">
+    <value>Acesso ao aparelho de arquivos</value>
+  </data>
+  <data name="initPerm_StorageHelp" xml:space="preserve">
+    <value>Permite salvar os dados de áudio no smartphone</value>
+  </data>
+  <data name="initPerm_StorageTitle" xml:space="preserve">
+    <value>Acesso aos arquivos</value>
+  </data>
+  <data name="initPerm_Subtitle" xml:space="preserve">
+    <value>Permissões:</value>
+  </data>
+  <data name="initPerm_Title" xml:space="preserve">
+    <value>Somente mais um pequeno passo...</value>
+  </data>
+  <data name="init_CancelConnectionButtonCancel" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="init_CancelConnectionButtonOK" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="init_CancelConnectionMessage" xml:space="preserve">
+    <value>Deseja encerrar a tentativa de conexão ao seu aparelho auditivo e receber mais informações sobre o tema Estabelecimento da conexão?</value>
+  </data>
+  <data name="init_CancelConnectionTitle" xml:space="preserve">
+    <value>Cancelar procedimento de conexão</value>
+  </data>
+  <data name="init_DeviceLeft" xml:space="preserve">
+    <value>Esquerda</value>
+  </data>
+  <data name="init_DeviceRight" xml:space="preserve">
+    <value>Direita</value>
+  </data>
+  <data name="init_StepChecking" xml:space="preserve">
+    <value>Fornecendo acesso aos seus aparelhos auditivos.</value>
+  </data>
+  <data name="init_StepConnection" xml:space="preserve">
+    <value>Aparelhos auditivos são conectados.</value>
+  </data>
+  <data name="init_StepConnectionCancellation" xml:space="preserve">
+    <value>Parar de conectar sistemas auditivos. Demora até 1 min.</value>
+  </data>
+  <data name="init_StepLoadingCachedProgramParams" xml:space="preserve">
+    <value>Carregando dados em cache do aparelho auditivo a partir do telefone.</value>
+  </data>
+  <data name="Init_txt_Bluetooth" xml:space="preserve">
+    <value>Bluetooth ligado</value>
+  </data>
+  <data name="Init_txt_Connection" xml:space="preserve">
+    <value>Aparelhos auditivos detectados</value>
+  </data>
+  <data name="Init_txt_DevicePower" xml:space="preserve">
+    <value>Baterias OK</value>
+  </data>
+  <data name="Init_txt_DeviceState" xml:space="preserve">
+    <value>Status detectado</value>
+  </data>
+  <data name="introPage1_Description" xml:space="preserve">
+    <value>Muito obrigado por ter decidido pela aquisição de aparelhos auditivos audifon.</value>
+  </data>
+  <data name="introPage1_ImageSubLine" xml:space="preserve">
+    <value>O aplicativo audifon oferece uma infinidade de funções, destinadas a facilitar o seu dia-a-dia e o manuseio dos seus aparelhos auditivos.</value>
+  </data>
+  <data name="introPage1_Title" xml:space="preserve">
+    <value>Seja bem-vindo!</value>
+  </data>
+  <data name="introPage2_Description" xml:space="preserve">
+    <value>Controle seus aparelhos auditivos confortavelmente com o app audifon.</value>
+  </data>
+  <data name="introPage2_ImageSubLine" xml:space="preserve">
+    <value>Utilize o app como controle remoto e regule o som e o volume, ou alterne entre os programas auditivos.</value>
+  </data>
+  <data name="introPage2_Title" xml:space="preserve">
+    <value>Controle remoto dos seus sistemas auditivos</value>
+  </data>
+  <data name="introPage3_Description" xml:space="preserve">
+    <value>Som absolutamente cristalino - sem a interferência de ruídos secundários: reprodução de música e audiolivros diretamente em seus aparelhos auditivos.</value>
+  </data>
+  <data name="introPage3_ImageSubLine" xml:space="preserve">
+    <value>Você também pode salvar estes ajustes como seus próprios Favoritos.</value>
+  </data>
+  <data name="introPage3_Title" xml:space="preserve">
+    <value>Ajustar programas auditivos</value>
+  </data>
+  <data name="introPage4_btContinue" xml:space="preserve">
+    <value>Vamos lá!</value>
+  </data>
+  <data name="introPage4_Description" xml:space="preserve">
+    <value>Permita ao aplicativo audifon acessar sua localização a qualquer momento, para encontrar seus aparelhos auditivos ou para definir programas auditivos específicos para o local.</value>
+  </data>
+  <data name="introPage4_ImageSubLine" xml:space="preserve">
+    <value>Com isso, o app audifon usa localização em segundo plano, para poder disponibilizar informações atuais.</value>
+  </data>
+  <data name="introPage4_Title" xml:space="preserve">
+    <value>Usar a localização</value>
+  </data>
+  <data name="introPage5_Description" xml:space="preserve">
+    <value>Divirta-se usando seus aparelhos auditivos e o aplicativo audifon.</value>
+  </data>
+  <data name="introPage5_ImageSubLine" xml:space="preserve">
+    <value>Em caso de dúvidas, consulte o manual de instruções ou entre em contato com seu especialista de aparelhos auditivos.</value>
+  </data>
+  <data name="introPage5_Title" xml:space="preserve">
+    <value>Utilização do app</value>
+  </data>
+  <data name="licensePage_Build" xml:space="preserve">
+    <value>Número de construção </value>
+  </data>
+  <data name="licensePage_EmptyView" xml:space="preserve">
+    <value>Nenhuma licença encontrada.</value>
+  </data>
+  <data name="licensePage_LicenseType" xml:space="preserve">
+    <value>Tipo de licença</value>
+  </data>
+  <data name="licensePage_Provider" xml:space="preserve">
+    <value>Fornecedores</value>
+  </data>
+  <data name="licensePage_Version" xml:space="preserve">
+    <value>Versão</value>
+  </data>
+  <data name="loc_bt_ToGPSSettings" xml:space="preserve">
+    <value>Ir para os Ajustes GPS</value>
+  </data>
+  <data name="loc_bt_ToNearFieldHearingAidSearch" xml:space="preserve">
+    <value>Ir para a Busca de proximidade</value>
+  </data>
+  <data name="loc_msg_AllHearingAidsStillConnected" xml:space="preserve">
+    <value>Seus aparelhos auditivos ainda estão conectados ao smartphone, ou seja, eles estão perto. Para encontrar seus aparelhos auditivos, você pode utilizar a Busca de proximidade.</value>
+  </data>
+  <data name="loc_msg_BothHearingAids" xml:space="preserve">
+    <value>Ambos os aparelhos auditivos</value>
+  </data>
+  <data name="loc_msg_GPSHardwareNotEnabled" xml:space="preserve">
+    <value>O GPS está desativo. Para poder utilizar esta função, o GPS precisa ser ativado.</value>
+  </data>
+  <data name="loc_msg_LastTimeConnectedStart" xml:space="preserve">
+    <value>Posição de</value>
+  </data>
+  <data name="loc_msg_LoadingGPSData" xml:space="preserve">
+    <value>Carregando os dados GPS...</value>
+  </data>
+  <data name="loc_msg_NoGPSHardwareFound" xml:space="preserve">
+    <value>Seu smartphone não possui o hardware GPS. Você não pode utilizar esta função.</value>
+  </data>
+  <data name="loc_msg_NoInstrumentLocationsFound" xml:space="preserve">
+    <value>Ainda não foi registrado nenhum dado de posição dos seus aparelhos auditivos.</value>
+  </data>
+  <data name="mainMenu_BtnHelp" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="mainMenu_BtnImprint" xml:space="preserve">
+    <value>Aviso legal</value>
+  </data>
+  <data name="mainMenu_BtnLicenses" xml:space="preserve">
+    <value>Licenças</value>
+  </data>
+  <data name="mainMenu_BtnMyHearingProfile" xml:space="preserve">
+    <value>Meu perfil auditivo</value>
+  </data>
+  <data name="mainMenu_BtnOptions" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="mainMenu_BtnPrograms" xml:space="preserve">
+    <value>Programas</value>
+  </data>
+  <data name="mainMenu_BtnStart" xml:space="preserve">
+    <value>Início</value>
+  </data>
+  <data name="mainMenu_Header" xml:space="preserve">
+    <value>Navegação</value>
+  </data>
+  <data name="mainPage_BackDisplayText" xml:space="preserve">
+    <value>Início</value>
+  </data>
+  <data name="mainPage_LoadingProgramParams" xml:space="preserve">
+    <value>Processando os dados do aparelho auditivo.</value>
+  </data>
+  <data name="mainPage_UnableToSwitchProgramWhileLoading_Favorite" xml:space="preserve">
+    <value>Os dados do programa auditivo ainda estão sendo carregados. Aguarde alguns instantes.</value>
+  </data>
+  <data name="mainPage_UnableToSwitchProgramWhileLoading_Normal" xml:space="preserve">
+    <value>Os dados do programa auditivo ainda estão sendo carregados. Aguarde alguns instantes.</value>
+  </data>
+  <data name="mainPage_VolumeInitialized" xml:space="preserve">
+    <value>Os ajustes do volume foram carregados.</value>
+  </data>
+  <data name="mainPage_VolumeUnableToChange" xml:space="preserve">
+    <value>Carregando os ajustes de volume. Favor aguardar.</value>
+  </data>
+  <data name="manageHA_btGotoSelection" xml:space="preserve">
+    <value>Gerenciar aparelhos auditivos</value>
+  </data>
+  <data name="manageHA_Disconnect" xml:space="preserve">
+    <value>Desconectar conexão</value>
+  </data>
+  <data name="manageHA_DisconnectingHearingSystems" xml:space="preserve">
+    <value>Desconectando sistemas auditivos ...</value>
+  </data>
+  <data name="manageHA_LabelFirmware" xml:space="preserve">
+    <value>Firmware</value>
+  </data>
+  <data name="manageHA_LabelModel" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="manageHA_LabelName" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="manageHA_LabelSerial" xml:space="preserve">
+    <value>ID de série</value>
+  </data>
+  <data name="manageHA_LabelState" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="manageHA_leftDevice" xml:space="preserve">
+    <value>Aparelho auditivo esquerdo</value>
+  </data>
+  <data name="manageHA_pageTitle" xml:space="preserve">
+    <value>Meus aparelhos auditivos</value>
+  </data>
+  <data name="manageHA_pageTitle_monaural" xml:space="preserve">
+    <value>Meu aparelho auditivo</value>
+  </data>
+  <data name="manageHA_rightDevice" xml:space="preserve">
+    <value>Aparelho auditivo direito</value>
+  </data>
+  <data name="manageHA_StateDescriptionDefault" xml:space="preserve">
+    <value>Conectado</value>
+  </data>
+  <data name="manageHA_StateDescriptionNone" xml:space="preserve">
+    <value>Não conectado</value>
+  </data>
+  <data name="manufacturer_AddressCity" xml:space="preserve">
+    <value>D-99625 Kölleda</value>
+  </data>
+  <data name="manufacturer_AddressStreet" xml:space="preserve">
+    <value>Werner-von-Siemens-Str. 2</value>
+  </data>
+  <data name="manufacturer_CompanyName" xml:space="preserve">
+    <value>audifon GmbH &amp; Co. KG</value>
+  </data>
+  <data name="manufacturer_State" xml:space="preserve">
+    <value>Alemanha</value>
+  </data>
+  <data name="manufacturer_WebSite" xml:space="preserve">
+    <value>www.audifon.com</value>
+  </data>
+  <data name="menuPermission_HearingInstrumentLocationTracking" xml:space="preserve">
+    <value>Determinar localização</value>
+  </data>
+  <data name="menuPermission_LocationTitle" xml:space="preserve">
+    <value>Localização</value>
+  </data>
+  <data name="menu_Title_AppInfo" xml:space="preserve">
+    <value>Sobre este app</value>
+  </data>
+  <data name="menu_Title_AppReset" xml:space="preserve">
+    <value>Restaurar aplicativo</value>
+  </data>
+  <data name="menu_Title_ContractData" xml:space="preserve">
+    <value>Dados contratuais</value>
+  </data>
+  <data name="menu_Title_DataProtection" xml:space="preserve">
+    <value>Proteção de dados</value>
+  </data>
+  <data name="menu_Title_Devices" xml:space="preserve">
+    <value>Aparelhos auditivos</value>
+  </data>
+  <data name="menu_Title_HelpTopics" xml:space="preserve">
+    <value>Temas da Ajuda</value>
+  </data>
+  <data name="menu_Title_HelpTutorials" xml:space="preserve">
+    <value>Tutoriais, dicas e ajuda</value>
+  </data>
+  <data name="menu_Title_Infos" xml:space="preserve">
+    <value>Informações</value>
+  </data>
+  <data name="menu_Title_InstructionManual" xml:space="preserve">
+    <value>Instruções de uso</value>
+  </data>
+  <data name="menu_Title_Legal_Infos" xml:space="preserve">
+    <value>Informações legais</value>
+  </data>
+  <data name="menu_Title_MyProfile" xml:space="preserve">
+    <value>Dados pessoais</value>
+  </data>
+  <data name="menu_Title_TermsOfUse" xml:space="preserve">
+    <value>Termos de uso</value>
+  </data>
+  <data name="messagesView_navBarTitle" xml:space="preserve">
+    <value>Minhas notícias</value>
+  </data>
+  <data name="notificationChannelName_Default" xml:space="preserve">
+    <value>Geral</value>
+  </data>
+  <data name="notificationChannelName_Services" xml:space="preserve">
+    <value>Audifon App Services</value>
+  </data>
+  <data name="oem_appName" xml:space="preserve">
+    <value>audifon</value>
+  </data>
+  <data name="oem_companyContactMail" xml:space="preserve">
+    <value>support@audifon.com</value>
+  </data>
+  <data name="oem_companyName" xml:space="preserve">
+    <value>audifon GmbH &amp; Co. KG</value>
+  </data>
+  <data name="oem_companyPostalCodeCity" xml:space="preserve">
+    <value>D-99625 Kölleda</value>
+  </data>
+  <data name="oem_companyState" xml:space="preserve">
+    <value>Alemanha</value>
+  </data>
+  <data name="oem_companyStreet" xml:space="preserve">
+    <value>Werner-von-Siemens-Str. 2</value>
+  </data>
+  <data name="oem_support_desc_1" xml:space="preserve">
+    <value>Consulte seu especialista em acústica.</value>
+  </data>
+  <data name="oem_website_url" xml:space="preserve">
+    <value>www.audifon.com</value>
+  </data>
+  <data name="popup_btClose" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="popup_InstrumentInfoTitle" xml:space="preserve">
+    <value>Informação aparelho auditivo</value>
+  </data>
+  <data name="programmsMenuPage_FavoritsPrograms" xml:space="preserve">
+    <value>Favoritos</value>
+  </data>
+  <data name="programmsMenuPage_PresetPrograms" xml:space="preserve">
+    <value>Pré-ajustado</value>
+  </data>
+  <data name="programmsMenuPage_StreamingPrograms" xml:space="preserve">
+    <value>Streaming</value>
+  </data>
+  <data name="programmsMenuPage_Title" xml:space="preserve">
+    <value>Programas auditivos</value>
+  </data>
+  <data name="program_auto_changed_description" xml:space="preserve">
+    <value>'{0}' foi ativado</value>
+  </data>
+  <data name="program_auto_changed_subtitle" xml:space="preserve">
+    <value>Programa auditivo foi alterado automaticamente!</value>
+  </data>
+  <data name="program_auto_changed_title" xml:space="preserve">
+    <value>Programa auditivo alterado autom.</value>
+  </data>
+  <data name="prog_AutomationConnectedBluetooth" xml:space="preserve">
+    <value>Conectado com aparelho Bluetooth</value>
+  </data>
+  <data name="prog_AutomationConnectedLocation" xml:space="preserve">
+    <value>Conectado com local</value>
+  </data>
+  <data name="prog_AutomationConnectedScanWifi" xml:space="preserve">
+    <value>Detectar Wi-Fi</value>
+  </data>
+  <data name="prog_AutomationConnectedWiFi" xml:space="preserve">
+    <value>Conectado com Wi-Fi</value>
+  </data>
+  <data name="prog_AutomationConnectedWiFiDesc" xml:space="preserve">
+    <value>Este programa auditivo é ativado automaticamente ao conectar com este Wi-Fi.</value>
+  </data>
+  <data name="prog_AutomationConnectedWiFiDescSsid" xml:space="preserve">
+    <value>SSID: </value>
+  </data>
+  <data name="prog_AutomationConnectedWifiNotFound" xml:space="preserve">
+    <value>Nenhum Wi-Fi detectado. Certifique-se de que o aparelho está conectado.</value>
+  </data>
+  <data name="prog_AutomationConnectionAndroid8Hint" xml:space="preserve">
+    <value>Para dispositivos Android de versão 8 ou superior, é necessário o acesso aos dados de localização.</value>
+  </data>
+  <data name="prog_AutomationConnectionIos13Hint" xml:space="preserve">
+    <value>Para dispositivos iOS de versão 13 ou superior, é necessário o acesso aos dados de localização.</value>
+  </data>
+  <data name="prog_AutomationConnectToBluetooth" xml:space="preserve">
+    <value>Conectar com aparelho Bluetooth</value>
+  </data>
+  <data name="prog_AutomationConnectToLocation" xml:space="preserve">
+    <value>Conectar com local</value>
+  </data>
+  <data name="prog_AutomationConnectToLocationInsufficientLocationPermissions" xml:space="preserve">
+    <value>A permissão para coletar dados de localização em segundo plano foi recusada ou o serviço está desativado. A definição de um local para um programa auditivo está desativada.</value>
+  </data>
+  <data name="prog_AutomationConnectToWiFi" xml:space="preserve">
+    <value>Conectar com Wi-Fi</value>
+  </data>
+  <data name="prog_AutomationDescription" xml:space="preserve">
+    <value>Você também pode conectar seu programa auditivo com um determinado local ou com Wi-Fi. Nesse caso, seu programa auditivo é iniciado automaticamente.</value>
+  </data>
+  <data name="prog_btCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="prog_btChangeIcon" xml:space="preserve">
+    <value>Alterar</value>
+  </data>
+  <data name="prog_btParamValueTinnitusActiveTitle" xml:space="preserve">
+    <value>Ruído</value>
+  </data>
+  <data name="prog_btParamValueTinnitusBack" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="prog_btParamValueTinnitusMixerTitle" xml:space="preserve">
+    <value>Ruído misturador</value>
+  </data>
+  <data name="prog_btParamValueTinnitusSettingsTitle" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="prog_btSaveSettings" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="prog_dlgChangeProgramDescription" xml:space="preserve">
+    <value>Você está em uma área determinada por você. Deseja que o aparelho auditivo alterne para a respectiva situação?</value>
+  </data>
+  <data name="prog_dlgChangeProgramTitle" xml:space="preserve">
+    <value>Comutação de programa auditivo</value>
+  </data>
+  <data name="prog_dlgGeofenceAlreadyExist" xml:space="preserve">
+    <value>A posição selecionada já foi utilizada uma vez. Informe outra posição.</value>
+  </data>
+  <data name="prog_dlgWifiAlreadyExist" xml:space="preserve">
+    <value>Você já conectou esta rede com outro programa auditivo.</value>
+  </data>
+  <data name="prog_IsAutomationActive" xml:space="preserve">
+    <value>Iniciar programa auditivo automaticamente</value>
+  </data>
+  <data name="prog_msgButtonCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="prog_msgButtonOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="prog_msgCancelFavoritCreationButtonOK" xml:space="preserve">
+    <value>Descartar</value>
+  </data>
+  <data name="prog_msgCancelFavoritCreationMessage" xml:space="preserve">
+    <value>Se programa auditivo “{0}” não será salvado.</value>
+  </data>
+  <data name="prog_msgCancelFavoritCreationMessageNoname" xml:space="preserve">
+    <value>Seu programa auditivo não será salvado.</value>
+  </data>
+  <data name="prog_msgCancelFavoritCreationTitle" xml:space="preserve">
+    <value>Descartar programas auditivos?</value>
+  </data>
+  <data name="prog_msgDeleteButtonOK" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="prog_msgDeleteMessage" xml:space="preserve">
+    <value>Deseja realmente excluir o programa auditivo “{0}”?</value>
+  </data>
+  <data name="prog_msgDeleteTitle" xml:space="preserve">
+    <value>Excluir programa auditivo</value>
+  </data>
+  <data name="prog_msgErrorNoIconMessage" xml:space="preserve">
+    <value>Selecione um símbolo para o programa auditivo.</value>
+  </data>
+  <data name="prog_msgErrorNoIconTitle" xml:space="preserve">
+    <value>Nenhum símbolo de programa auditivo</value>
+  </data>
+  <data name="prog_msgErrorNoProgramNameMessage" xml:space="preserve">
+    <value>Atribua um nome ao seu programa auditivo.</value>
+  </data>
+  <data name="prog_msgErrorNoProgramNameTitle" xml:space="preserve">
+    <value>Nenhum nome de programa auditivo</value>
+  </data>
+  <data name="prog_msgResetButtonOK" xml:space="preserve">
+    <value>Restaurar</value>
+  </data>
+  <data name="prog_msgResetMessage" xml:space="preserve">
+    <value>Realmente restaurar parâmetros do programa auditivo?</value>
+  </data>
+  <data name="prog_msgResetTitle" xml:space="preserve">
+    <value>Restaurar programa auditivo?</value>
+  </data>
+  <data name="prog_pageTitle" xml:space="preserve">
+    <value>Programas auditivos</value>
+  </data>
+  <data name="prog_ParamAutoProgramDescription" xml:space="preserve">
+    <value>Seu aparelho auditivo detecta a situação automaticamente e seleciona os ajustes ideais.</value>
+  </data>
+  <data name="prog_ParamAutoProgramSwitchText" xml:space="preserve">
+    <value>Programa auditivo automático ativado:</value>
+  </data>
+  <data name="prog_ParamAutoProgramTitle" xml:space="preserve">
+    <value>Situação Auto</value>
+  </data>
+  <data name="prog_ParamBinauralDescription" xml:space="preserve">
+    <value>Ajuste de volume diferente para a direita e esquerda</value>
+  </data>
+  <data name="prog_ParamBinauralSwitch" xml:space="preserve">
+    <value>Separação D/E</value>
+  </data>
+  <data name="prog_ParamBinauralTitle" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="prog_ParamBtCancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="prog_ParamBtSave" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="prog_ParamEqualizerDescription" xml:space="preserve">
+    <value>Diminui ou aumenta graves, médios e agudos no espectro sonoro</value>
+  </data>
+  <data name="prog_ParamEqualizerHigh" xml:space="preserve">
+    <value>Agudo</value>
+  </data>
+  <data name="prog_ParamEqualizerLow" xml:space="preserve">
+    <value>Grave</value>
+  </data>
+  <data name="prog_ParamEqualizerMid" xml:space="preserve">
+    <value>Médio</value>
+  </data>
+  <data name="prog_ParamEqualizerTitle" xml:space="preserve">
+    <value>Som</value>
+  </data>
+  <data name="prog_ParamNoiseReductionDescription" xml:space="preserve">
+    <value>Reduz o ruído em seu entorno direto.</value>
+  </data>
+  <data name="prog_ParamNoiseReductionTitle" xml:space="preserve">
+    <value>Supressão de ruídos</value>
+  </data>
+  <data name="prog_ParamSpeechFocusDescription" xml:space="preserve">
+    <value>Configure a direcionalidade do seu sistema auditivo para visualizar a direção.</value>
+  </data>
+  <data name="prog_ParamSpeechFocusTitle" xml:space="preserve">
+    <value>Foco na voz</value>
+  </data>
+  <data name="prog_ParamSpeechStrengthDescription" xml:space="preserve">
+    <value>Amplifica a voz humana no entorno direto.</value>
+  </data>
+  <data name="prog_ParamSpeechStrengthTitle" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="prog_ParamStreamingDescription" xml:space="preserve">
+    <value>Adapte o volume do ambiente em relação à fonte de áudio.</value>
+  </data>
+  <data name="prog_ParamStreamingEnvironment" xml:space="preserve">
+    <value>Ambiente</value>
+  </data>
+  <data name="prog_ParamStreamingSource" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="prog_ParamStreamingTitle" xml:space="preserve">
+    <value>Streaming</value>
+  </data>
+  <data name="prog_ParamTinnitusDescription" xml:space="preserve">
+    <value>Aqui você pode ativar o programa de tinnitus, e ajustar o volume e o som do ruído.</value>
+  </data>
+  <data name="prog_ParamTinnitusTitle" xml:space="preserve">
+    <value>Zumbido</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionBoost" xml:space="preserve">
+    <value>Volume da voz</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionHigh" xml:space="preserve">
+    <value>Forte</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionLow" xml:space="preserve">
+    <value>Suave</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionMedium" xml:space="preserve">
+    <value>Médio</value>
+  </data>
+  <data name="prog_ParamValueNoiseReductionOff" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="prog_ParamValueNumeric0" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="prog_ParamValueNumeric1" xml:space="preserve">
+    <value>Baixo</value>
+  </data>
+  <data name="prog_ParamValueNumeric2" xml:space="preserve">
+    <value>Médio</value>
+  </data>
+  <data name="prog_ParamValueNumeric3" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="prog_ParamValueOff" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="prog_ParamValueOn" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="prog_ParamValueSpeechFocusAuto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="prog_ParamValueSpeechFocusCentered" xml:space="preserve">
+    <value>Frente</value>
+  </data>
+  <data name="prog_ParamValueSpeechFocusOff" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="prog_ParamValueTinnitusAmplificationHigh" xml:space="preserve">
+    <value>Alto</value>
+  </data>
+  <data name="prog_ParamValueTinnitusAmplificationLow" xml:space="preserve">
+    <value>Baixo</value>
+  </data>
+  <data name="prog_ParamValueTinnitusAmplificationTitle" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="prog_ParamValueTinnitusDynamic" xml:space="preserve">
+    <value>Dinâmico</value>
+  </data>
+  <data name="prog_ParamValueTinnitusEqualizerTitle" xml:space="preserve">
+    <value>Som</value>
+  </data>
+  <data name="prog_ParamValueTinnitusFast" xml:space="preserve">
+    <value>Rápido</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMedium" xml:space="preserve">
+    <value>Médio</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMixerActivate" xml:space="preserve">
+    <value>Misturar ruídos ambientais com zumbido</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMixerEnvironment" xml:space="preserve">
+    <value>Ambiente</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMixerTinnitus" xml:space="preserve">
+    <value>Ruído</value>
+  </data>
+  <data name="prog_ParamValueTinnitusMixerTitle" xml:space="preserve">
+    <value>Ruído misturador</value>
+  </data>
+  <data name="prog_ParamValueTinnitusOff" xml:space="preserve">
+    <value>Estático</value>
+  </data>
+  <data name="prog_ParamValueTinnitusSettingsTitle" xml:space="preserve">
+    <value>Ajustar ruído</value>
+  </data>
+  <data name="prog_ParamValueTinnitusSlow" xml:space="preserve">
+    <value>Lento</value>
+  </data>
+  <data name="prog_ParamValueTinnitusStatic" xml:space="preserve">
+    <value>Estático</value>
+  </data>
+  <data name="prog_ParamValueTinnitusTypeTitle" xml:space="preserve">
+    <value>Modulação</value>
+  </data>
+  <data name="prog_ParamWindShieldDescription" xml:space="preserve">
+    <value>Reduz ruídos de vento em seu entorno direto.</value>
+  </data>
+  <data name="prog_ParamWindShieldTitle" xml:space="preserve">
+    <value>Filtro de vento</value>
+  </data>
+  <data name="prog_ParamWritingData" xml:space="preserve">
+    <value>Salvar alterações</value>
+  </data>
+  <data name="prog_SettingsActionAutomation" xml:space="preserve">
+    <value>Início programa auditivo automático</value>
+  </data>
+  <data name="prog_SettingsActionChangeIcon" xml:space="preserve">
+    <value>Adaptar símbolo</value>
+  </data>
+  <data name="prog_SettingsActionChangeName" xml:space="preserve">
+    <value>Adaptar nome</value>
+  </data>
+  <data name="prog_SettingsActionCreateFavorite" xml:space="preserve">
+    <value>Criar programa auditivo</value>
+  </data>
+  <data name="prog_SettingsActionDeleteFavorite" xml:space="preserve">
+    <value>Excluir programa auditivo</value>
+  </data>
+  <data name="prog_SettingsActionReset" xml:space="preserve">
+    <value>Restaurar programa auditivo</value>
+  </data>
+  <data name="prog_SettingsAppReset" xml:space="preserve">
+    <value>Realmente deseja restaurar o app?</value>
+  </data>
+  <data name="prog_SettingsAppResetTitle" xml:space="preserve">
+    <value>Restaurar app</value>
+  </data>
+  <data name="prog_SettingsAutomationIsActivated" xml:space="preserve">
+    <value>Ativado</value>
+  </data>
+  <data name="prog_SettingsAutomationIsNotActivated" xml:space="preserve">
+    <value>Desativado</value>
+  </data>
+  <data name="prog_SettingsDescription" xml:space="preserve">
+    <value>Aqui você pode personalizar ou restaurar seu programa auditivo ou criar um programa auditivo a partir das suas configurações atuais. Você também ter seu programa auditivo iniciado automaticamente.</value>
+  </data>
+  <data name="prog_SettingsDescriptionAutoProgram" xml:space="preserve">
+    <value>Aqui você pode personalizar seu programa auditivo.
+Em modo automático somente é possível adaptar o nome e o ícone. Todas as demais configurações são gerenciadas automaticamente.</value>
+  </data>
+  <data name="remoteHelp_Description1" xml:space="preserve">
+    <value>Inserir texto (Ajuda remota descrição 1)</value>
+  </data>
+  <data name="remoteHelp_Description2" xml:space="preserve">
+    <value>Inserir texto (Ajuda remota descrição 2)</value>
+  </data>
+  <data name="remoteHelp_DescriptionTitle1" xml:space="preserve">
+    <value>Introdução</value>
+  </data>
+  <data name="remoteHelp_DescriptionTitle2" xml:space="preserve">
+    <value>Informações detalhadas</value>
+  </data>
+  <data name="remoteHelp_PageTitle" xml:space="preserve">
+    <value>Ajuda na instalação de novas configurações de adaptação</value>
+  </data>
+  <data name="remove_hearingaid_title" xml:space="preserve">
+    <value>Remover aparelhos auditivos</value>
+  </data>
+  <data name="remove_hearing_aid_Desc" xml:space="preserve">
+    <value>Aqui você pode remover a vinculação atual para um aparelho auditivo.</value>
+  </data>
+  <data name="remove_left_hearing_aid" xml:space="preserve">
+    <value>Remover aparelho auditivo esquerdo</value>
+  </data>
+  <data name="remove_right_hearing_aid" xml:space="preserve">
+    <value>Remover aparelho auditivo direito</value>
+  </data>
+  <data name="selectDevices_btCancelScan" xml:space="preserve">
+    <value>Cancelar busca</value>
+  </data>
+  <data name="selectDevices_btConnectDevices" xml:space="preserve">
+    <value>Conectar aparelhos auditivos</value>
+  </data>
+  <data name="selectDevices_Description" xml:space="preserve">
+    <value>O app está buscando seus aparelhos auditivos. Este processo pode demorar alguns instantes.
+
+Selecione seus aparelhos auditivos na lista e confirme a seleção com “Conectar aparelhos auditivos”.</value>
+  </data>
+  <data name="selectDevices_DlgConfirmHearingAidManagementbtConfirm" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="selectDevices_DlgConfirmHearingAidManagementDescription" xml:space="preserve">
+    <value>Confirme que o app deve utilizar os novos aparelhos auditivos selecionados.</value>
+  </data>
+  <data name="selectDevices_DlgConfirmHearingAidManagementTitle" xml:space="preserve">
+    <value>Alterar aparelho auditivo utilizado?</value>
+  </data>
+  <data name="selectDevices_NotifyNoHearingAidsSelected" xml:space="preserve">
+    <value>Você não pode desativar todos os aparelhos auditivos. 
+Selecione os dispositivos que deseja utilizar no aplicativo!</value>
+  </data>
+  <data name="selectDevices_PageTitle" xml:space="preserve">
+    <value>Selecionar aparelhos auditivos</value>
+  </data>
+  <data name="selectDevices_ScanMessage" xml:space="preserve">
+    <value>Buscando aparelhos auditivos ...</value>
+  </data>
+  <data name="selectDevices_SideLeft" xml:space="preserve">
+    <value>Esquerda</value>
+  </data>
+  <data name="selectDevices_SideRight" xml:space="preserve">
+    <value>Direita</value>
+  </data>
+  <data name="selectDevices_SubTitle" xml:space="preserve">
+    <value>Aparelhos auditivos encontrados:</value>
+  </data>
+  <data name="selectDevices_SubTitleKnownDevices" xml:space="preserve">
+    <value>Aparelhos auditivos utilizados:</value>
+  </data>
+  <data name="settingPage_LanguageInfoDesc" xml:space="preserve">
+    <value>Selecione um idioma na lista abaixo:</value>
+  </data>
+  <data name="settingsPage_AppMode" xml:space="preserve">
+    <value>Modo demonstração</value>
+  </data>
+  <data name="settingsPage_AppMode_Demo" xml:space="preserve">
+    <value>Demo</value>
+  </data>
+  <data name="settingsPage_AppMode_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="settingsPage_AutomChangeFav" xml:space="preserve">
+    <value>Mudança autom. de programa auditivo</value>
+  </data>
+  <data name="settingsPage_BatteryTest" xml:space="preserve">
+    <value>Verificação da bateria</value>
+  </data>
+  <data name="settingsPage_Binaural" xml:space="preserve">
+    <value>Volume binaural</value>
+  </data>
+  <data name="settingsPage_ConnectedDevice" xml:space="preserve">
+    <value>Meu aparelho auditivo</value>
+  </data>
+  <data name="settingsPage_ConnectedDevices" xml:space="preserve">
+    <value>Meus aparelhos auditivos</value>
+  </data>
+  <data name="settingsPage_Language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="settingsPage_Notes" xml:space="preserve">
+    <value>Representação</value>
+  </data>
+  <data name="settingsPage_Permissions" xml:space="preserve">
+    <value>Permissões</value>
+  </data>
+  <data name="settingsPage_Records" xml:space="preserve">
+    <value>Minhas gravações</value>
+  </data>
+  <data name="settingsPage_StreamingSource" xml:space="preserve">
+    <value>Fontes de streaming</value>
+  </data>
+  <data name="settingsPage_SubTitle_AppDevelopment" xml:space="preserve">
+    <value>Desenvolvimento do app</value>
+  </data>
+  <data name="settingsPage_SubTitle_AppSettings" xml:space="preserve">
+    <value>Ajustes do app</value>
+  </data>
+  <data name="settingsPage_SubTitle_HearingSystem" xml:space="preserve">
+    <value>Aparelho auditivo</value>
+  </data>
+  <data name="settingsPage_Title" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="settingsPage_Widgets" xml:space="preserve">
+    <value>Widgets</value>
+  </data>
+  <data name="settings_AppMode_Title" xml:space="preserve">
+    <value>Selecione o modo em que deseja utilizar o app.</value>
+  </data>
+  <data name="settings_languageChangingAnimation" xml:space="preserve">
+    <value>Alterando o idioma do app...</value>
+  </data>
+  <data name="settings_languageTitle" xml:space="preserve">
+    <value>Selecione um idioma na lista.</value>
+  </data>
+  <data name="start_btStartScanning" xml:space="preserve">
+    <value>Iniciar pesquisa</value>
+  </data>
+  <data name="start_initializeHardware" xml:space="preserve">
+    <value>Verificando hardware...</value>
+  </data>
+  <data name="start_msg_Welcome" xml:space="preserve">
+    <value>Seja bem-vindo no app.</value>
+  </data>
+  <data name="start_PageTitle" xml:space="preserve">
+    <value>Verificação do hardware bem sucedida</value>
+  </data>
+  <data name="start_StartHearingModeForDevices" xml:space="preserve">
+    <value>Agora você pode conectar seus aparelhos auditivos.
+
+Para tanto, desligue seus aparelhos auditivos e ligue-os novamente, em seguida, confirme com “Iniciar pesquisa”.</value>
+  </data>
+  <data name="toast_max_favorite_msg" xml:space="preserve">
+    <value>Infelizmente você não pode criar mais favoritos.</value>
+  </data>
+  <data name="txtLeftSideShort" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="txtRightSideShort" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="welcomePageInfoText" xml:space="preserve">
+    <value>Obrigado por baixa o aplicativo. Com o app você pode:
+ • Controlar seus aparelhos auditivos
+ • Criar programas auditivos próprios
+ • Receber informações sobre sua solução auditiva
+ • Criar uma estatística sobre a utilização dos seus aparelhos auditivos
+ • Entrar em contato com o suporte técnico</value>
+  </data>
+  <data name="welcomePageMoreInfo" xml:space="preserve">
+    <value>Saiba mais sobre o app</value>
+  </data>
+  <data name="welcome_btDemoMode" xml:space="preserve">
+    <value>Iniciar em modo demonstração</value>
+  </data>
+  <data name="welcome_btStartInit" xml:space="preserve">
+    <value>Configurar agora</value>
+  </data>
+  <data name="welcome_PageTitle" xml:space="preserve">
+    <value>Bem-vindo!</value>
+  </data>
+  <data name="widget_BatteryLeft" xml:space="preserve">
+    <value>Bateria esquerda:</value>
+  </data>
+  <data name="widget_BatteryRight" xml:space="preserve">
+    <value>Bateria direita:</value>
+  </data>
+  <data name="widget_EmptyViewTest" xml:space="preserve">
+    <value>O app está fechado. Para utilizar o Widget, o app precisa ser iniciado. Toque aqui para iniciar o app.</value>
+  </data>
+  <data name="widget_Title" xml:space="preserve">
+    <value>audifon</value>
+  </data>
+  <data name="wifi_Connected_Fallback" xml:space="preserve">
+    <value>Conecte-se com uma rede Wi-Fi para utilizá-lo.</value>
+  </data>
+</root>
